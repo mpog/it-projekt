@@ -1,15 +1,18 @@
-Report start
+Projekt start
 ALL start
-# of konjunktives found:	4
-ZIP result:			0.18857145
-ALL end
-0 start
-# of konjunktives found:			2
-0 end
-1 start
+# of konjunktives found:	2
+ZIP result:			0.279476
+Projekt end
+﻿a start
 # of konjunktives found:			0
-1 end
-2 start
+﻿a end
+b start
+# of konjunktives found:			0
+b end
+c start
+# of konjunktives found:			0
+c end
+d start
 # of konjunktives found:			2
-2 end
+d end
 Report end

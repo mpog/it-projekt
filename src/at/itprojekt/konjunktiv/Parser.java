@@ -20,9 +20,9 @@ public class Parser {
         boolean isKonj = false;
         switch (language) {
             case En:
-                int i = Helper.countArray(w.split(RegEx.EnglishKonjAsVagueness));
-                if (i > 0)
-                    isKonj = true;
+                w += " ";
+                String[] tmp = w.split(RegEx.EnglishKonjAsVagueness);
+                isKonj = tmp.length > 0 && !w.equals(tmp[0]);
                 break;
             default: // GERMAN
                 // Try if it is a modalverb
@@ -40,6 +40,8 @@ public class Parser {
         }
         if (isKonj)
             System.out.println("\"" + w + "\" seems to be a konjunktiv");
+       /* else // Testing only
+            System.out.println("\"" + w + "\" is okay");*/
         return isKonj;
     }
 
