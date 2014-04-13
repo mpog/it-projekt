@@ -1,0 +1,15 @@
+Report start
+ALL start
+# of konjunktives found:	4
+ZIP result:			0.13714284
+ALL end
+0 start
+# of konjunktives found:			2
+0 end
+1 start
+# of konjunktives found:			0
+1 end
+2 start
+# of konjunktives found:			2
+2 end
+Report end
