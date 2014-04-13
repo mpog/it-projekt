@@ -1,7 +1,7 @@
 Report start
 ALL start
 # of konjunktives found:	4
-ZIP result:			0.13714284
+ZIP result:			0.18857145
 ALL end
 0 start
 # of konjunktives found:			2

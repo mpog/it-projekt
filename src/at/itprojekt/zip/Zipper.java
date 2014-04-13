@@ -14,7 +14,7 @@ public class Zipper {
             GZIPOutputStream gzip = new GZIPOutputStream(baos);
             gzip.write(s.getBytes());
             gzip.close();
-            newSize = baos.toString().length();
+            newSize = baos.toString().length() - 9; //9 seems to be the zip header
             zipFactorSmaller = 1f - newSize / origSize;
             if (zipFactorSmaller < 0)
                 zipFactorSmaller = -1f;

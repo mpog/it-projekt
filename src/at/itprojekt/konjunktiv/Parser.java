@@ -19,12 +19,15 @@ public class Parser {
     private boolean isKonjunktiv(String w, Language language) {
         boolean isKonj = false;
         switch (language) {
-            case En: // TODO Implement English language
+            case En:
+                int i = Helper.countArray(w.split(RegEx.EnglishKonjAsVagueness));
+                if (i > 0)
+                    isKonj = true;
                 break;
             default: // GERMAN
                 // Try if it is a modalverb
-                int i = Helper.countArray(w.split(RegEx.GermanModalVerbs));
-                if (i > 0)
+                int y = Helper.countArray(w.split(RegEx.GermanModalVerbs));
+                if (y > 0)
                     isKonj = true;
                 if (!isKonj) {
                     String baseform = w.split(RegEx.GermanVerbEnds)[0];
