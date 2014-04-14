@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         final String url = ClassLoader.getSystemClassLoader().getResource(".").getPath().substring(1);
-        final String filename = "test.txt";
+        final String filename = "in.txt";
         File inF = new File(url, filename);
         File outF = new File(url, "out.txt");
         System.out.println("In/Output @ " + url);
@@ -23,12 +23,12 @@ public class Main {
                 stringBuilder.append(tmp);
                 stringBuilder.append('\n');
             }
-            String whole = new String(stringBuilder.toString().getBytes("UTF-8"));
+            String whole = new String(stringBuilder.toString().getBytes("US-ASCII"));
             if (!outF.exists())
                 outF.createNewFile();
             output = new PrintStream(outF);
             // Do actual checking
-            Tester tester = new Tester(output, whole, whole.split("\\r?\\n"), Language.En);
+            Tester tester = new Tester(output, whole, whole.split("\\r?\\n"), Language.De);
             tester.start();
             tester.join();
         } catch (IOException | InterruptedException e) {

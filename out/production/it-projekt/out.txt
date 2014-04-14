@@ -1,18 +1,2775 @@
+Report start
 Projekt start
-ALL start
-# of konjunktives found:	2
-ZIP result:			0.279476
+# of konjunktives found: 0
+ZIP result: 0.8903357
 Projekt end
-﻿a start
-# of konjunktives found:			0
-﻿a end
-b start
-# of konjunktives found:			0
-b end
-c start
-# of konjunktives found:			0
-c end
-d start
-# of konjunktives found:			2
-d end
+2 start
+# of konjunktives found: 0
+ZIP result: 0.24822694
+2 end
+3 start
+# of konjunktives found: 0
+ZIP result: 0.14173228
+3 end
+4 start
+# of konjunktives found: 0
+ZIP result: 0.17293233
+4 end
+5 start
+# of konjunktives found: 0
+ZIP result: 0.1796875
+5 end
+6 start
+# of konjunktives found: 0
+ZIP result: 0.15625
+6 end
+7 start
+# of konjunktives found: 0
+ZIP result: 0.3060345
+7 end
+8 start
+# of konjunktives found: 0
+ZIP result: 0.22857141
+8 end
+9 start
+# of konjunktives found: 0
+ZIP result: 0.25862068
+9 end
+10 start
+# of konjunktives found: 0
+ZIP result: 0.125
+10 end
+11 start
+# of konjunktives found: 0
+ZIP result: 0.20382166
+11 end
+12 start
+# of konjunktives found: 0
+ZIP result: 0.22560978
+12 end
+13 start
+# of konjunktives found: 0
+ZIP result: 0.23489934
+13 end
+14 start
+# of konjunktives found: 0
+ZIP result: 0.29940122
+14 end
+15 start
+# of konjunktives found: 0
+ZIP result: 0.1557377
+15 end
+16 start
+# of konjunktives found: 0
+ZIP result: 0.18791944
+16 end
+17 start
+# of konjunktives found: 0
+ZIP result: 0.15322578
+17 end
+18 start
+# of konjunktives found: 0
+ZIP result: 0.22727275
+18 end
+19 start
+# of konjunktives found: 0
+ZIP result: 0.24666667
+19 end
+20 start
+# of konjunktives found: 0
+ZIP result: 0.28915662
+20 end
+21 start
+# of konjunktives found: 0
+ZIP result: 0.22556388
+21 end
+22 start
+# of konjunktives found: 0
+ZIP result: 0.25324672
+22 end
+23 start
+# of konjunktives found: 0
+ZIP result: 0.25490195
+23 end
+24 start
+# of konjunktives found: 0
+ZIP result: 0.25373137
+24 end
+25 start
+# of konjunktives found: 0
+ZIP result: 0.3212121
+25 end
+26 start
+# of konjunktives found: 0
+ZIP result: 0.19191921
+26 end
+27 start
+# of konjunktives found: 0
+ZIP result: 0.2745098
+27 end
+28 start
+# of konjunktives found: 0
+ZIP result: 0.33505154
+28 end
+29 start
+# of konjunktives found: 0
+ZIP result: 0.3134328
+29 end
+30 start
+# of konjunktives found: 0
+ZIP result: 0.18181819
+30 end
+31 start
+# of konjunktives found: 0
+ZIP result: 0.26011562
+31 end
+32 start
+# of konjunktives found: 0
+ZIP result: 0.265
+32 end
+33 start
+# of konjunktives found: 0
+ZIP result: 0.24598932
+33 end
+34 start
+# of konjunktives found: 0
+ZIP result: 0.28888887
+34 end
+35 start
+# of konjunktives found: 0
+ZIP result: 0.24358976
+35 end
+36 start
+# of konjunktives found: 0
+ZIP result: 0.20858896
+36 end
+37 start
+# of konjunktives found: 0
+ZIP result: 0.19999999
+37 end
+38 start
+# of konjunktives found: 0
+ZIP result: 0.3181818
+38 end
+39 start
+# of konjunktives found: 0
+ZIP result: 0.22516555
+39 end
+40 start
+# of konjunktives found: 0
+ZIP result: 0.18656719
+40 end
+41 start
+# of konjunktives found: 0
+ZIP result: 0.22941178
+41 end
+42 start
+# of konjunktives found: 0
+ZIP result: 0.24161077
+42 end
+43 start
+# of konjunktives found: 0
+ZIP result: 0.38297874
+43 end
+44 start
+# of konjunktives found: 0
+ZIP result: 0.24117649
+44 end
+45 start
+# of konjunktives found: 0
+ZIP result: 0.21333331
+45 end
+46 start
+# of konjunktives found: 0
+ZIP result: 0.34418607
+46 end
+47 start
+# of konjunktives found: 0
+ZIP result: 0.3076923
+47 end
+48 start
+# of konjunktives found: 0
+ZIP result: 0.26543212
+48 end
+49 start
+# of konjunktives found: 0
+ZIP result: 0.25301206
+49 end
+50 start
+# of konjunktives found: 0
+ZIP result: 0.26506025
+50 end
+51 start
+# of konjunktives found: 0
+ZIP result: 0.33823532
+51 end
+52 start
+# of konjunktives found: 0
+ZIP result: 0.27160496
+52 end
+53 start
+# of konjunktives found: 0
+ZIP result: 0.352
+53 end
+54 start
+# of konjunktives found: 0
+ZIP result: 0.16239315
+54 end
+55 start
+# of konjunktives found: 0
+ZIP result: 0.2580645
+55 end
+56 start
+# of konjunktives found: 0
+ZIP result: 0.22377622
+56 end
+57 start
+# of konjunktives found: 0
+ZIP result: 0.23913044
+57 end
+58 start
+# of konjunktives found: 0
+ZIP result: 0.17948717
+58 end
+59 start
+# of konjunktives found: 0
+ZIP result: 0.09174311
+59 end
+60 start
+# of konjunktives found: 0
+ZIP result: 0.13333333
+60 end
+61 start
+# of konjunktives found: 0
+ZIP result: 0.2330097
+61 end
+62 start
+# of konjunktives found: 0
+ZIP result: 0.27397263
+62 end
+63 start
+# of konjunktives found: 0
+ZIP result: 0.19999999
+63 end
+64 start
+# of konjunktives found: 0
+ZIP result: 0.2929293
+64 end
+65 start
+# of konjunktives found: 0
+ZIP result: 0.25714284
+65 end
+66 start
+# of konjunktives found: 0
+ZIP result: 0.34375
+66 end
+67 start
+# of konjunktives found: 0
+ZIP result: 0.22988504
+67 end
+68 start
+# of konjunktives found: 0
+ZIP result: 0.25433528
+68 end
+69 start
+# of konjunktives found: 0
+ZIP result: 0.29500002
+69 end
+70 start
+# of konjunktives found: 0
+ZIP result: 0.15238094
+70 end
+71 start
+# of konjunktives found: 0
+ZIP result: 0.21276593
+71 end
+72 start
+# of konjunktives found: 0
+ZIP result: 0.17605633
+72 end
+73 start
+# of konjunktives found: 0
+ZIP result: 0.31958765
+73 end
+74 start
+# of konjunktives found: 0
+ZIP result: 0.30845773
+74 end
+75 start
+# of konjunktives found: 0
+ZIP result: 0.2760417
+75 end
+76 start
+# of konjunktives found: 0
+ZIP result: 0.18248177
+76 end
+77 start
+# of konjunktives found: 0
+ZIP result: 0.17266184
+77 end
+78 start
+# of konjunktives found: 0
+ZIP result: 0.24550897
+78 end
+79 start
+# of konjunktives found: 0
+ZIP result: 0.29479766
+79 end
+80 start
+# of konjunktives found: 0
+ZIP result: 0.32323235
+80 end
+81 start
+# of konjunktives found: 0
+ZIP result: 0.28834355
+81 end
+82 start
+# of konjunktives found: 0
+ZIP result: 0.32857144
+82 end
+83 start
+# of konjunktives found: 0
+ZIP result: 0.17054266
+83 end
+84 start
+# of konjunktives found: 0
+ZIP result: 0.17880797
+84 end
+85 start
+# of konjunktives found: 0
+ZIP result: 0.2835821
+85 end
+86 start
+# of konjunktives found: 0
+ZIP result: 0.3811881
+86 end
+87 start
+# of konjunktives found: 0
+ZIP result: 0.3173077
+87 end
+88 start
+# of konjunktives found: 0
+ZIP result: 0.2710843
+88 end
+89 start
+# of konjunktives found: 0
+ZIP result: 0.30256408
+89 end
+90 start
+# of konjunktives found: 0
+ZIP result: 0.2791878
+90 end
+91 start
+# of konjunktives found: 0
+ZIP result: 0.22988504
+91 end
+92 start
+# of konjunktives found: 0
+ZIP result: 0.25433528
+92 end
+93 start
+# of konjunktives found: 0
+ZIP result: 0.29500002
+93 end
+94 start
+# of konjunktives found: 0
+ZIP result: 0.15238094
+94 end
+95 start
+# of konjunktives found: 0
+ZIP result: 0.22377622
+95 end
+96 start
+# of konjunktives found: 0
+ZIP result: 0.116279066
+96 end
+97 start
+# of konjunktives found: 0
+ZIP result: 0.41082805
+97 end
+98 start
+# of konjunktives found: 0
+ZIP result: 0.39114392
+98 end
+99 start
+# of konjunktives found: 0
+ZIP result: 0.22368419
+99 end
+100 start
+# of konjunktives found: 0
+ZIP result: 0.30049258
+100 end
+101 start
+# of konjunktives found: 0
+ZIP result: 0.46376812
+101 end
+102 start
+# of konjunktives found: 0
+ZIP result: 0.29012346
+102 end
+103 start
+# of konjunktives found: 0
+ZIP result: 0.31372547
+103 end
+104 start
+# of konjunktives found: 0
+ZIP result: 0.2849741
+104 end
+105 start
+# of konjunktives found: 0
+ZIP result: 0.33076924
+105 end
+106 start
+# of konjunktives found: 0
+ZIP result: 0.36363637
+106 end
+107 start
+# of konjunktives found: 0
+ZIP result: 0.37586206
+107 end
+108 start
+# of konjunktives found: 0
+ZIP result: 0.25
+108 end
+109 start
+# of konjunktives found: 0
+ZIP result: 0.42384106
+109 end
+110 start
+# of konjunktives found: 0
+ZIP result: 0.3402062
+110 end
+111 start
+# of konjunktives found: 0
+ZIP result: 0.2972973
+111 end
+112 start
+# of konjunktives found: 0
+112 end
+113 start
+# of konjunktives found: 0
+ZIP result: 0.24691355
+113 end
+114 start
+# of konjunktives found: 0
+ZIP result: 0.24264705
+114 end
+115 start
+# of konjunktives found: 0
+ZIP result: 0.37916666
+115 end
+116 start
+# of konjunktives found: 0
+ZIP result: 0.25477707
+116 end
+117 start
+# of konjunktives found: 0
+ZIP result: 0.457478
+117 end
+118 start
+# of konjunktives found: 0
+ZIP result: 0.15966386
+118 end
+119 start
+# of konjunktives found: 0
+ZIP result: 0.23026317
+119 end
+120 start
+# of konjunktives found: 0
+ZIP result: 0.3608696
+120 end
+121 start
+# of konjunktives found: 0
+ZIP result: 0.31506848
+121 end
+122 start
+# of konjunktives found: 0
+ZIP result: 0.23489934
+122 end
+123 start
+# of konjunktives found: 0
+ZIP result: 0.19230771
+123 end
+124 start
+# of konjunktives found: 0
+ZIP result: 0.234375
+124 end
+125 start
+# of konjunktives found: 0
+ZIP result: 0.35666668
+125 end
+126 start
+# of konjunktives found: 0
+ZIP result: 0.3142857
+126 end
+127 start
+# of konjunktives found: 0
+ZIP result: 0.32211536
+127 end
+128 start
+# of konjunktives found: 0
+ZIP result: 0.23893803
+128 end
+129 start
+# of konjunktives found: 0
+ZIP result: 0.26229507
+129 end
+130 start
+# of konjunktives found: 0
+ZIP result: 0.17808217
+130 end
+131 start
+# of konjunktives found: 0
+ZIP result: 0.2751323
+131 end
+132 start
+# of konjunktives found: 0
+ZIP result: 0.14285713
+132 end
+133 start
+# of konjunktives found: 0
+ZIP result: 0.27272725
+133 end
+134 start
+# of konjunktives found: 0
+ZIP result: 0.14406782
+134 end
+135 start
+# of konjunktives found: 0
+ZIP result: 0.1785714
+135 end
+136 start
+# of konjunktives found: 0
+ZIP result: 0.16666669
+136 end
+137 start
+# of konjunktives found: 0
+ZIP result: 0.2051282
+137 end
+138 start
+# of konjunktives found: 0
+ZIP result: 0.02352941
+138 end
+139 start
+# of konjunktives found: 0
+ZIP result: 0.16153848
+139 end
+140 start
+# of konjunktives found: 0
+ZIP result: 0.036036015
+140 end
+141 start
+# of konjunktives found: 0
+ZIP result: 0.1404959
+141 end
+142 start
+# of konjunktives found: 0
+ZIP result: 0.21323532
+142 end
+143 start
+# of konjunktives found: 0
+ZIP result: 0.1652174
+143 end
+144 start
+# of konjunktives found: 0
+ZIP result: 0.22222221
+144 end
+145 start
+# of konjunktives found: 0
+ZIP result: 0.19285715
+145 end
+146 start
+# of konjunktives found: 0
+ZIP result: 0.07766992
+146 end
+147 start
+# of konjunktives found: 0
+ZIP result: 0.09649122
+147 end
+148 start
+# of konjunktives found: 0
+ZIP result: 0.25179857
+148 end
+149 start
+# of konjunktives found: 0
+ZIP result: 0.17073172
+149 end
+150 start
+# of konjunktives found: 0
+ZIP result: 0.23741007
+150 end
+151 start
+# of konjunktives found: 0
+ZIP result: 0.27564102
+151 end
+152 start
+# of konjunktives found: 0
+ZIP result: 0.30939227
+152 end
+153 start
+# of konjunktives found: 0
+ZIP result: 0.41632652
+153 end
+154 start
+# of konjunktives found: 0
+ZIP result: 0.24844718
+154 end
+155 start
+# of konjunktives found: 0
+ZIP result: 0.26875
+155 end
+156 start
+# of konjunktives found: 0
+ZIP result: 0.30927837
+156 end
+157 start
+# of konjunktives found: 0
+ZIP result: 0.21875
+157 end
+158 start
+# of konjunktives found: 0
+ZIP result: 0.26530612
+158 end
+159 start
+# of konjunktives found: 0
+ZIP result: 0.4310345
+159 end
+160 start
+# of konjunktives found: 0
+ZIP result: 0.30379748
+160 end
+161 start
+# of konjunktives found: 0
+ZIP result: 0.25827813
+161 end
+162 start
+# of konjunktives found: 0
+ZIP result: 0.3243243
+162 end
+163 start
+# of konjunktives found: 0
+ZIP result: 0.081632674
+163 end
+164 start
+# of konjunktives found: 0
+ZIP result: 0.24043715
+164 end
+165 start
+# of konjunktives found: 0
+ZIP result: 0.25870645
+165 end
+166 start
+# of konjunktives found: 0
+ZIP result: 0.16058391
+166 end
+167 start
+# of konjunktives found: 0
+ZIP result: 0.34389138
+167 end
+168 start
+# of konjunktives found: 0
+ZIP result: 0.23502302
+168 end
+169 start
+# of konjunktives found: 0
+ZIP result: 0.252809
+169 end
+170 start
+# of konjunktives found: 0
+ZIP result: 0.21052629
+170 end
+171 start
+# of konjunktives found: 0
+ZIP result: 0.27096772
+171 end
+172 start
+# of konjunktives found: 0
+ZIP result: 0.26744187
+172 end
+173 start
+# of konjunktives found: 0
+ZIP result: 0.22959185
+173 end
+174 start
+# of konjunktives found: 0
+ZIP result: 0.2864865
+174 end
+175 start
+# of konjunktives found: 0
+ZIP result: 0.19875777
+175 end
+176 start
+# of konjunktives found: 0
+ZIP result: 0.1690141
+176 end
+177 start
+# of konjunktives found: 0
+ZIP result: 0.32535887
+177 end
+178 start
+# of konjunktives found: 0
+ZIP result: 0.33445948
+178 end
+179 start
+# of konjunktives found: 0
+ZIP result: 0.32900435
+179 end
+180 start
+# of konjunktives found: 0
+ZIP result: 0.40532547
+180 end
+181 start
+# of konjunktives found: 0
+ZIP result: 0.29468602
+181 end
+182 start
+# of konjunktives found: 0
+ZIP result: 0.29383886
+182 end
+183 start
+# of konjunktives found: 0
+ZIP result: 0.24113476
+183 end
+184 start
+# of konjunktives found: 0
+ZIP result: 0.3436123
+184 end
+185 start
+# of konjunktives found: 0
+ZIP result: 0.3925926
+185 end
+186 start
+# of konjunktives found: 0
+ZIP result: 0.22981364
+186 end
+187 start
+# of konjunktives found: 0
+ZIP result: 0.20261437
+187 end
+188 start
+# of konjunktives found: 0
+ZIP result: 0.34615386
+188 end
+189 start
+# of konjunktives found: 0
+ZIP result: 0.19553071
+189 end
+190 start
+# of konjunktives found: 0
+ZIP result: 0.13533837
+190 end
+191 start
+# of konjunktives found: 0
+ZIP result: 0.27979273
+191 end
+192 start
+# of konjunktives found: 0
+ZIP result: 0.20606059
+192 end
+193 start
+# of konjunktives found: 0
+ZIP result: 0.23448277
+193 end
+194 start
+# of konjunktives found: 0
+ZIP result: 0.16541356
+194 end
+195 start
+# of konjunktives found: 0
+ZIP result: 0.2460733
+195 end
+196 start
+# of konjunktives found: 0
+ZIP result: 0.26086956
+196 end
+197 start
+# of konjunktives found: 0
+ZIP result: 0.2772727
+197 end
+198 start
+# of konjunktives found: 0
+ZIP result: 0.3
+198 end
+199 start
+# of konjunktives found: 0
+ZIP result: 0.29767442
+199 end
+200 start
+# of konjunktives found: 0
+ZIP result: 0.2639594
+200 end
+201 start
+# of konjunktives found: 0
+ZIP result: 0.1703704
+201 end
+202 start
+# of konjunktives found: 0
+ZIP result: 0.3018018
+202 end
+203 start
+# of konjunktives found: 0
+ZIP result: 0.23255813
+203 end
+204 start
+# of konjunktives found: 0
+ZIP result: 0.19354838
+204 end
+205 start
+# of konjunktives found: 0
+ZIP result: 0.23376626
+205 end
+206 start
+# of konjunktives found: 0
+ZIP result: 0.33760685
+206 end
+207 start
+# of konjunktives found: 0
+ZIP result: 0.16666669
+207 end
+208 start
+# of konjunktives found: 0
+ZIP result: 0.29921257
+208 end
+209 start
+# of konjunktives found: 0
+ZIP result: 0.20858896
+209 end
+210 start
+# of konjunktives found: 0
+ZIP result: 0.140625
+210 end
+211 start
+# of konjunktives found: 0
+ZIP result: 0.26011562
+211 end
+212 start
+# of konjunktives found: 0
+ZIP result: 0.23076922
+212 end
+213 start
+# of konjunktives found: 0
+ZIP result: 0.20610684
+213 end
+214 start
+# of konjunktives found: 0
+ZIP result: 0.26130652
+214 end
+215 start
+# of konjunktives found: 0
+ZIP result: 0.22093022
+215 end
+216 start
+# of konjunktives found: 0
+ZIP result: 0.16058391
+216 end
+217 start
+# of konjunktives found: 0
+ZIP result: 0.22695035
+217 end
+218 start
+# of konjunktives found: 0
+ZIP result: 0.2731707
+218 end
+219 start
+# of konjunktives found: 0
+ZIP result: 0.24336284
+219 end
+220 start
+# of konjunktives found: 0
+ZIP result: 0.2702703
+220 end
+221 start
+# of konjunktives found: 0
+ZIP result: 0.2878049
+221 end
+222 start
+# of konjunktives found: 0
+ZIP result: 0.14583331
+222 end
+223 start
+# of konjunktives found: 0
+ZIP result: 0.31474102
+223 end
+224 start
+# of konjunktives found: 0
+ZIP result: 0.21472394
+224 end
+225 start
+# of konjunktives found: 0
+ZIP result: 0.28395063
+225 end
+226 start
+# of konjunktives found: 0
+ZIP result: 0.16339868
+226 end
+227 start
+# of konjunktives found: 0
+ZIP result: 0.18604654
+227 end
+228 start
+# of konjunktives found: 0
+ZIP result: 0.18120807
+228 end
+229 start
+# of konjunktives found: 0
+ZIP result: 0.19411767
+229 end
+230 start
+# of konjunktives found: 0
+ZIP result: 0.19745225
+230 end
+231 start
+# of konjunktives found: 0
+ZIP result: 0.22285712
+231 end
+232 start
+# of konjunktives found: 0
+ZIP result: 0.19496858
+232 end
+233 start
+# of konjunktives found: 0
+ZIP result: 0.2932331
+233 end
+234 start
+# of konjunktives found: 0
+ZIP result: 0.22395831
+234 end
+235 start
+# of konjunktives found: 0
+ZIP result: 0.27227724
+235 end
+236 start
+# of konjunktives found: 0
+ZIP result: 0.35897434
+236 end
+237 start
+# of konjunktives found: 0
+ZIP result: 0.2064516
+237 end
+238 start
+# of konjunktives found: 0
+ZIP result: 0.23404253
+238 end
+239 start
+# of konjunktives found: 0
+ZIP result: 0.14754099
+239 end
+240 start
+# of konjunktives found: 0
+ZIP result: 0.39600003
+240 end
+241 start
+# of konjunktives found: 0
+ZIP result: 0.32535887
+241 end
+242 start
+# of konjunktives found: 0
+ZIP result: 0.1875
+242 end
+243 start
+# of konjunktives found: 0
+ZIP result: 0.2865854
+243 end
+244 start
+# of konjunktives found: 0
+ZIP result: 0.33727813
+244 end
+245 start
+# of konjunktives found: 0
+ZIP result: 0.36363637
+245 end
+246 start
+# of konjunktives found: 0
+ZIP result: 0.30555558
+246 end
+247 start
+# of konjunktives found: 0
+ZIP result: 0.2795031
+247 end
+248 start
+# of konjunktives found: 0
+ZIP result: 0.18461537
+248 end
+249 start
+# of konjunktives found: 0
+ZIP result: 0.39805824
+249 end
+250 start
+# of konjunktives found: 0
+ZIP result: 0.27272725
+250 end
+251 start
+# of konjunktives found: 0
+ZIP result: 0.41489363
+251 end
+252 start
+# of konjunktives found: 0
+ZIP result: 0.20437956
+252 end
+253 start
+# of konjunktives found: 0
+ZIP result: 0.30379748
+253 end
+254 start
+# of konjunktives found: 0
+ZIP result: 0.25688076
+254 end
+255 start
+# of konjunktives found: 0
+ZIP result: 0.17834395
+255 end
+256 start
+# of konjunktives found: 0
+ZIP result: 0.28440368
+256 end
+257 start
+# of konjunktives found: 0
+ZIP result: 0.3432343
+257 end
+258 start
+# of konjunktives found: 0
+ZIP result: 0.3580786
+258 end
+259 start
+# of konjunktives found: 0
+ZIP result: 0.3520599
+259 end
+260 start
+# of konjunktives found: 0
+ZIP result: 0.23295456
+260 end
+261 start
+# of konjunktives found: 0
+ZIP result: 0.2862745
+261 end
+262 start
+# of konjunktives found: 0
+ZIP result: 0.24731183
+262 end
+263 start
+# of konjunktives found: 0
+ZIP result: 0.30107528
+263 end
+264 start
+# of konjunktives found: 0
+ZIP result: 0.19333333
+264 end
+265 start
+# of konjunktives found: 0
+ZIP result: 0.23655915
+265 end
+266 start
+# of konjunktives found: 0
+ZIP result: 0.08181816
+266 end
+267 start
+# of konjunktives found: 0
+ZIP result: 0.1735537
+267 end
+268 start
+# of konjunktives found: 0
+ZIP result: 0.18181819
+268 end
+269 start
+# of konjunktives found: 0
+ZIP result: 0.15328467
+269 end
+270 start
+# of konjunktives found: 0
+ZIP result: 0.11199999
+270 end
+271 start
+# of konjunktives found: 0
+ZIP result: 0.21301776
+271 end
+272 start
+# of konjunktives found: 0
+ZIP result: 0.2352941
+272 end
+273 start
+# of konjunktives found: 0
+ZIP result: 0.31219512
+273 end
+274 start
+# of konjunktives found: 0
+ZIP result: 0.20606059
+274 end
+275 start
+# of konjunktives found: 0
+ZIP result: 0.2931937
+275 end
+276 start
+# of konjunktives found: 0
+ZIP result: 0.37272727
+276 end
+277 start
+# of konjunktives found: 0
+ZIP result: 0.42760944
+277 end
+278 start
+# of konjunktives found: 0
+ZIP result: 0.13669068
+278 end
+279 start
+# of konjunktives found: 0
+ZIP result: 0.09677422
+279 end
+280 start
+# of konjunktives found: 0
+ZIP result: 0.04395604
+280 end
+281 start
+# of konjunktives found: 0
+ZIP result: 0.35384613
+281 end
+282 start
+# of konjunktives found: 0
+ZIP result: 0.16541356
+282 end
+283 start
+# of konjunktives found: 0
+ZIP result: 0.35164833
+283 end
+284 start
+# of konjunktives found: 0
+ZIP result: 0.1015625
+284 end
+285 start
+# of konjunktives found: 0
+ZIP result: 0.104347825
+285 end
+286 start
+# of konjunktives found: 0
+ZIP result: 0.2876712
+286 end
+287 start
+# of konjunktives found: 0
+ZIP result: 0.18120807
+287 end
+288 start
+# of konjunktives found: 0
+ZIP result: 0.32530123
+288 end
+289 start
+# of konjunktives found: 0
+ZIP result: 0.16058391
+289 end
+290 start
+# of konjunktives found: 0
+ZIP result: 0.33609957
+290 end
+291 start
+# of konjunktives found: 0
+ZIP result: 0.31308413
+291 end
+292 start
+# of konjunktives found: 0
+ZIP result: 0.09401709
+292 end
+293 start
+# of konjunktives found: 0
+ZIP result: 0.04301077
+293 end
+294 start
+# of konjunktives found: 0
+ZIP result: 0.29441625
+294 end
+295 start
+# of konjunktives found: 0
+ZIP result: 0.3333333
+295 end
+296 start
+# of konjunktives found: 0
+ZIP result: 0.40701753
+296 end
+297 start
+# of konjunktives found: 0
+ZIP result: 0.1769231
+297 end
+298 start
+# of konjunktives found: 0
+ZIP result: 0.36752135
+298 end
+299 start
+# of konjunktives found: 0
+ZIP result: 0.22651935
+299 end
+300 start
+# of konjunktives found: 0
+ZIP result: 0.32295722
+300 end
+301 start
+# of konjunktives found: 0
+ZIP result: 0.06930691
+301 end
+302 start
+# of konjunktives found: 0
+ZIP result: 0.125
+302 end
+303 start
+# of konjunktives found: 0
+ZIP result: 0.24886876
+303 end
+304 start
+# of konjunktives found: 0
+ZIP result: 0.12903225
+304 end
+305 start
+# of konjunktives found: 0
+ZIP result: 0.31521738
+305 end
+306 start
+# of konjunktives found: 0
+ZIP result: 0.30481285
+306 end
+307 start
+# of konjunktives found: 0
+ZIP result: 0.2931937
+307 end
+308 start
+# of konjunktives found: 0
+ZIP result: 0.25541127
+308 end
+309 start
+# of konjunktives found: 0
+ZIP result: 0.33023256
+309 end
+310 start
+# of konjunktives found: 0
+ZIP result: 0.13934427
+310 end
+311 start
+# of konjunktives found: 0
+ZIP result: 0.2673797
+311 end
+312 start
+# of konjunktives found: 0
+ZIP result: 0.3243243
+312 end
+313 start
+# of konjunktives found: 0
+ZIP result: 0.20149255
+313 end
+314 start
+# of konjunktives found: 0
+ZIP result: 0.16296297
+314 end
+315 start
+# of konjunktives found: 0
+ZIP result: 0.22619045
+315 end
+316 start
+# of konjunktives found: 0
+ZIP result: 0.27272725
+316 end
+317 start
+# of konjunktives found: 0
+ZIP result: 0.3210526
+317 end
+318 start
+# of konjunktives found: 0
+ZIP result: 0.23783785
+318 end
+319 start
+# of konjunktives found: 0
+ZIP result: 0.12878788
+319 end
+320 start
+# of konjunktives found: 0
+ZIP result: 0.14615387
+320 end
+321 start
+# of konjunktives found: 0
+ZIP result: 0.19999999
+321 end
+322 start
+# of konjunktives found: 0
+ZIP result: 0.27173913
+322 end
+323 start
+# of konjunktives found: 0
+ZIP result: 0.2556818
+323 end
+324 start
+# of konjunktives found: 0
+ZIP result: 0.20987654
+324 end
+325 start
+# of konjunktives found: 0
+ZIP result: 0.22674417
+325 end
+326 start
+# of konjunktives found: 0
+ZIP result: 0.2588235
+326 end
+327 start
+# of konjunktives found: 0
+ZIP result: 0.23417723
+327 end
+328 start
+# of konjunktives found: 0
+ZIP result: 0.2886598
+328 end
+329 start
+# of konjunktives found: 0
+ZIP result: 0.24000001
+329 end
+330 start
+# of konjunktives found: 0
+ZIP result: 0.25531918
+330 end
+331 start
+# of konjunktives found: 0
+ZIP result: 0.24277455
+331 end
+332 start
+# of konjunktives found: 0
+ZIP result: 0.25961536
+332 end
+333 start
+# of konjunktives found: 0
+ZIP result: 0.2673797
+333 end
+334 start
+# of konjunktives found: 0
+ZIP result: 0.23952097
+334 end
+335 start
+# of konjunktives found: 0
+ZIP result: 0.19867551
+335 end
+336 start
+# of konjunktives found: 0
+ZIP result: 0.33054394
+336 end
+337 start
+# of konjunktives found: 0
+ZIP result: 0.2754237
+337 end
+338 start
+# of konjunktives found: 0
+338 end
+339 start
+# of konjunktives found: 0
+ZIP result: 0.30158728
+339 end
+340 start
+# of konjunktives found: 0
+ZIP result: 0.20618558
+340 end
+341 start
+# of konjunktives found: 0
+ZIP result: 0.15909094
+341 end
+342 start
+# of konjunktives found: 0
+ZIP result: 0.21232879
+342 end
+343 start
+# of konjunktives found: 0
+ZIP result: 0.23952097
+343 end
+344 start
+# of konjunktives found: 0
+ZIP result: 0.063063085
+344 end
+345 start
+# of konjunktives found: 0
+ZIP result: 0.42492014
+345 end
+346 start
+# of konjunktives found: 0
+ZIP result: 0.42718446
+346 end
+347 start
+# of konjunktives found: 0
+ZIP result: 0.30414748
+347 end
+348 start
+# of konjunktives found: 0
+ZIP result: 0.49469215
+348 end
+349 start
+# of konjunktives found: 0
+ZIP result: 0.45343137
+349 end
+350 start
+# of konjunktives found: 0
+ZIP result: 0.4716599
+350 end
+351 start
+# of konjunktives found: 0
+ZIP result: 0.42408377
+351 end
+352 start
+# of konjunktives found: 0
+ZIP result: 0.22159094
+352 end
+353 start
+# of konjunktives found: 0
+ZIP result: 0.44299674
+353 end
+354 start
+# of konjunktives found: 0
+ZIP result: 0.4304207
+354 end
+355 start
+# of konjunktives found: 0
+ZIP result: 0.30555558
+355 end
+356 start
+# of konjunktives found: 0
+ZIP result: 0.503212
+356 end
+357 start
+# of konjunktives found: 0
+ZIP result: 0.44306928
+357 end
+358 start
+# of konjunktives found: 0
+ZIP result: 0.45714283
+358 end
+359 start
+# of konjunktives found: 0
+ZIP result: 0.41534394
+359 end
+360 start
+# of konjunktives found: 0
+ZIP result: 0.08620691
+360 end
+361 start
+# of konjunktives found: 0
+ZIP result: 0.129771
+361 end
+362 start
+# of konjunktives found: 0
+ZIP result: 0.27683616
+362 end
+363 start
+# of konjunktives found: 0
+ZIP result: 0.1785714
+363 end
+364 start
+# of konjunktives found: 0
+ZIP result: 0.399361
+364 end
+365 start
+# of konjunktives found: 0
+ZIP result: 0.37942123
+365 end
+366 start
+# of konjunktives found: 0
+ZIP result: 0.31739128
+366 end
+367 start
+# of konjunktives found: 0
+ZIP result: 0.36507934
+367 end
+368 start
+# of konjunktives found: 0
+ZIP result: 0.36630034
+368 end
+369 start
+# of konjunktives found: 0
+ZIP result: 0.20382166
+369 end
+370 start
+# of konjunktives found: 0
+ZIP result: 0.090909064
+370 end
+371 start
+# of konjunktives found: 0
+ZIP result: 0.34586465
+371 end
+372 start
+# of konjunktives found: 0
+ZIP result: 0.35741442
+372 end
+373 start
+# of konjunktives found: 0
+ZIP result: 0.34432232
+373 end
+374 start
+# of konjunktives found: 0
+ZIP result: 0.35555553
+374 end
+375 start
+# of konjunktives found: 0
+ZIP result: 0.073684216
+375 end
+376 start
+# of konjunktives found: 0
+ZIP result: 0.19008267
+376 end
+377 start
+# of konjunktives found: 0
+ZIP result: 0.42335767
+377 end
+378 start
+# of konjunktives found: 0
+ZIP result: 0.34642857
+378 end
+379 start
+# of konjunktives found: 0
+ZIP result: 0.37543857
+379 end
+380 start
+# of konjunktives found: 0
+ZIP result: 0.32916665
+380 end
+381 start
+# of konjunktives found: 0
+ZIP result: 0.39297122
+381 end
+382 start
+# of konjunktives found: 0
+ZIP result: 0.4076087
+382 end
+383 start
+# of konjunktives found: 0
+ZIP result: 0.39677417
+383 end
+384 start
+# of konjunktives found: 0
+ZIP result: 0.35664338
+384 end
+385 start
+# of konjunktives found: 0
+ZIP result: 0.3645833
+385 end
+386 start
+# of konjunktives found: 0
+ZIP result: 0.41470587
+386 end
+387 start
+# of konjunktives found: 0
+ZIP result: 0.42443728
+387 end
+388 start
+# of konjunktives found: 0
+ZIP result: 0.3770492
+388 end
+389 start
+# of konjunktives found: 0
+ZIP result: 0.3771044
+389 end
+390 start
+# of konjunktives found: 0
+ZIP result: 0.3551724
+390 end
+391 start
+# of konjunktives found: 0
+ZIP result: 0.36426115
+391 end
+392 start
+# of konjunktives found: 0
+ZIP result: 0.36042404
+392 end
+393 start
+# of konjunktives found: 0
+ZIP result: 0.38271606
+393 end
+394 start
+# of konjunktives found: 0
+ZIP result: 0.066037714
+394 end
+395 start
+# of konjunktives found: 0
+ZIP result: 0.12396693
+395 end
+396 start
+# of konjunktives found: 0
+ZIP result: 0.27272725
+396 end
+397 start
+# of konjunktives found: 0
+ZIP result: 0.24338627
+397 end
+398 start
+# of konjunktives found: 0
+ZIP result: 0.18471336
+398 end
+399 start
+# of konjunktives found: 0
+ZIP result: 0.15714288
+399 end
+400 start
+# of konjunktives found: 0
+ZIP result: 0.31448764
+400 end
+401 start
+# of konjunktives found: 0
+ZIP result: 0.33779263
+401 end
+402 start
+# of konjunktives found: 0
+ZIP result: 0.292
+402 end
+403 start
+# of konjunktives found: 0
+ZIP result: 0.18620688
+403 end
+404 start
+# of konjunktives found: 0
+ZIP result: 0.30687833
+404 end
+405 start
+# of konjunktives found: 0
+ZIP result: 0.23952097
+405 end
+406 start
+# of konjunktives found: 0
+ZIP result: 0.16197181
+406 end
+407 start
+# of konjunktives found: 0
+ZIP result: 0.0869565
+407 end
+408 start
+# of konjunktives found: 0
+ZIP result: 0.098484874
+408 end
+409 start
+# of konjunktives found: 0
+ZIP result: 0.2117647
+409 end
+410 start
+# of konjunktives found: 0
+ZIP result: 0.15277779
+410 end
+411 start
+# of konjunktives found: 0
+ZIP result: 0.10743803
+411 end
+412 start
+# of konjunktives found: 0
+ZIP result: 0.17021275
+412 end
+413 start
+# of konjunktives found: 0
+ZIP result: 0.1397059
+413 end
+414 start
+# of konjunktives found: 0
+ZIP result: 0.18045115
+414 end
+415 start
+# of konjunktives found: 0
+ZIP result: 0.20714283
+415 end
+416 start
+# of konjunktives found: 0
+ZIP result: 0.3254438
+416 end
+417 start
+# of konjunktives found: 0
+ZIP result: 0.1160714
+417 end
+418 start
+# of konjunktives found: 0
+ZIP result: 0.27222222
+418 end
+419 start
+# of konjunktives found: 0
+ZIP result: 0.34782606
+419 end
+420 start
+# of konjunktives found: 0
+ZIP result: 0.25316453
+420 end
+421 start
+# of konjunktives found: 0
+ZIP result: 0.22307694
+421 end
+422 start
+# of konjunktives found: 0
+ZIP result: 0.3471074
+422 end
+423 start
+# of konjunktives found: 0
+ZIP result: 0.08571428
+423 end
+424 start
+# of konjunktives found: 0
+ZIP result: 0.16793895
+424 end
+425 start
+# of konjunktives found: 0
+ZIP result: 0.23015875
+425 end
+426 start
+# of konjunktives found: 0
+ZIP result: 0.19014084
+426 end
+427 start
+# of konjunktives found: 0
+ZIP result: 0.21088433
+427 end
+428 start
+# of konjunktives found: 0
+ZIP result: 0.36363637
+428 end
+429 start
+# of konjunktives found: 0
+ZIP result: 0.2916667
+429 end
+430 start
+# of konjunktives found: 0
+ZIP result: 0.21935487
+430 end
+431 start
+# of konjunktives found: 0
+ZIP result: 0.19745225
+431 end
+432 start
+# of konjunktives found: 0
+ZIP result: 0.20338982
+432 end
+433 start
+# of konjunktives found: 0
+ZIP result: 0.24840766
+433 end
+434 start
+# of konjunktives found: 0
+ZIP result: 0.21052629
+434 end
+435 start
+# of konjunktives found: 0
+ZIP result: 0.05494505
+435 end
+436 start
+# of konjunktives found: 0
+ZIP result: 0.2581967
+436 end
+437 start
+# of konjunktives found: 0
+ZIP result: 0.19708031
+437 end
+438 start
+# of konjunktives found: 0
+ZIP result: 0.21333331
+438 end
+439 start
+# of konjunktives found: 0
+ZIP result: 0.25
+439 end
+440 start
+# of konjunktives found: 0
+ZIP result: 0.25136614
+440 end
+441 start
+# of konjunktives found: 0
+ZIP result: 0.34513277
+441 end
+442 start
+# of konjunktives found: 0
+ZIP result: 0.25405407
+442 end
+443 start
+# of konjunktives found: 0
+ZIP result: 0.27058822
+443 end
+444 start
+# of konjunktives found: 0
+ZIP result: 0.23076922
+444 end
+445 start
+# of konjunktives found: 0
+ZIP result: 0.23870969
+445 end
+446 start
+# of konjunktives found: 0
+ZIP result: 0.30051816
+446 end
+447 start
+# of konjunktives found: 0
+ZIP result: 0.26424873
+447 end
+448 start
+# of konjunktives found: 0
+ZIP result: 0.26
+448 end
+449 start
+# of konjunktives found: 0
+ZIP result: 0.21568626
+449 end
+450 start
+# of konjunktives found: 0
+ZIP result: 0.4145658
+450 end
+451 start
+# of konjunktives found: 0
+ZIP result: 0.33472806
+451 end
+452 start
+# of konjunktives found: 0
+ZIP result: 0.30701756
+452 end
+453 start
+# of konjunktives found: 0
+ZIP result: 0.31707317
+453 end
+454 start
+# of konjunktives found: 0
+ZIP result: 0.07499999
+454 end
+455 start
+# of konjunktives found: 0
+ZIP result: 0.19047618
+455 end
+456 start
+# of konjunktives found: 0
+ZIP result: 0.2772727
+456 end
+457 start
+# of konjunktives found: 0
+ZIP result: 0.20606059
+457 end
+458 start
+# of konjunktives found: 0
+ZIP result: 0.2037037
+458 end
+459 start
+# of konjunktives found: 0
+ZIP result: 0.13636363
+459 end
+460 start
+# of konjunktives found: 0
+ZIP result: 0.2393617
+460 end
+461 start
+# of konjunktives found: 0
+ZIP result: 0.26424873
+461 end
+462 start
+# of konjunktives found: 0
+ZIP result: 0.2275449
+462 end
+463 start
+# of konjunktives found: 0
+ZIP result: 0.11864406
+463 end
+464 start
+# of konjunktives found: 0
+ZIP result: 0.21568626
+464 end
+465 start
+# of konjunktives found: 0
+ZIP result: 0.08730161
+465 end
+466 start
+# of konjunktives found: 0
+ZIP result: 0.24725276
+466 end
+467 start
+# of konjunktives found: 0
+ZIP result: 0.25133687
+467 end
+468 start
+# of konjunktives found: 0
+ZIP result: 0.3128205
+468 end
+469 start
+# of konjunktives found: 0
+ZIP result: 0.20338982
+469 end
+470 start
+# of konjunktives found: 0
+ZIP result: 0.16216218
+470 end
+471 start
+# of konjunktives found: 0
+ZIP result: 0.23958331
+471 end
+472 start
+# of konjunktives found: 0
+ZIP result: 0.19883043
+472 end
+473 start
+# of konjunktives found: 0
+ZIP result: 0.20625001
+473 end
+474 start
+# of konjunktives found: 0
+ZIP result: 0.14876032
+474 end
+475 start
+# of konjunktives found: 0
+ZIP result: 0.25
+475 end
+476 start
+# of konjunktives found: 0
+ZIP result: 0.30917877
+476 end
+477 start
+# of konjunktives found: 0
+ZIP result: 0.20833331
+477 end
+478 start
+# of konjunktives found: 0
+ZIP result: 0.17307693
+478 end
+479 start
+# of konjunktives found: 0
+ZIP result: 0.12142855
+479 end
+480 start
+# of konjunktives found: 0
+ZIP result: 0.32314408
+480 end
+481 start
+# of konjunktives found: 0
+ZIP result: 0.3019802
+481 end
+482 start
+# of konjunktives found: 0
+ZIP result: 0.21472394
+482 end
+483 start
+# of konjunktives found: 0
+ZIP result: 0.18181819
+483 end
+484 start
+# of konjunktives found: 0
+ZIP result: 0.14529914
+484 end
+485 start
+# of konjunktives found: 0
+ZIP result: 0.090163946
+485 end
+486 start
+# of konjunktives found: 0
+ZIP result: 0.30841124
+486 end
+487 start
+# of konjunktives found: 0
+ZIP result: 0.10948902
+487 end
+488 start
+# of konjunktives found: 0
+ZIP result: 0.2279793
+488 end
+489 start
+# of konjunktives found: 0
+ZIP result: 0.25757575
+489 end
+490 start
+# of konjunktives found: 0
+ZIP result: 0.21511626
+490 end
+491 start
+# of konjunktives found: 0
+ZIP result: 0.13385826
+491 end
+492 start
+# of konjunktives found: 0
+ZIP result: 0.33009708
+492 end
+493 start
+# of konjunktives found: 0
+ZIP result: 0.34031415
+493 end
+494 start
+# of konjunktives found: 0
+ZIP result: 0.32275134
+494 end
+495 start
+# of konjunktives found: 0
+ZIP result: 0.30645162
+495 end
+496 start
+# of konjunktives found: 0
+ZIP result: 0.31578946
+496 end
+497 start
+# of konjunktives found: 0
+ZIP result: 0.3168317
+497 end
+498 start
+# of konjunktives found: 0
+ZIP result: 0.09183675
+498 end
+499 start
+# of konjunktives found: 0
+ZIP result: 0.35789472
+499 end
+500 start
+# of konjunktives found: 0
+ZIP result: 0.3494624
+500 end
+501 start
+# of konjunktives found: 0
+ZIP result: 0.28125
+501 end
+502 start
+# of konjunktives found: 0
+ZIP result: 0.28061223
+502 end
+503 start
+# of konjunktives found: 0
+ZIP result: 0.053191483
+503 end
+504 start
+# of konjunktives found: 0
+ZIP result: 0.1397059
+504 end
+505 start
+# of konjunktives found: 0
+ZIP result: 0.3316583
+505 end
+506 start
+# of konjunktives found: 0
+ZIP result: 0.30392158
+506 end
+507 start
+# of konjunktives found: 0
+ZIP result: 0.31862748
+507 end
+508 start
+# of konjunktives found: 0
+ZIP result: 0.30851066
+508 end
+509 start
+# of konjunktives found: 0
+ZIP result: 0.23595506
+509 end
+510 start
+# of konjunktives found: 0
+ZIP result: 0.23076922
+510 end
+511 start
+# of konjunktives found: 0
+ZIP result: 0.37762237
+511 end
+512 start
+# of konjunktives found: 0
+ZIP result: 0.27868855
+512 end
+513 start
+# of konjunktives found: 0
+ZIP result: 0.35371178
+513 end
+514 start
+# of konjunktives found: 0
+ZIP result: 0.28205127
+514 end
+515 start
+# of konjunktives found: 0
+ZIP result: 0.36199093
+515 end
+516 start
+# of konjunktives found: 0
+ZIP result: 0.1025641
+516 end
+517 start
+# of konjunktives found: 0
+ZIP result: 0.12878788
+517 end
+518 start
+# of konjunktives found: 0
+ZIP result: 0.264
+518 end
+519 start
+# of konjunktives found: 0
+ZIP result: 0.26553673
+519 end
+520 start
+# of konjunktives found: 0
+ZIP result: 0.20863307
+520 end
+521 start
+# of konjunktives found: 0
+ZIP result: 0.208
+521 end
+522 start
+# of konjunktives found: 0
+ZIP result: 0.2830189
+522 end
+523 start
+# of konjunktives found: 0
+ZIP result: 0.3105023
+523 end
+524 start
+# of konjunktives found: 0
+ZIP result: 0.40425533
+524 end
+525 start
+# of konjunktives found: 0
+ZIP result: 0.32015812
+525 end
+526 start
+# of konjunktives found: 0
+ZIP result: 0.35785955
+526 end
+527 start
+# of konjunktives found: 0
+ZIP result: 0.28571427
+527 end
+528 start
+# of konjunktives found: 0
+ZIP result: 0.4069264
+528 end
+529 start
+# of konjunktives found: 0
+ZIP result: 0.11570245
+529 end
+530 start
+# of konjunktives found: 0
+ZIP result: 0.23026317
+530 end
+531 start
+# of konjunktives found: 0
+ZIP result: 0.08823532
+531 end
+532 start
+# of konjunktives found: 0
+ZIP result: 0.1484375
+532 end
+533 start
+# of konjunktives found: 0
+ZIP result: 0.1574803
+533 end
+534 start
+# of konjunktives found: 0
+ZIP result: 0.3181818
+534 end
+535 start
+# of konjunktives found: 0
+ZIP result: 0.23214287
+535 end
+536 start
+# of konjunktives found: 0
+ZIP result: 0.15492958
+536 end
+537 start
+# of konjunktives found: 0
+ZIP result: 0.25454545
+537 end
+538 start
+# of konjunktives found: 0
+ZIP result: 0.3333333
+538 end
+539 start
+# of konjunktives found: 0
+ZIP result: 0.11764705
+539 end
+540 start
+# of konjunktives found: 0
+ZIP result: 0.13913041
+540 end
+541 start
+# of konjunktives found: 0
+ZIP result: 0.31718063
+541 end
+542 start
+# of konjunktives found: 0
+ZIP result: 0.18064517
+542 end
+543 start
+# of konjunktives found: 0
+ZIP result: 0.08411217
+543 end
+544 start
+# of konjunktives found: 0
+ZIP result: 0.111940324
+544 end
+545 start
+# of konjunktives found: 0
+ZIP result: 0.13076925
+545 end
+546 start
+# of konjunktives found: 0
+ZIP result: 0.32512313
+546 end
+547 start
+# of konjunktives found: 0
+ZIP result: 0.24852073
+547 end
+548 start
+# of konjunktives found: 0
+ZIP result: 0.16546762
+548 end
+549 start
+# of konjunktives found: 0
+ZIP result: 0.16666669
+549 end
+550 start
+# of konjunktives found: 0
+ZIP result: 0.16176468
+550 end
+551 start
+# of konjunktives found: 0
+ZIP result: 0.28282827
+551 end
+552 start
+# of konjunktives found: 0
+ZIP result: 0.38345867
+552 end
+553 start
+# of konjunktives found: 0
+ZIP result: 0.4015444
+553 end
+554 start
+# of konjunktives found: 0
+ZIP result: 0.35909092
+554 end
+555 start
+# of konjunktives found: 0
+ZIP result: 0.08547008
+555 end
+556 start
+# of konjunktives found: 0
+ZIP result: 0.11965811
+556 end
+557 start
+# of konjunktives found: 0
+ZIP result: 0.3291139
+557 end
+558 start
+# of konjunktives found: 0
+ZIP result: 0.3066038
+558 end
+559 start
+# of konjunktives found: 0
+ZIP result: 0.3974359
+559 end
+560 start
+# of konjunktives found: 0
+ZIP result: 0.33760685
+560 end
+561 start
+# of konjunktives found: 0
+ZIP result: 0.4295082
+561 end
+562 start
+# of konjunktives found: 0
+ZIP result: 0.2916667
+562 end
+563 start
+# of konjunktives found: 0
+ZIP result: 0.39999998
+563 end
+564 start
+# of konjunktives found: 0
+ZIP result: 0.39375
+564 end
+565 start
+# of konjunktives found: 0
+ZIP result: 0.28217822
+565 end
+566 start
+# of konjunktives found: 0
+ZIP result: 0.37711865
+566 end
+567 start
+# of konjunktives found: 0
+ZIP result: 0.23118281
+567 end
+568 start
+# of konjunktives found: 0
+ZIP result: 0.2746114
+568 end
+569 start
+# of konjunktives found: 0
+ZIP result: 0.3140496
+569 end
+570 start
+# of konjunktives found: 0
+ZIP result: 0.1883117
+570 end
+571 start
+# of konjunktives found: 0
+ZIP result: 0.2604167
+571 end
+572 start
+# of konjunktives found: 0
+ZIP result: 0.24725276
+572 end
+573 start
+# of konjunktives found: 0
+ZIP result: 0.3333333
+573 end
+574 start
+# of konjunktives found: 0
+ZIP result: 0.38853502
+574 end
+575 start
+# of konjunktives found: 0
+ZIP result: 0.22560978
+575 end
+576 start
+# of konjunktives found: 0
+ZIP result: 0.38016528
+576 end
+577 start
+# of konjunktives found: 0
+ZIP result: 0.10655737
+577 end
+578 start
+# of konjunktives found: 0
+ZIP result: 0.43689322
+578 end
+579 start
+# of konjunktives found: 0
+ZIP result: 0.11570245
+579 end
+580 start
+# of konjunktives found: 0
+ZIP result: 0.16153848
+580 end
+581 start
+# of konjunktives found: 0
+ZIP result: 0.15503877
+581 end
+582 start
+# of konjunktives found: 0
+ZIP result: 0.32374102
+582 end
+583 start
+# of konjunktives found: 0
+ZIP result: 0.3333333
+583 end
+584 start
+# of konjunktives found: 0
+ZIP result: 0.09401709
+584 end
+585 start
+# of konjunktives found: 0
+ZIP result: 0.28571427
+585 end
+586 start
+# of konjunktives found: 0
+ZIP result: 0.18954247
+586 end
+587 start
+# of konjunktives found: 0
+ZIP result: 0.16176468
+587 end
+588 start
+# of konjunktives found: 0
+ZIP result: 0.18115944
+588 end
+589 start
+# of konjunktives found: 0
+ZIP result: 0.07964599
+589 end
+590 start
+# of konjunktives found: 0
+ZIP result: 0.24581003
+590 end
+591 start
+# of konjunktives found: 0
+ZIP result: 0.22674417
+591 end
+592 start
+# of konjunktives found: 0
+ZIP result: 0.32222223
+592 end
+593 start
+# of konjunktives found: 0
+ZIP result: 0.11475408
+593 end
+594 start
+# of konjunktives found: 0
+ZIP result: 0.3833992
+594 end
+595 start
+# of konjunktives found: 0
+ZIP result: 0.22360247
+595 end
+596 start
+# of konjunktives found: 0
+ZIP result: 0.24675328
+596 end
+597 start
+# of konjunktives found: 0
+ZIP result: 0.39271253
+597 end
+598 start
+# of konjunktives found: 0
+ZIP result: 0.35096157
+598 end
+599 start
+# of konjunktives found: 0
+ZIP result: 0.2837209
+599 end
+600 start
+# of konjunktives found: 0
+ZIP result: 0.26767677
+600 end
+601 start
+# of konjunktives found: 0
+ZIP result: 0.2791878
+601 end
+602 start
+# of konjunktives found: 0
+ZIP result: 0.29702967
+602 end
+603 start
+# of konjunktives found: 0
+ZIP result: 0.36538464
+603 end
+604 start
+# of konjunktives found: 0
+ZIP result: 0.14406782
+604 end
+605 start
+# of konjunktives found: 0
+ZIP result: 0.41762453
+605 end
+606 start
+# of konjunktives found: 0
+ZIP result: 0.3908046
+606 end
+607 start
+# of konjunktives found: 0
+ZIP result: 0.27160496
+607 end
+608 start
+# of konjunktives found: 0
+ZIP result: 0.24264705
+608 end
+609 start
+# of konjunktives found: 0
+ZIP result: 0.29714286
+609 end
+610 start
+# of konjunktives found: 0
+ZIP result: 0.21764708
+610 end
+611 start
+# of konjunktives found: 0
+ZIP result: 0.16417909
+611 end
+612 start
+# of konjunktives found: 0
+ZIP result: 0.3043478
+612 end
+613 start
+# of konjunktives found: 0
+ZIP result: 0.30337077
+613 end
+614 start
+# of konjunktives found: 0
+ZIP result: 0.14406782
+614 end
+615 start
+# of konjunktives found: 0
+ZIP result: 0.22297299
+615 end
+616 start
+# of konjunktives found: 0
+ZIP result: 0.39041096
+616 end
+617 start
+# of konjunktives found: 0
+ZIP result: 0.29611653
+617 end
+618 start
+# of konjunktives found: 0
+ZIP result: 0.20979023
+618 end
+619 start
+# of konjunktives found: 0
+ZIP result: 0.18461537
+619 end
+620 start
+# of konjunktives found: 0
+ZIP result: 0.46867168
+620 end
+621 start
+# of konjunktives found: 0
+ZIP result: 0.49532712
+621 end
+622 start
+# of konjunktives found: 0
+ZIP result: 0.4504792
+622 end
+623 start
+# of konjunktives found: 0
+ZIP result: 0.45151514
+623 end
+624 start
+# of konjunktives found: 0
+ZIP result: 0.43864232
+624 end
+625 start
+# of konjunktives found: 0
+ZIP result: 0.19379842
+625 end
+626 start
+# of konjunktives found: 0
+ZIP result: 0.14999998
+626 end
+627 start
+# of konjunktives found: 0
+ZIP result: 0.13445377
+627 end
+628 start
+# of konjunktives found: 0
+ZIP result: 0.125
+628 end
+629 start
+# of konjunktives found: 0
+ZIP result: 0.18382353
+629 end
+630 start
+# of konjunktives found: 0
+ZIP result: 0.30666667
+630 end
+631 start
+# of konjunktives found: 0
+ZIP result: 0.18461537
+631 end
+632 start
+# of konjunktives found: 0
+ZIP result: 0.19999999
+632 end
+633 start
+# of konjunktives found: 0
+ZIP result: 0.26415092
+633 end
+634 start
+# of konjunktives found: 0
+ZIP result: 0.24503309
+634 end
+635 start
+# of konjunktives found: 0
+ZIP result: 0.24861878
+635 end
+636 start
+# of konjunktives found: 0
+ZIP result: 0.22972971
+636 end
+637 start
+# of konjunktives found: 0
+ZIP result: 0.1857143
+637 end
+638 start
+# of konjunktives found: 0
+ZIP result: 0.19718307
+638 end
+639 start
+# of konjunktives found: 0
+ZIP result: 0.37380195
+639 end
+640 start
+# of konjunktives found: 0
+ZIP result: 0.33009708
+640 end
+641 start
+# of konjunktives found: 0
+ZIP result: 0.28270042
+641 end
+642 start
+# of konjunktives found: 0
+ZIP result: 0.38390094
+642 end
+643 start
+# of konjunktives found: 0
+ZIP result: 0.22500002
+643 end
+644 start
+# of konjunktives found: 0
+ZIP result: 0.26486486
+644 end
+645 start
+# of konjunktives found: 0
+ZIP result: 0.26136363
+645 end
+646 start
+# of konjunktives found: 0
+ZIP result: 0.27710843
+646 end
+647 start
+# of konjunktives found: 0
+ZIP result: 0.35384613
+647 end
+648 start
+# of konjunktives found: 0
+ZIP result: 0.3649289
+648 end
+649 start
+# of konjunktives found: 0
+ZIP result: 0.40163934
+649 end
+650 start
+# of konjunktives found: 0
+ZIP result: 0.42970824
+650 end
+651 start
+# of konjunktives found: 0
+ZIP result: 0.1588785
+651 end
+652 start
+# of konjunktives found: 0
+ZIP result: 0.20481926
+652 end
+653 start
+# of konjunktives found: 0
+ZIP result: 0.22972971
+653 end
+654 start
+# of konjunktives found: 0
+ZIP result: 0.36700338
+654 end
+655 start
+# of konjunktives found: 0
+ZIP result: 0.43304843
+655 end
+656 start
+# of konjunktives found: 0
+ZIP result: 0.31221718
+656 end
+657 start
+# of konjunktives found: 0
+ZIP result: 0.30541873
+657 end
+658 start
+# of konjunktives found: 0
+ZIP result: 0.26973683
+658 end
+659 start
+# of konjunktives found: 0
+ZIP result: 0.25675678
+659 end
+660 start
+# of konjunktives found: 0
+ZIP result: 0.2626263
+660 end
+661 start
+# of konjunktives found: 0
+ZIP result: 0.21678323
+661 end
+662 start
+# of konjunktives found: 0
+ZIP result: 0.18978101
+662 end
+663 start
+# of konjunktives found: 0
+ZIP result: 0.20567375
+663 end
+664 start
+# of konjunktives found: 0
+ZIP result: 0.35269707
+664 end
+665 start
+# of konjunktives found: 0
+ZIP result: 0.16312057
+665 end
+666 start
+# of konjunktives found: 0
+ZIP result: 0.24203819
+666 end
+667 start
+# of konjunktives found: 0
+ZIP result: 0.22077924
+667 end
+668 start
+# of konjunktives found: 0
+ZIP result: 0.27835053
+668 end
+669 start
+# of konjunktives found: 0
+ZIP result: 0.32394367
+669 end
+670 start
+# of konjunktives found: 0
+ZIP result: 0.16666669
+670 end
+671 start
+# of konjunktives found: 0
+ZIP result: 0.16279072
+671 end
+672 start
+# of konjunktives found: 0
+ZIP result: 0.25
+672 end
+673 start
+# of konjunktives found: 0
+ZIP result: 0.31884056
+673 end
+674 start
+# of konjunktives found: 0
+ZIP result: 0.22297299
+674 end
+675 start
+# of konjunktives found: 0
+ZIP result: 0.28643215
+675 end
+676 start
+# of konjunktives found: 0
+ZIP result: 0.14754099
+676 end
+677 start
+# of konjunktives found: 0
+ZIP result: 0.4605598
+677 end
+678 start
+# of konjunktives found: 0
+ZIP result: 0.4429708
+678 end
+679 start
+# of konjunktives found: 0
+ZIP result: 0.4600551
+679 end
+680 start
+# of konjunktives found: 0
+ZIP result: 0.4375
+680 end
+681 start
+# of konjunktives found: 0
+ZIP result: 0.43205577
+681 end
+682 start
+# of konjunktives found: 0
+ZIP result: 0.19607842
+682 end
+683 start
+# of konjunktives found: 0
+ZIP result: 0.103773594
+683 end
+684 start
+# of konjunktives found: 0
+ZIP result: 0.031578958
+684 end
+685 start
+# of konjunktives found: 0
+ZIP result: 0.20143884
+685 end
+686 start
+# of konjunktives found: 0
+ZIP result: 0.24598932
+686 end
+687 start
+# of konjunktives found: 0
+ZIP result: 0.09243697
+687 end
+688 start
+# of konjunktives found: 0
+688 end
+689 start
+# of konjunktives found: 0
+ZIP result: 0.2904762
+689 end
+690 start
+# of konjunktives found: 0
+ZIP result: 0.3053097
+690 end
+691 start
+# of konjunktives found: 0
+ZIP result: 0.032608688
+691 end
+692 start
+# of konjunktives found: 0
+ZIP result: 0.28205127
+692 end
+693 start
+# of konjunktives found: 0
+ZIP result: 0.1703704
+693 end
+694 start
+# of konjunktives found: 0
+ZIP result: 0.11016947
+694 end
 Report end

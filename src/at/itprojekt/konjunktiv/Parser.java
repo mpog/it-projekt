@@ -16,11 +16,11 @@ public class Parser {
                 konjunktiveFound++;
     }
 
-    private boolean isKonjunktiv(String w, Language language) {
+    private boolean isKonjunktiv(String word, Language language) {
         boolean isKonj = false;
+        String w = word += " ";
         switch (language) {
             case En:
-                w += " ";
                 String[] tmp = w.split(RegEx.EnglishKonjAsVagueness);
                 isKonj = tmp.length > 0 && !w.equals(tmp[0]);
                 break;
@@ -39,7 +39,7 @@ public class Parser {
                 break;
         }
         if (isKonj)
-            System.out.println("\"" + w + "\" seems to be a konjunktiv");
+            System.out.println("\"" + word + "\" seems to be a konjunktiv");
        /* else // Testing only
             System.out.println("\"" + w + "\" is okay");*/
         return isKonj;

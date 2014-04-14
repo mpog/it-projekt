@@ -7,10 +7,10 @@ import java.io.PrintStream;
 
 public class Tester extends Thread {
     private final PrintStream out;
-    private final KeyValuepair whole;
-    private final KeyValuepair[] single;
+    private final DataPair whole;
+    private final DataPair[] single;
     private final Language language;
-    private final static KeyValuepair[] kvpA = new KeyValuepair[0];
+    private final static DataPair[] kvpA = new DataPair[0];
 
     /**
      * @param out:     A PrintStream
@@ -29,24 +29,24 @@ public class Tester extends Thread {
 // Initialize Swhole
                 StringBuilder stringBuilder = new StringBuilder();
                 String[] lines = Swhole.split(RegEx.Newline);
-                single = new KeyValuepair[lines.length];
-                for (int i = 0; i < lines.length; i++) {
-                    String[] tmp = lines[i].split(";", 2);
-                    stringBuilder.append(tmp[1]).append('\n');
-                    single[i] = new KeyValuepair(tmp[0], tmp[1]);
+                single = new DataPair[lines.length - 1];
+                for (int i = 1; i < lines.length; i++) {
+                    String[] tmp = lines[i].split("\",\"", 3);
+                    stringBuilder.append(tmp[2]).append('\n');
+                    single[i - 1] = new DataPair(Integer.parseInt(tmp[0].substring(1)), tmp[1], tmp[2]);
                 }
-                whole = new KeyValuepair("Projekt", stringBuilder.toString());
+                whole = new DataPair(-1, "Projekt", stringBuilder.toString());
             } else {
                 StringBuilder stringBuilder = new StringBuilder();
-                single = new KeyValuepair[Ssingle.length];
-                for (int i = 0; i < Ssingle.length; i++) {
-                    String[] tmp = Ssingle[i].split(";", 2);
-                    stringBuilder.append(tmp[1]).append('\n');
-                    single[i] = new KeyValuepair(tmp[0], tmp[1]);
+                single = new DataPair[Ssingle.length - 1];
+                for (int i = 1; i < Ssingle.length; i++) {
+                    String[] tmp = Ssingle[i].split("\",\"", 3);
+                    stringBuilder.append(tmp[2]).append('\n');
+                    single[i - 1] = new DataPair(Integer.parseInt(tmp[0].substring(1)), tmp[1], tmp[2]);
                 }
-                whole = new KeyValuepair("Projekt", stringBuilder.toString());
+                whole = new DataPair(-1, "Projekt", stringBuilder.toString());
             }
-        } catch (NullPointerException | ArrayIndexOutOfBoundsException e) {
+        } catch (NullPointerException | ArrayIndexOutOfBoundsException | NumberFormatException e) {
             throw new ParseException(e);
         }
         this.language = language;
@@ -75,27 +75,27 @@ public class Tester extends Thread {
     @Override
     public void run() {
         float zipped = 0;
-        final String start = " start", end = " end";
+        final String start = " start", end = " end", project = "Projekt", report = "Report";
         //Analyse whole document
-        out.println(whole.key + start);
+        out.println(report + start);
         if (whole != null) {
-            out.println("ALL start");
-            out.println("# of konjunktives found:\t" + new Parser(whole.value, language).toString());
+            out.println(project + start);
+            out.println("# of konjunktives found: " + new Parser(whole.value, language).toString());
             zipped = new Zipper(whole.value).getSizeFactor();
             if (zipped > -1f)
-                out.println("ZIP result:\t\t\t" + zipped);
-            out.println(whole.key + end);
+                out.println("ZIP result: " + zipped);
+            out.println(project + end);
         }
         if (single != null)
             for (int lineNumber = 0; lineNumber < single.length; lineNumber++) {
-                out.println(single[lineNumber].key + start);
-                out.println("# of konjunktives found:\t\t\t" + new Parser(single[lineNumber].value, language).toString());
+                out.println((lineNumber + 2) + start);
+                out.println("# of konjunktives found: " + new Parser(single[lineNumber].value, language).toString());
                 zipped = new Zipper(single[lineNumber].value).getSizeFactor();
                 if (zipped > -1f)
-                    out.println("ZIP result:\t" + zipped);
-                out.println(single[lineNumber].key + end);
+                    out.println("ZIP result: " + zipped);
+                out.println((lineNumber + 2) + end);
             }
-        out.println("Report end");
+        out.println(report + end);
 
     }
 }
