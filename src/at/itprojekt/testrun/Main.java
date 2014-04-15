@@ -23,7 +23,8 @@ public class Main {
                 stringBuilder.append(tmp);
                 stringBuilder.append('\n');
             }
-            String whole = new String(stringBuilder.toString().getBytes("US-ASCII"));
+            String whole = stringBuilder.toString();
+            //System.out.println(whole);
             if (!outF.exists())
                 outF.createNewFile();
             output = new PrintStream(outF);
