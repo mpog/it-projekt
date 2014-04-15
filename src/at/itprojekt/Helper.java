@@ -10,6 +10,6 @@ public class Helper {
     public static String[] splitWords(String s) {
         if (s == null)
             return null;
-        return s.split("\\s");
+        return s.split(RegEx.Space);
     }
 }

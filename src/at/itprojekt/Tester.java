@@ -1,6 +1,7 @@
 package at.itprojekt;
 
-import at.itprojekt.konjunktiv.Parser;
+import at.itprojekt.konjunktiv.KonjParser;
+import at.itprojekt.statbuddy.StatParser;
 import at.itprojekt.zip.Zipper;
 
 import java.io.PrintStream;
@@ -75,26 +76,49 @@ public class Tester extends Thread {
     @Override
     public void run() {
         float zipped = 0;
-        final String start = " start", end = " end", project = "Projekt", report = "Report";
+        final String start = " start", end = " end", project = "Projekt", report = "Report", tips = "Tips";
         //Analyse whole document
         out.println(report + start);
         if (whole != null) {
             out.println(project + start);
-            out.println("# of konjunktives found: " + new Parser(whole.value, language).toString());
+            out.println("# of konjunktives found: " + new KonjParser(whole.value, language).toString());
             zipped = new Zipper(whole.value).getSizeFactor();
             if (zipped > -1f)
                 out.println("ZIP result: " + zipped);
+            out.println("Text analyser's result:" + new StatParser(whole.value));
             out.println(project + end);
         }
+        int sentenceSignsInKeys = 0, abbrevisionsUsed = 0;
         if (single != null)
             for (int lineNumber = 0; lineNumber < single.length; lineNumber++) {
                 out.println((lineNumber + 2) + start);
-                out.println("# of konjunktives found: " + new Parser(single[lineNumber].value, language).toString());
+                out.println("# of konjunktives found: " + new KonjParser(single[lineNumber].value, language).toString());
                 zipped = new Zipper(single[lineNumber].value).getSizeFactor();
                 if (zipped > -1f)
                     out.println("ZIP result: " + zipped);
+                StatParser statParserKey = new StatParser(single[lineNumber].key), statParserValue = new StatParser(single[lineNumber].value);
+                abbrevisionsUsed += statParserValue.abbrevisions;
+                abbrevisionsUsed += statParserKey.abbrevisions;
+                if (statParserKey.allSentenceSeperators >= 0) {
+                    sentenceSignsInKeys++;
+                    System.out.println(single[lineNumber].key + " has a sentence sign in it");
+                }
+                if (statParserKey.abbrevisions > 0)
+                    System.out.println(single[lineNumber].key + " uses " + statParserKey.abbrevisions + " abbrvation(s)");
+                if (statParserValue.abbrevisions > 0)
+                    System.out.println(single[lineNumber].value + " uses " + statParserValue.abbrevisions + " abbrvation(s)");
+                out.println("Text analyser's result: Key:" + statParserKey + " Value:" + statParserValue);
                 out.println((lineNumber + 2) + end);
             }
+
+        out.println(tips + start);
+        if (sentenceSignsInKeys > 0) {
+            out.println("All in all " + sentenceSignsInKeys + " places have been found in headings, where a sentence ends or a subsentence starts/ends");
+        }
+        if (abbrevisionsUsed > 0){
+            out.println("All in all "+ abbrevisionsUsed +" abbreviations have been found. Make your language clearer and use full words only");
+        }
+        out.println(tips + end);
         out.println(report + end);
 
     }

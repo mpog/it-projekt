@@ -4,10 +4,10 @@ import at.itprojekt.Helper;
 import at.itprojekt.Language;
 import at.itprojekt.RegEx;
 
-public class Parser {
+public class KonjParser {
     int konjunktiveFound = 0;
 
-    public Parser(String s, Language language) {
+    public KonjParser(String s, Language language) {
         String[] words = Helper.splitWords(s);
         if (words == null || language == null)
             throw new NullPointerException("Parameter cannot be null");
