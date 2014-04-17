@@ -1,8 +1,8 @@
 Report start
 Projekt start
 # of konjunktives found: 2
-ZIP result: 0.88915336
-Text analyser's result:{chars=130252, words=15011, allSentenceSeperators=1398, innerSentenceSeperators=694, sentences=705, abbrevisions=4}
+ZIP result: 0.8885604
+Text analyser's result:{chars=129559, words=14319, allSentenceSeperators=1398, innerSentenceSeperators=694, sentences=705, abbrevisions=4}
 Projekt end
 2 start
 # of konjunktives found: 0
