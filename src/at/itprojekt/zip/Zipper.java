@@ -14,7 +14,11 @@ public class Zipper {
             GZIPOutputStream gzip = new GZIPOutputStream(baos);
             gzip.write(s.getBytes());
             gzip.close();
-            newSize = baos.toString().length() - 9; //9 seems to be the zip header
+            String zipped = baos.toString();
+            /*for (int i = 0; i < zipped.length(); i++) {
+                System.out.println("Char at position " + i + " is: " + (int)zipped.charAt(i));
+            }*/
+            newSize = zipped.length() - 10; //10 seems to be the zip header
             zipFactorSmaller = 1f - newSize / origSize;
             if (zipFactorSmaller < 0)
                 zipFactorSmaller = -1f;
