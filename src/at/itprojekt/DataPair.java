@@ -10,4 +10,13 @@ public class DataPair {
         this.value = value;
         this.level = level;
     }
+
+    @Override
+    public String toString() {
+        return "DataPair{" +
+                "key='" + key + '\'' +
+                ", value='" + value + '\'' +
+                ", level=" + level +
+                '}';
+    }
 }

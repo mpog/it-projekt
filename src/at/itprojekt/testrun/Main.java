@@ -37,7 +37,7 @@ public class Main {
                 String[] split = lines[i].split("\",\"");
                 tmpLevels[i - 1] = Integer.parseInt(split[0].substring(1));
                 tmpHadings[i - 1] = split[1];
-                tmpTexts[i - 1] = split[2].substring(0, split[2].length());
+                tmpTexts[i - 1] = split[2].substring(0, split[2].length()-1);
             }
             //System.out.println(tmpLevels[0] + "\t" + tmpHadings[0] + '\t' + tmpTexts[0]);
             Tester tester = new Tester(output, tmpLevels, tmpHadings, tmpTexts, Language.De);
