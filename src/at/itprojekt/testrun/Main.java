@@ -7,7 +7,7 @@ import at.itprojekt.Tester;
 import java.io.*;
 
 public class Main {
-
+   // Sample implementation of loading a file, parsing it, starting a tester and writing the result to a file.
     public static void main(String[] args) {
         final String url = ClassLoader.getSystemClassLoader().getResource(".").getPath().substring(1);
         final String filename = "in.txt";
@@ -37,9 +37,8 @@ public class Main {
                 String[] split = lines[i].split("\",\"");
                 tmpLevels[i - 1] = Integer.parseInt(split[0].substring(1));
                 tmpHadings[i - 1] = split[1];
-                tmpTexts[i - 1] = split[2].substring(0, split[2].length()-1);
+                tmpTexts[i - 1] = split[2].substring(0, split[2].length()-1); // Take the whole string, except of the last char
             }
-            //System.out.println(tmpLevels[0] + "\t" + tmpHadings[0] + '\t' + tmpTexts[0]);
             Tester tester = new Tester(output, tmpLevels, tmpHadings, tmpTexts, Language.De);
             tester.start();
             tester.join();

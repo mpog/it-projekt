@@ -16,6 +16,12 @@ public class KonjParser {
                 konjunktiveFound++;
     }
 
+    /**
+     *
+     * @param word A word. (Like "have")
+     * @param language The language of the text
+     * @return Returns true if a konjunctive of the specified language is found
+     */
     private boolean isKonjunktiv(String word, Language language) {
         boolean isKonj = false;
         String w = word += " ";
@@ -29,10 +35,10 @@ public class KonjParser {
                 int y = Helper.countArray(w.split(RegEx.GermanModalVerbs));
                 if (y > 0)
                     isKonj = true;
+                // If it is no modalverb, try to cut of the word end and test if it a "schwaches Verb" or not. The regex additionally detects some "starke Verben"
                 if (!isKonj) {
                     String baseform = w.split(RegEx.GermanVerbEnds)[0];
                     if (!w.equals(baseform)) {
-                        // This has to be tested, might be a konjunktiv. A dictionary would be important here. Check for haben/sein/werden in the meantime
                         isKonj = baseform.matches(RegEx.GermanKonjStrongBasic);
                     }
                 }
@@ -40,8 +46,6 @@ public class KonjParser {
         }
         if (isKonj)
             System.out.println("\"" + word + "\" seems to be a konjunktiv");
-       /* else // Testing only
-            System.out.println("\"" + w + "\" is okay");*/
         return isKonj;
     }
 
