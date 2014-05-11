@@ -1,5 +1,5 @@
 package at.itprojekt;
-
+//Kommentar
 import at.itprojekt.konjunktiv.KonjParser;
 import at.itprojekt.statbuddy.StatParser;
 import at.itprojekt.zip.Zipper;
