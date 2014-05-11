@@ -8,7 +8,6 @@ public class Zipper {
     private float zipFactorSmaller, origSize, newSize;
 
     /**
-     *
      * @param s A not-null string, which will be zipped and the difference in size is measured
      */
     public Zipper(String s) {

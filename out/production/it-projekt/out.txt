@@ -1,8 +1,8 @@
 Report start
 Projekt start
 # of konjunctives found: 2
-ZIP result: 0.88838017
-Text analyser's result:StatParser{chars=128866, words=14319, allSentenceSeperators=1386, endSentenceSeperators=692, innerSentenceSeperators=694, abbreviations=4, sentences=1386, sentenceSignAtEnd=true}
+ZIP result: 0.88839835
+Text analyser's result:StatParser{chars=129559, words=15011, allSentenceSeperators=1394, endSentenceSeperators=700, innerSentenceSeperators=694, abbreviations=4, sentences=1395, sentenceSignAtEnd=false}
 Projekt end
 2 start
 # of konjunctives found: 0
@@ -1285,7 +1285,7 @@ Text analyser's result: Key:StatParser{chars=48, words=5, allSentenceSeperators=
 258 start
 # of konjunctives found: 0
 ZIP result: 0.3114035
-Text analyser's result: Key:StatParser{chars=45, words=4, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, sentenceSignAtEnd=false} Value:StatParser{chars=228, words=21, allSentenceSeperators=4, endSentenceSeperators=0, innerSentenceSeperators=4, abbreviations=0, sentences=4, sentenceSignAtEnd=true}
+Text analyser's result: Key:StatParser{chars=45, words=4, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, sentenceSignAtEnd=false} Value:StatParser{chars=228, words=21, allSentenceSeperators=7, endSentenceSeperators=3, innerSentenceSeperators=4, abbreviations=0, sentences=7, sentenceSignAtEnd=true}
 258 end
 259 start
 # of konjunctives found: 0
@@ -2104,7 +2104,7 @@ Text analyser's result: Key:StatParser{chars=24, words=2, allSentenceSeperators=
 422 start
 # of konjunctives found: 0
 ZIP result: 0.31535268
-Text analyser's result: Key:StatParser{chars=62, words=8, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, sentenceSignAtEnd=false} Value:StatParser{chars=241, words=30, allSentenceSeperators=1, endSentenceSeperators=0, innerSentenceSeperators=1, abbreviations=1, sentences=1, sentenceSignAtEnd=true}
+Text analyser's result: Key:StatParser{chars=62, words=8, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, sentenceSignAtEnd=false} Value:StatParser{chars=241, words=30, allSentenceSeperators=2, endSentenceSeperators=1, innerSentenceSeperators=1, abbreviations=1, sentences=2, sentenceSignAtEnd=true}
 422 end
 423 start
 # of konjunctives found: 0
@@ -2424,7 +2424,7 @@ Text analyser's result: Key:StatParser{chars=36, words=3, allSentenceSeperators=
 486 start
 # of konjunctives found: 0
 ZIP result: 0.30046946
-Text analyser's result: Key:StatParser{chars=41, words=4, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, sentenceSignAtEnd=false} Value:StatParser{chars=213, words=21, allSentenceSeperators=5, endSentenceSeperators=0, innerSentenceSeperators=5, abbreviations=0, sentences=5, sentenceSignAtEnd=true}
+Text analyser's result: Key:StatParser{chars=41, words=4, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, sentenceSignAtEnd=false} Value:StatParser{chars=213, words=21, allSentenceSeperators=8, endSentenceSeperators=3, innerSentenceSeperators=5, abbreviations=0, sentences=8, sentenceSignAtEnd=true}
 486 end
 487 start
 # of konjunctives found: 0
