@@ -30,6 +30,7 @@ public class Tester extends Thread {
         for (int i = 0; i < levels.length; i++) {
             single[i] = new DataPair(levels[i], headings[i], texts[i]);
             stringBuilder.append(texts[i]);
+            stringBuilder.append('\n');
         }
         whole = new DataPair(0, "Whole project", stringBuilder.toString());
         this.out = out;
@@ -83,7 +84,7 @@ public class Tester extends Thread {
             // Check if the heading is shorter then the text
             if (single[lineNumber].key.length() >= single[lineNumber].value.length()) {
                 headingLongerEqualThenText++;
-                System.out.println("Line number " + single[lineNumber].level + "(" + single[lineNumber].key + ") has a shorter heading then text");
+                System.out.println("Line number " + (lineNumber + 2) + "(" + single[lineNumber].key + ") has a shorter heading then text");
             }
             out.println("Text analyser's result: Key:" + statParserKey + " Value:" + statParserValue);
             out.println((lineNumber + 2) + end);

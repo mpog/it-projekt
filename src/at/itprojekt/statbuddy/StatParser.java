@@ -10,19 +10,19 @@ public class StatParser {
     public StatParser(String toparse) {
         if (toparse == null)
             throw new IllegalArgumentException(new NullPointerException("toparse"));
+        //# of detected abbreviations
+        abbreviations = Helper.countArray(toparse.split(RegEx.Abbreviations));
         chars = toparse.length();
         if (chars > 0)
             words = Helper.countArray(Helper.splitWords(toparse)) + 1; // As a sentence has at least one word, if there is more than 0 chars
         else
             words = 0; // If there are no chars, tehre cannot be words
         // # of sentence seperators, which seperate full sentences from each other
-        endSentenceSeperators = Helper.countArray(toparse.split(RegEx.EndSentenceSeperators));
+        endSentenceSeperators = Helper.countArray(toparse.split(RegEx.EndSentenceSeperators)) - abbreviations;
         //# of sentence seperators, which seperate subsentences from the main sentence or from each other
         innerSentenceSeperators = Helper.countArray(toparse.split(RegEx.InnerSentenceSeperators));
         //# combination of both
-        allSentenceSeperators = Helper.countArray(toparse.split(RegEx.AllSententenceSeperators));
-        //# of detected abbreviations
-        abbreviations = Helper.countArray(toparse.split(RegEx.Abbreviations));
+        allSentenceSeperators = Helper.countArray(toparse.split(RegEx.AllSententenceSeperators)) - abbreviations;
         // boolean value, if there is a sentence sign at the end of the String
         sentenceSignAtEnd = toparse.matches(RegEx.EndSentenceSign);
         //If there is no sentence sign at the end, this sentence would not be counted, add it to the total # of sentences
