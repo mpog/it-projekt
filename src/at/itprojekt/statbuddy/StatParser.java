@@ -11,7 +11,7 @@ public class StatParser {
         if (toparse == null)
             throw new IllegalArgumentException(new NullPointerException("toparse"));
         //# of detected abbreviations
-        abbreviations = Helper.countArray(toparse.split(RegEx.Abbreviations));
+        abbreviations = Helper.countArray(toparse.split(RegEx.Abbreviations)) + Helper.countArray(toparse.split(RegEx.Acronyms));
         chars = toparse.length();
         if (chars > 0)
             words = Helper.countArray(Helper.splitWords(toparse)) + 1; // As a sentence has at least one word, if there is more than 0 chars
