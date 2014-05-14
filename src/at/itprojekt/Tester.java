@@ -66,7 +66,7 @@ public class Tester extends Thread {
         zipped = new Zipper(whole.value).getSizeFactor();
         if (zipped > -1f)
             out.println(zipResult + zipped);
-        out.println("Text analyser's result:" + new StatParser(whole.value,glossar));
+        out.println("Text analyser's result:" + new StatParser(whole.value, glossar));
         out.println(project + end);
         //Preparations for analysing a single document
         int sentenceSignsInKeys = 0, abbreviationsUsed = 0, valueEndSignMissing = 0, headingLongerEqualThenText = 0;
@@ -78,7 +78,7 @@ public class Tester extends Thread {
             if (zipped > -1f) // If the ZIP-result is valid, print it
                 out.println(zipResult + zipped);
             // Make the statistics
-            StatParser statParserKey = new StatParser(single[lineNumber].key,glossar), statParserValue = new StatParser(single[lineNumber].value,glossar);
+            StatParser statParserKey = new StatParser(single[lineNumber].key, glossar), statParserValue = new StatParser(single[lineNumber].value, glossar);
             // If the key has a sentence separator, report it
             if (statParserKey.allSentenceSeperators > 0) {
                 sentenceSignsInKeys++;
@@ -88,9 +88,9 @@ public class Tester extends Thread {
             abbreviationsUsed += statParserValue.abbreviations;
             abbreviationsUsed += statParserKey.abbreviations;
             if (statParserKey.abbreviations > 0)
-                System.err.println(single[lineNumber].key + " uses " + statParserKey.abbreviations + " " + abbreviation + "(s)");
+                System.out.println(single[lineNumber].key + " uses " + statParserKey.abbreviations + " " + abbreviation + "(s)");
             if (statParserValue.abbreviations > 0)
-                System.err.println(single[lineNumber].value + " uses " + statParserValue.abbreviations + " " + abbreviation + "(s)");
+                System.out.println(single[lineNumber].value + " uses " + statParserValue.abbreviations + " " + abbreviation + "(s)");
             //Log the # of missing end sentence signs
             if (!statParserValue.sentenceSignAtEnd) {
                 valueEndSignMissing++;

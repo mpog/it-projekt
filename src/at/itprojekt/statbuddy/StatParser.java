@@ -23,10 +23,10 @@ public class StatParser {
             throw new IllegalArgumentException(new NullPointerException("toparse"));
         //# of detected abbreviations
         String tmp = " " + toparse + " ";
-        String seperators = "(?!\\w)";
+        String nonWordChar = "\\W";
         if (glossar != null) {
             for (String entry : glossar) {
-                String regex = "(."  + '(' + entry + ')' + seperators + ")";
+                String regex =   nonWordChar + entry + nonWordChar ;
                 tmp = tmp.replaceAll(regex, "");
             }
         }
@@ -51,9 +51,9 @@ public class StatParser {
             words = Helper.countArray(Helper.splitWords(toparse)) + 1; // As a sentence has at least one word, if there is more than 0 chars
         else
             words = 0; // If there are no chars, tehre cannot be words
-        // # of sentence seperators, which seperate full sentences from each other
+        // # of sentence nonWordChar, which seperate full sentences from each other
         endSentenceSeperators = Helper.countArray(toparse.split(RegEx.EndSentenceSeperators)) - abbreviations;
-        //# of sentence seperators, which seperate subsentences from the main sentence or from each other
+        //# of sentence nonWordChar, which seperate subsentences from the main sentence or from each other
         innerSentenceSeperators = Helper.countArray(toparse.split(RegEx.InnerSentenceSeperators));
         //# combination of both
         allSentenceSeperators = Helper.countArray(toparse.split(RegEx.AllSententenceSeperators)) - abbreviations;
