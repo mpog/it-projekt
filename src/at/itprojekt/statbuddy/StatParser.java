@@ -4,7 +4,7 @@ import at.itprojekt.Helper;
 import at.itprojekt.RegEx;
 
 public class StatParser {
-    final public int chars, words, allSentenceSeperators, endSentenceSeperators, innerSentenceSeperators, abbreviations, sentences;
+    final public int chars, words, allSentenceSeperators, endSentenceSeperators, innerSentenceSeperators, abbreviations, sentences, longestSentenceNumberOfWords;
     final public boolean sentenceSignAtEnd;
 
     /**
@@ -26,33 +26,20 @@ public class StatParser {
         String nonWordChar = "\\W";
         if (glossar != null) {
             for (String entry : glossar) {
-                String regex =   nonWordChar + entry + nonWordChar ;
+                String regex = nonWordChar + entry + nonWordChar;
                 tmp = tmp.replaceAll(regex, "");
             }
         }
         String[] Sabbreviations1 = tmp.split(RegEx.Abbreviations), Sabbreviations2 = tmp.split(RegEx.Acronyms);
-       /* int abbCorrection = 0;
-        if (glossar != null)
-            for (String entry : glossar) {
-                for (String a : Sabbreviations1) {
-                    a = a.replace(" ", "");
-                    if (/*a.startsWith(entry) || a.endsWith(entry)a.contains(entry))
-                        abbCorrection++;
-                }
-                for (String b : Sabbreviations2) {
-                    b = b.replace(" ", "");
-                    if (/*b.startsWith(entry) || b.endsWith(entry)b.contains(entry))
-                        abbCorrection++;
-                }
-            }*/
-        abbreviations = Helper.countArray(Sabbreviations1) + Helper.countArray(Sabbreviations2)/* - abbCorrection*/;
+        abbreviations = Helper.countArray(Sabbreviations1) + Helper.countArray(Sabbreviations2);
         chars = toparse.length();
         if (chars > 0)
             words = Helper.countArray(Helper.splitWords(toparse)) + 1; // As a sentence has at least one word, if there is more than 0 chars
         else
             words = 0; // If there are no chars, tehre cannot be words
+        String[] sentenceArray = toparse.split(RegEx.EndSentenceSeperators);
         // # of sentence nonWordChar, which seperate full sentences from each other
-        endSentenceSeperators = Helper.countArray(toparse.split(RegEx.EndSentenceSeperators)) - abbreviations;
+        endSentenceSeperators = Helper.countArray(sentenceArray) - abbreviations;
         //# of sentence nonWordChar, which seperate subsentences from the main sentence or from each other
         innerSentenceSeperators = Helper.countArray(toparse.split(RegEx.InnerSentenceSeperators));
         //# combination of both
@@ -61,6 +48,15 @@ public class StatParser {
         sentenceSignAtEnd = toparse.matches(RegEx.EndSentenceSign);
         //If there is no sentence sign at the end, this sentence would not be counted, add it to the total # of sentences
         sentences = allSentenceSeperators + (sentenceSignAtEnd ? 0 : 1);
+        //Max sentence length
+        int i = -1;
+        for (String e : sentenceArray) {
+            int length = Helper.countArray(e.split(RegEx.Space));
+            if (length > i)
+                i = length;
+        }
+
+        longestSentenceNumberOfWords = i;
     }
 
     @Override
@@ -73,6 +69,7 @@ public class StatParser {
                 ", innerSentenceSeperators=" + innerSentenceSeperators +
                 ", abbreviations=" + abbreviations +
                 ", sentences=" + sentences +
+                ", longestSentenceNumberOfWords=" + longestSentenceNumberOfWords +
                 ", sentenceSignAtEnd=" + sentenceSignAtEnd +
                 '}';
     }

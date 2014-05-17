@@ -57,6 +57,8 @@ public class Tester extends Thread {
      */
     @Override
     public void run() {
+        int maxWords1SentenceText = 20, maxWords1SentenceHeadings = 8;
+        int tooLongSentences = 0;
         float zipped = 0;
         final String start = " start", end = " end", project = "Projekt", report = "Report", tips = "Tips", zipResult = "ZIP result: ", numberKonj = "# of konjunctives found: ", abbreviation = "abbreviation";
         //Analyse whole document
@@ -83,6 +85,15 @@ public class Tester extends Thread {
             if (statParserKey.allSentenceSeperators > 0) {
                 sentenceSignsInKeys++;
                 System.out.println(single[lineNumber].key + " has a sentence sign in it");
+            }
+            //Log to long sentences
+            if (statParserKey.longestSentenceNumberOfWords >= maxWords1SentenceText) {
+                tooLongSentences++;
+                System.out.println(single[lineNumber].key + " is too long. # of words: " + statParserKey.longestSentenceNumberOfWords);
+            }
+            if (statParserValue.longestSentenceNumberOfWords >= maxWords1SentenceHeadings) {
+                tooLongSentences++;
+                System.out.println(single[lineNumber].value + " is too long. # of words: " + statParserValue.longestSentenceNumberOfWords);
             }
             // Log the # of abbreviations
             abbreviationsUsed += statParserValue.abbreviations;
@@ -117,6 +128,9 @@ public class Tester extends Thread {
         }
         if (headingLongerEqualThenText > 0) {
             out.println("All in all " + headingLongerEqualThenText + " headings have maximum the same length compard to the corresponding text.");
+        }
+        if (tooLongSentences > 0) {
+            out.println("All in all " + tooLongSentences + " entries have at least one too long sentence.");
         }
         out.println(tips + end);
         out.println(report + end);

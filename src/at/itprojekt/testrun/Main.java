@@ -10,9 +10,9 @@ public class Main {
     // Sample implementation of loading a file, parsing it, starting a tester and writing the result to a file.
     public static void main(String[] args) {
         final String url = ClassLoader.getSystemClassLoader().getResource(".").getPath().substring(1);
-        final String filename = "in.txt";
+        final String filename = "de.txt";
         File inF = new File(url, filename);
-        File outF = new File(url, "out.txt");
+        File outF = new File(url, "de.out.txt");
         System.out.println("In/Output @ " + url);
         PrintStream output = null;
         BufferedReader input = null;

@@ -13,5 +13,5 @@ public class RegEx {
     public static final String AllSententenceSeperators = "(" + InnerSentenceSeperators + ")|(" + EndSentenceSeperators + ")";
     public static final String Abbreviations = "\\." + Space + "[a-z]";
     public static final String EndSentenceSign = ".*(" + EndSentenceChars + ")$";
-    public static final String Acronyms = "[A-Z]{2,}";
+    public static final String Acronyms = "[A-Z]\\w{0,}[A-Z]";
 }
