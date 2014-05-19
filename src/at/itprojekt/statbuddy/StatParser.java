@@ -56,7 +56,7 @@ public class StatParser {
                 i = length;
         }
 
-        longestSentenceNumberOfWords = i;
+        longestSentenceNumberOfWords = i+1; //Zählfehler ausgleichen
     }
 
     @Override
