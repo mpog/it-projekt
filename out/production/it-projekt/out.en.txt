@@ -1,0 +1,498 @@
+Report start
+Projekt start
+# of konjunctives found: 3
+ZIP result: 0.7021812
+Text analyser's result:StatParser{chars=36952, words=5861, allSentenceSeperators=604, endSentenceSeperators=406, innerSentenceSeperators=198, abbreviations=149, sentences=605, longestSentenceNumberOfWords=156, sentenceSignAtEnd=false}
+Projekt end
+2 start
+# of konjunctives found: 0
+ZIP result: 0.32178217
+Text analyser's result: Key:StatParser{chars=12, words=1, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=1, sentenceSignAtEnd=false} Value:StatParser{chars=202, words=24, allSentenceSeperators=1, endSentenceSeperators=-1, innerSentenceSeperators=2, abbreviations=1, sentences=1, longestSentenceNumberOfWords=24, sentenceSignAtEnd=true}
+2 end
+3 start
+# of konjunctives found: 0
+ZIP result: 0.2965517
+Text analyser's result: Key:StatParser{chars=5, words=1, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=1, sentenceSignAtEnd=false} Value:StatParser{chars=145, words=21, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=0, longestSentenceNumberOfWords=21, sentenceSignAtEnd=true}
+3 end
+4 start
+# of konjunctives found: 0
+Text analyser's result: Key:StatParser{chars=17, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=0, words=0, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=1, sentenceSignAtEnd=false}
+4 end
+5 start
+# of konjunctives found: 0
+ZIP result: 0.49787837
+Text analyser's result: Key:StatParser{chars=15, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=707, words=99, allSentenceSeperators=1, endSentenceSeperators=0, innerSentenceSeperators=1, abbreviations=4, sentences=2, longestSentenceNumberOfWords=38, sentenceSignAtEnd=false}
+5 end
+6 start
+# of konjunctives found: 0
+ZIP result: 0.23076922
+Text analyser's result: Key:StatParser{chars=17, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=234, words=36, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=1, sentences=0, longestSentenceNumberOfWords=28, sentenceSignAtEnd=true}
+6 end
+7 start
+# of konjunctives found: 0
+ZIP result: 0.4833703
+Text analyser's result: Key:StatParser{chars=15, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=902, words=131, allSentenceSeperators=14, endSentenceSeperators=8, innerSentenceSeperators=6, abbreviations=1, sentences=15, longestSentenceNumberOfWords=22, sentenceSignAtEnd=false}
+7 end
+8 start
+# of konjunctives found: 0
+ZIP result: 0.48657715
+Text analyser's result: Key:StatParser{chars=40, words=4, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=4, sentenceSignAtEnd=false} Value:StatParser{chars=1192, words=179, allSentenceSeperators=16, endSentenceSeperators=10, innerSentenceSeperators=6, abbreviations=17, sentences=16, longestSentenceNumberOfWords=23, sentenceSignAtEnd=true}
+8 end
+9 start
+# of konjunctives found: 0
+ZIP result: 0.36153847
+Text analyser's result: Key:StatParser{chars=20, words=3, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=3, sentenceSignAtEnd=false} Value:StatParser{chars=260, words=43, allSentenceSeperators=2, endSentenceSeperators=2, innerSentenceSeperators=0, abbreviations=0, sentences=2, longestSentenceNumberOfWords=27, sentenceSignAtEnd=true}
+9 end
+10 start
+# of konjunctives found: 2
+ZIP result: 0.5526463
+Text analyser's result: Key:StatParser{chars=33, words=3, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=3, sentenceSignAtEnd=false} Value:StatParser{chars=1795, words=243, allSentenceSeperators=19, endSentenceSeperators=0, innerSentenceSeperators=19, abbreviations=7, sentences=19, longestSentenceNumberOfWords=53, sentenceSignAtEnd=true}
+10 end
+11 start
+# of konjunctives found: 0
+ZIP result: 0.0714286
+Text analyser's result: Key:StatParser{chars=48, words=5, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=5, sentenceSignAtEnd=false} Value:StatParser{chars=84, words=15, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=0, longestSentenceNumberOfWords=15, sentenceSignAtEnd=true}
+11 end
+12 start
+# of konjunctives found: 0
+ZIP result: 0.28936172
+Text analyser's result: Key:StatParser{chars=25, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=235, words=35, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=1, sentences=0, longestSentenceNumberOfWords=18, sentenceSignAtEnd=true}
+12 end
+13 start
+# of konjunctives found: 0
+ZIP result: 0.41463417
+Text analyser's result: Key:StatParser{chars=33, words=5, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=5, sentenceSignAtEnd=false} Value:StatParser{chars=451, words=69, allSentenceSeperators=9, endSentenceSeperators=9, innerSentenceSeperators=0, abbreviations=2, sentences=9, longestSentenceNumberOfWords=24, sentenceSignAtEnd=true}
+13 end
+14 start
+# of konjunctives found: 0
+ZIP result: 0.16666669
+Text analyser's result: Key:StatParser{chars=30, words=4, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=4, sentenceSignAtEnd=false} Value:StatParser{chars=102, words=18, allSentenceSeperators=1, endSentenceSeperators=1, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=11, sentenceSignAtEnd=true}
+14 end
+15 start
+# of konjunctives found: 0
+ZIP result: 0.30270272
+Text analyser's result: Key:StatParser{chars=17, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=185, words=27, allSentenceSeperators=1, endSentenceSeperators=0, innerSentenceSeperators=1, abbreviations=1, sentences=1, longestSentenceNumberOfWords=18, sentenceSignAtEnd=true}
+15 end
+16 start
+# of konjunctives found: 0
+ZIP result: 0.5249376
+Text analyser's result: Key:StatParser{chars=7, words=1, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=1, sentenceSignAtEnd=false} Value:StatParser{chars=802, words=126, allSentenceSeperators=19, endSentenceSeperators=15, innerSentenceSeperators=4, abbreviations=3, sentences=20, longestSentenceNumberOfWords=14, sentenceSignAtEnd=false}
+16 end
+17 start
+# of konjunctives found: 0
+ZIP result: 0.37457043
+Text analyser's result: Key:StatParser{chars=22, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=291, words=42, allSentenceSeperators=5, endSentenceSeperators=4, innerSentenceSeperators=1, abbreviations=0, sentences=6, longestSentenceNumberOfWords=16, sentenceSignAtEnd=false}
+17 end
+18 start
+# of konjunctives found: 0
+ZIP result: 0.46011132
+Text analyser's result: Key:StatParser{chars=17, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=539, words=83, allSentenceSeperators=11, endSentenceSeperators=10, innerSentenceSeperators=1, abbreviations=0, sentences=12, longestSentenceNumberOfWords=22, sentenceSignAtEnd=false}
+18 end
+19 start
+# of konjunctives found: 0
+ZIP result: 0.07291669
+Text analyser's result: Key:StatParser{chars=10, words=1, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=1, sentenceSignAtEnd=false} Value:StatParser{chars=96, words=15, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=0, longestSentenceNumberOfWords=15, sentenceSignAtEnd=true}
+19 end
+20 start
+# of konjunctives found: 0
+ZIP result: 0.3862816
+Text analyser's result: Key:StatParser{chars=7, words=1, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=1, sentenceSignAtEnd=false} Value:StatParser{chars=277, words=50, allSentenceSeperators=5, endSentenceSeperators=2, innerSentenceSeperators=3, abbreviations=0, sentences=5, longestSentenceNumberOfWords=30, sentenceSignAtEnd=true}
+20 end
+21 start
+# of konjunctives found: 1
+ZIP result: 0.29787236
+Text analyser's result: Key:StatParser{chars=8, words=1, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=1, sentenceSignAtEnd=false} Value:StatParser{chars=188, words=30, allSentenceSeperators=2, endSentenceSeperators=1, innerSentenceSeperators=1, abbreviations=0, sentences=2, longestSentenceNumberOfWords=20, sentenceSignAtEnd=true}
+21 end
+22 start
+# of konjunctives found: 0
+ZIP result: 0.40232557
+Text analyser's result: Key:StatParser{chars=19, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=430, words=68, allSentenceSeperators=3, endSentenceSeperators=2, innerSentenceSeperators=1, abbreviations=1, sentences=3, longestSentenceNumberOfWords=25, sentenceSignAtEnd=true}
+22 end
+23 start
+# of konjunctives found: 0
+ZIP result: 0.21531099
+Text analyser's result: Key:StatParser{chars=10, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=209, words=29, allSentenceSeperators=-1, endSentenceSeperators=-2, innerSentenceSeperators=1, abbreviations=4, sentences=0, longestSentenceNumberOfWords=14, sentenceSignAtEnd=false}
+23 end
+24 start
+# of konjunctives found: 0
+Text analyser's result: Key:StatParser{chars=31, words=3, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=3, sentenceSignAtEnd=false} Value:StatParser{chars=0, words=0, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=1, sentenceSignAtEnd=false}
+24 end
+25 start
+# of konjunctives found: 0
+ZIP result: 0.17322832
+Text analyser's result: Key:StatParser{chars=18, words=3, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=3, sentenceSignAtEnd=false} Value:StatParser{chars=127, words=17, allSentenceSeperators=8, endSentenceSeperators=1, innerSentenceSeperators=7, abbreviations=0, sentences=8, longestSentenceNumberOfWords=9, sentenceSignAtEnd=true}
+25 end
+26 start
+# of konjunctives found: 0
+ZIP result: 0.6400966
+Text analyser's result: Key:StatParser{chars=18, words=3, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=3, sentenceSignAtEnd=false} Value:StatParser{chars=828, words=134, allSentenceSeperators=13, endSentenceSeperators=13, innerSentenceSeperators=0, abbreviations=1, sentences=13, longestSentenceNumberOfWords=21, sentenceSignAtEnd=true}
+26 end
+27 start
+# of konjunctives found: 0
+ZIP result: 0.4402985
+Text analyser's result: Key:StatParser{chars=21, words=3, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=3, sentenceSignAtEnd=false} Value:StatParser{chars=402, words=67, allSentenceSeperators=7, endSentenceSeperators=7, innerSentenceSeperators=0, abbreviations=0, sentences=7, longestSentenceNumberOfWords=20, sentenceSignAtEnd=true}
+27 end
+28 start
+# of konjunctives found: 0
+ZIP result: 0.62487257
+Text analyser's result: Key:StatParser{chars=15, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=981, words=157, allSentenceSeperators=35, endSentenceSeperators=30, innerSentenceSeperators=5, abbreviations=0, sentences=36, longestSentenceNumberOfWords=17, sentenceSignAtEnd=false}
+28 end
+29 start
+# of konjunctives found: 0
+ZIP result: 0.549483
+Text analyser's result: Key:StatParser{chars=29, words=4, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=4, sentenceSignAtEnd=false} Value:StatParser{chars=677, words=115, allSentenceSeperators=14, endSentenceSeperators=9, innerSentenceSeperators=5, abbreviations=0, sentences=14, longestSentenceNumberOfWords=30, sentenceSignAtEnd=true}
+29 end
+30 start
+# of konjunctives found: 0
+ZIP result: 0.41208792
+Text analyser's result: Key:StatParser{chars=16, words=2, allSentenceSeperators=-1, endSentenceSeperators=-1, innerSentenceSeperators=0, abbreviations=1, sentences=0, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=364, words=62, allSentenceSeperators=6, endSentenceSeperators=0, innerSentenceSeperators=6, abbreviations=1, sentences=7, longestSentenceNumberOfWords=58, sentenceSignAtEnd=false}
+30 end
+31 start
+# of konjunctives found: 0
+ZIP result: 0.5337838
+Text analyser's result: Key:StatParser{chars=12, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=444, words=71, allSentenceSeperators=9, endSentenceSeperators=9, innerSentenceSeperators=0, abbreviations=0, sentences=9, longestSentenceNumberOfWords=16, sentenceSignAtEnd=true}
+31 end
+32 start
+# of konjunctives found: 0
+ZIP result: 0.23870969
+Text analyser's result: Key:StatParser{chars=12, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=155, words=22, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=0, longestSentenceNumberOfWords=22, sentenceSignAtEnd=true}
+32 end
+33 start
+# of konjunctives found: 0
+ZIP result: 0.12643677
+Text analyser's result: Key:StatParser{chars=15, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=87, words=11, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=0, longestSentenceNumberOfWords=11, sentenceSignAtEnd=true}
+33 end
+34 start
+# of konjunctives found: 0
+ZIP result: 0.097561
+Text analyser's result: Key:StatParser{chars=11, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=82, words=11, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=0, longestSentenceNumberOfWords=11, sentenceSignAtEnd=true}
+34 end
+35 start
+# of konjunctives found: 0
+ZIP result: 0.38271606
+Text analyser's result: Key:StatParser{chars=12, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=243, words=36, allSentenceSeperators=2, endSentenceSeperators=2, innerSentenceSeperators=0, abbreviations=0, sentences=2, longestSentenceNumberOfWords=17, sentenceSignAtEnd=true}
+35 end
+36 start
+# of konjunctives found: 0
+ZIP result: 0.29333335
+Text analyser's result: Key:StatParser{chars=22, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=150, words=25, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=0, longestSentenceNumberOfWords=25, sentenceSignAtEnd=true}
+36 end
+37 start
+# of konjunctives found: 0
+ZIP result: 0.4590643
+Text analyser's result: Key:StatParser{chars=27, words=3, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=3, sentenceSignAtEnd=false} Value:StatParser{chars=684, words=105, allSentenceSeperators=2, endSentenceSeperators=-22, innerSentenceSeperators=24, abbreviations=28, sentences=3, longestSentenceNumberOfWords=32, sentenceSignAtEnd=false}
+37 end
+38 start
+# of konjunctives found: 0
+ZIP result: 0.2580645
+Text analyser's result: Key:StatParser{chars=26, words=5, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=5, sentenceSignAtEnd=false} Value:StatParser{chars=124, words=17, allSentenceSeperators=2, endSentenceSeperators=1, innerSentenceSeperators=1, abbreviations=0, sentences=3, longestSentenceNumberOfWords=11, sentenceSignAtEnd=false}
+38 end
+39 start
+# of konjunctives found: 0
+ZIP result: 0.17021275
+Text analyser's result: Key:StatParser{chars=33, words=5, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=5, sentenceSignAtEnd=false} Value:StatParser{chars=94, words=16, allSentenceSeperators=1, endSentenceSeperators=0, innerSentenceSeperators=1, abbreviations=0, sentences=1, longestSentenceNumberOfWords=16, sentenceSignAtEnd=true}
+39 end
+40 start
+# of konjunctives found: 0
+ZIP result: 0.18681318
+Text analyser's result: Key:StatParser{chars=33, words=5, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=5, sentenceSignAtEnd=false} Value:StatParser{chars=91, words=16, allSentenceSeperators=1, endSentenceSeperators=0, innerSentenceSeperators=1, abbreviations=0, sentences=1, longestSentenceNumberOfWords=16, sentenceSignAtEnd=true}
+40 end
+41 start
+# of konjunctives found: 0
+ZIP result: 0.29113925
+Text analyser's result: Key:StatParser{chars=31, words=5, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=5, sentenceSignAtEnd=false} Value:StatParser{chars=158, words=24, allSentenceSeperators=2, endSentenceSeperators=0, innerSentenceSeperators=2, abbreviations=0, sentences=2, longestSentenceNumberOfWords=24, sentenceSignAtEnd=true}
+41 end
+42 start
+# of konjunctives found: 0
+ZIP result: 0.21341461
+Text analyser's result: Key:StatParser{chars=18, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=164, words=21, allSentenceSeperators=6, endSentenceSeperators=2, innerSentenceSeperators=4, abbreviations=0, sentences=6, longestSentenceNumberOfWords=8, sentenceSignAtEnd=true}
+42 end
+43 start
+# of konjunctives found: 0
+ZIP result: 0.32278478
+Text analyser's result: Key:StatParser{chars=15, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=158, words=26, allSentenceSeperators=1, endSentenceSeperators=1, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=13, sentenceSignAtEnd=true}
+43 end
+44 start
+# of konjunctives found: 0
+ZIP result: 0.4989339
+Text analyser's result: Key:StatParser{chars=28, words=3, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=3, sentenceSignAtEnd=false} Value:StatParser{chars=469, words=73, allSentenceSeperators=6, endSentenceSeperators=4, innerSentenceSeperators=2, abbreviations=0, sentences=6, longestSentenceNumberOfWords=20, sentenceSignAtEnd=true}
+44 end
+45 start
+# of konjunctives found: 0
+ZIP result: 0.5724466
+Text analyser's result: Key:StatParser{chars=14, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=842, words=148, allSentenceSeperators=22, endSentenceSeperators=21, innerSentenceSeperators=1, abbreviations=1, sentences=22, longestSentenceNumberOfWords=29, sentenceSignAtEnd=true}
+45 end
+46 start
+# of konjunctives found: 0
+ZIP result: 0.0
+Text analyser's result: Key:StatParser{chars=12, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=48, words=9, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=0, longestSentenceNumberOfWords=9, sentenceSignAtEnd=true}
+46 end
+47 start
+# of konjunctives found: 0
+ZIP result: 0.57318574
+Text analyser's result: Key:StatParser{chars=26, words=4, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=4, sentenceSignAtEnd=false} Value:StatParser{chars=813, words=152, allSentenceSeperators=20, endSentenceSeperators=19, innerSentenceSeperators=1, abbreviations=1, sentences=20, longestSentenceNumberOfWords=26, sentenceSignAtEnd=true}
+47 end
+48 start
+# of konjunctives found: 0
+ZIP result: 0.56439793
+Text analyser's result: Key:StatParser{chars=11, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=955, words=173, allSentenceSeperators=11, endSentenceSeperators=6, innerSentenceSeperators=5, abbreviations=9, sentences=11, longestSentenceNumberOfWords=31, sentenceSignAtEnd=true}
+48 end
+49 start
+# of konjunctives found: 0
+ZIP result: 0.6487985
+Text analyser's result: Key:StatParser{chars=12, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=541, words=88, allSentenceSeperators=11, endSentenceSeperators=10, innerSentenceSeperators=1, abbreviations=0, sentences=11, longestSentenceNumberOfWords=17, sentenceSignAtEnd=true}
+49 end
+50 start
+# of konjunctives found: 0
+ZIP result: 0.5362319
+Text analyser's result: Key:StatParser{chars=11, words=1, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=1, sentenceSignAtEnd=false} Value:StatParser{chars=276, words=41, allSentenceSeperators=4, endSentenceSeperators=4, innerSentenceSeperators=0, abbreviations=0, sentences=4, longestSentenceNumberOfWords=10, sentenceSignAtEnd=true}
+50 end
+51 start
+# of konjunctives found: 0
+Text analyser's result: Key:StatParser{chars=13, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=49, words=8, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=0, longestSentenceNumberOfWords=8, sentenceSignAtEnd=true}
+51 end
+52 start
+# of konjunctives found: 0
+Text analyser's result: Key:StatParser{chars=25, words=5, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=5, sentenceSignAtEnd=false} Value:StatParser{chars=70, words=12, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=0, longestSentenceNumberOfWords=12, sentenceSignAtEnd=true}
+52 end
+53 start
+# of konjunctives found: 0
+ZIP result: 0.39483392
+Text analyser's result: Key:StatParser{chars=26, words=3, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=3, sentenceSignAtEnd=false} Value:StatParser{chars=271, words=44, allSentenceSeperators=7, endSentenceSeperators=7, innerSentenceSeperators=0, abbreviations=0, sentences=7, longestSentenceNumberOfWords=14, sentenceSignAtEnd=true}
+53 end
+54 start
+# of konjunctives found: 0
+ZIP result: 0.5404041
+Text analyser's result: Key:StatParser{chars=14, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=792, words=107, allSentenceSeperators=14, endSentenceSeperators=9, innerSentenceSeperators=5, abbreviations=4, sentences=15, longestSentenceNumberOfWords=26, sentenceSignAtEnd=false}
+54 end
+55 start
+# of konjunctives found: 0
+ZIP result: 0.488568
+Text analyser's result: Key:StatParser{chars=14, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=831, words=133, allSentenceSeperators=8, endSentenceSeperators=4, innerSentenceSeperators=4, abbreviations=7, sentences=8, longestSentenceNumberOfWords=28, sentenceSignAtEnd=true}
+55 end
+56 start
+# of konjunctives found: 0
+ZIP result: 0.09708738
+Text analyser's result: Key:StatParser{chars=19, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=103, words=16, allSentenceSeperators=0, endSentenceSeperators=-1, innerSentenceSeperators=1, abbreviations=1, sentences=0, longestSentenceNumberOfWords=16, sentenceSignAtEnd=true}
+56 end
+57 start
+# of konjunctives found: 0
+ZIP result: 0.66075087
+Text analyser's result: Key:StatParser{chars=15, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=1465, words=210, allSentenceSeperators=20, endSentenceSeperators=20, innerSentenceSeperators=0, abbreviations=1, sentences=21, longestSentenceNumberOfWords=54, sentenceSignAtEnd=false}
+57 end
+58 start
+# of konjunctives found: 0
+ZIP result: 0.25405407
+Text analyser's result: Key:StatParser{chars=13, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=185, words=29, allSentenceSeperators=3, endSentenceSeperators=3, innerSentenceSeperators=0, abbreviations=0, sentences=4, longestSentenceNumberOfWords=23, sentenceSignAtEnd=false}
+58 end
+59 start
+# of konjunctives found: 0
+ZIP result: 0.44186044
+Text analyser's result: Key:StatParser{chars=33, words=5, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=5, sentenceSignAtEnd=false} Value:StatParser{chars=430, words=66, allSentenceSeperators=8, endSentenceSeperators=8, innerSentenceSeperators=0, abbreviations=0, sentences=8, longestSentenceNumberOfWords=16, sentenceSignAtEnd=true}
+59 end
+60 start
+# of konjunctives found: 0
+ZIP result: 0.26712328
+Text analyser's result: Key:StatParser{chars=15, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=146, words=21, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=0, longestSentenceNumberOfWords=21, sentenceSignAtEnd=true}
+60 end
+61 start
+# of konjunctives found: 0
+ZIP result: 0.4109589
+Text analyser's result: Key:StatParser{chars=22, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=292, words=40, allSentenceSeperators=4, endSentenceSeperators=4, innerSentenceSeperators=0, abbreviations=0, sentences=4, longestSentenceNumberOfWords=21, sentenceSignAtEnd=true}
+61 end
+62 start
+# of konjunctives found: 0
+ZIP result: 0.5855615
+Text analyser's result: Key:StatParser{chars=19, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=748, words=121, allSentenceSeperators=22, endSentenceSeperators=16, innerSentenceSeperators=6, abbreviations=0, sentences=23, longestSentenceNumberOfWords=20, sentenceSignAtEnd=false}
+62 end
+63 start
+# of konjunctives found: 0
+ZIP result: 0.51609445
+Text analyser's result: Key:StatParser{chars=46, words=5, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=5, sentenceSignAtEnd=false} Value:StatParser{chars=932, words=147, allSentenceSeperators=7, endSentenceSeperators=4, innerSentenceSeperators=3, abbreviations=10, sentences=8, longestSentenceNumberOfWords=29, sentenceSignAtEnd=false}
+63 end
+64 start
+# of konjunctives found: 0
+ZIP result: 0.29411763
+Text analyser's result: Key:StatParser{chars=27, words=6, allSentenceSeperators=-1, endSentenceSeperators=-1, innerSentenceSeperators=0, abbreviations=2, sentences=0, longestSentenceNumberOfWords=4, sentenceSignAtEnd=false} Value:StatParser{chars=170, words=29, allSentenceSeperators=-1, endSentenceSeperators=-2, innerSentenceSeperators=1, abbreviations=3, sentences=0, longestSentenceNumberOfWords=20, sentenceSignAtEnd=false}
+64 end
+65 start
+# of konjunctives found: 0
+ZIP result: 0.45245904
+Text analyser's result: Key:StatParser{chars=33, words=6, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=1, sentences=1, longestSentenceNumberOfWords=4, sentenceSignAtEnd=false} Value:StatParser{chars=305, words=45, allSentenceSeperators=-1, endSentenceSeperators=-1, innerSentenceSeperators=0, abbreviations=3, sentences=0, longestSentenceNumberOfWords=33, sentenceSignAtEnd=false}
+65 end
+66 start
+# of konjunctives found: 0
+ZIP result: 0.3230769
+Text analyser's result: Key:StatParser{chars=31, words=6, allSentenceSeperators=1, endSentenceSeperators=1, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=4, sentenceSignAtEnd=true} Value:StatParser{chars=195, words=29, allSentenceSeperators=3, endSentenceSeperators=3, innerSentenceSeperators=0, abbreviations=0, sentences=4, longestSentenceNumberOfWords=11, sentenceSignAtEnd=false}
+66 end
+67 start
+# of konjunctives found: 0
+ZIP result: 0.43631434
+Text analyser's result: Key:StatParser{chars=49, words=6, allSentenceSeperators=-1, endSentenceSeperators=-1, innerSentenceSeperators=0, abbreviations=2, sentences=-1, longestSentenceNumberOfWords=4, sentenceSignAtEnd=true} Value:StatParser{chars=369, words=48, allSentenceSeperators=3, endSentenceSeperators=0, innerSentenceSeperators=3, abbreviations=2, sentences=4, longestSentenceNumberOfWords=26, sentenceSignAtEnd=false}
+67 end
+68 start
+# of konjunctives found: 0
+Text analyser's result: Key:StatParser{chars=25, words=4, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=4, sentenceSignAtEnd=false} Value:StatParser{chars=0, words=0, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=1, sentenceSignAtEnd=false}
+68 end
+69 start
+# of konjunctives found: 0
+Text analyser's result: Key:StatParser{chars=6, words=1, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=1, sentenceSignAtEnd=false} Value:StatParser{chars=35, words=5, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=5, sentenceSignAtEnd=false}
+69 end
+70 start
+# of konjunctives found: 0
+ZIP result: 0.3053435
+Text analyser's result: Key:StatParser{chars=6, words=1, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=1, sentenceSignAtEnd=false} Value:StatParser{chars=131, words=19, allSentenceSeperators=4, endSentenceSeperators=4, innerSentenceSeperators=0, abbreviations=0, sentences=4, longestSentenceNumberOfWords=7, sentenceSignAtEnd=true}
+70 end
+71 start
+# of konjunctives found: 0
+ZIP result: 0.48509485
+Text analyser's result: Key:StatParser{chars=19, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=369, words=48, allSentenceSeperators=6, endSentenceSeperators=3, innerSentenceSeperators=3, abbreviations=0, sentences=7, longestSentenceNumberOfWords=27, sentenceSignAtEnd=false}
+71 end
+72 start
+# of konjunctives found: 0
+ZIP result: 0.44356436
+Text analyser's result: Key:StatParser{chars=22, words=4, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=4, sentenceSignAtEnd=false} Value:StatParser{chars=505, words=88, allSentenceSeperators=8, endSentenceSeperators=5, innerSentenceSeperators=3, abbreviations=3, sentences=8, longestSentenceNumberOfWords=26, sentenceSignAtEnd=true}
+72 end
+73 start
+# of konjunctives found: 0
+ZIP result: 0.3933649
+Text analyser's result: Key:StatParser{chars=22, words=4, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=4, sentenceSignAtEnd=false} Value:StatParser{chars=211, words=36, allSentenceSeperators=1, endSentenceSeperators=1, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=20, sentenceSignAtEnd=true}
+73 end
+74 start
+# of konjunctives found: 0
+ZIP result: 0.46475196
+Text analyser's result: Key:StatParser{chars=29, words=3, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=3, sentenceSignAtEnd=false} Value:StatParser{chars=383, words=65, allSentenceSeperators=5, endSentenceSeperators=4, innerSentenceSeperators=1, abbreviations=0, sentences=6, longestSentenceNumberOfWords=33, sentenceSignAtEnd=false}
+74 end
+75 start
+# of konjunctives found: 0
+ZIP result: 0.03571427
+Text analyser's result: Key:StatParser{chars=14, words=3, allSentenceSeperators=-1, endSentenceSeperators=-1, innerSentenceSeperators=0, abbreviations=1, sentences=0, longestSentenceNumberOfWords=3, sentenceSignAtEnd=false} Value:StatParser{chars=84, words=17, allSentenceSeperators=-1, endSentenceSeperators=-1, innerSentenceSeperators=0, abbreviations=1, sentences=-1, longestSentenceNumberOfWords=17, sentenceSignAtEnd=true}
+75 end
+76 start
+# of konjunctives found: 0
+ZIP result: 0.058139563
+Text analyser's result: Key:StatParser{chars=15, words=3, allSentenceSeperators=-1, endSentenceSeperators=-1, innerSentenceSeperators=0, abbreviations=1, sentences=0, longestSentenceNumberOfWords=3, sentenceSignAtEnd=false} Value:StatParser{chars=86, words=17, allSentenceSeperators=-1, endSentenceSeperators=-1, innerSentenceSeperators=0, abbreviations=1, sentences=-1, longestSentenceNumberOfWords=17, sentenceSignAtEnd=true}
+76 end
+77 start
+# of konjunctives found: 0
+ZIP result: 0.46703297
+Text analyser's result: Key:StatParser{chars=16, words=3, allSentenceSeperators=-1, endSentenceSeperators=-1, innerSentenceSeperators=0, abbreviations=1, sentences=0, longestSentenceNumberOfWords=3, sentenceSignAtEnd=false} Value:StatParser{chars=364, words=62, allSentenceSeperators=5, endSentenceSeperators=4, innerSentenceSeperators=1, abbreviations=0, sentences=6, longestSentenceNumberOfWords=22, sentenceSignAtEnd=false}
+77 end
+78 start
+# of konjunctives found: 0
+ZIP result: 0.4057377
+Text analyser's result: Key:StatParser{chars=22, words=4, allSentenceSeperators=-1, endSentenceSeperators=-1, innerSentenceSeperators=0, abbreviations=1, sentences=0, longestSentenceNumberOfWords=4, sentenceSignAtEnd=false} Value:StatParser{chars=244, words=43, allSentenceSeperators=4, endSentenceSeperators=3, innerSentenceSeperators=1, abbreviations=1, sentences=5, longestSentenceNumberOfWords=17, sentenceSignAtEnd=false}
+78 end
+79 start
+# of konjunctives found: 0
+ZIP result: 0.3317073
+Text analyser's result: Key:StatParser{chars=18, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=205, words=33, allSentenceSeperators=3, endSentenceSeperators=1, innerSentenceSeperators=2, abbreviations=0, sentences=3, longestSentenceNumberOfWords=17, sentenceSignAtEnd=true}
+79 end
+80 start
+# of konjunctives found: 0
+ZIP result: 0.33522725
+Text analyser's result: Key:StatParser{chars=35, words=4, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=4, sentenceSignAtEnd=false} Value:StatParser{chars=176, words=25, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=0, longestSentenceNumberOfWords=25, sentenceSignAtEnd=true}
+80 end
+81 start
+# of konjunctives found: 0
+ZIP result: 0.31840795
+Text analyser's result: Key:StatParser{chars=30, words=4, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=4, sentenceSignAtEnd=false} Value:StatParser{chars=201, words=31, allSentenceSeperators=1, endSentenceSeperators=0, innerSentenceSeperators=1, abbreviations=0, sentences=1, longestSentenceNumberOfWords=31, sentenceSignAtEnd=true}
+81 end
+82 start
+# of konjunctives found: 0
+ZIP result: 0.4878788
+Text analyser's result: Key:StatParser{chars=49, words=6, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=6, sentenceSignAtEnd=false} Value:StatParser{chars=330, words=50, allSentenceSeperators=4, endSentenceSeperators=4, innerSentenceSeperators=0, abbreviations=0, sentences=4, longestSentenceNumberOfWords=24, sentenceSignAtEnd=true}
+82 end
+83 start
+# of konjunctives found: 0
+ZIP result: 0.42950106
+Text analyser's result: Key:StatParser{chars=14, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=461, words=73, allSentenceSeperators=6, endSentenceSeperators=5, innerSentenceSeperators=1, abbreviations=0, sentences=6, longestSentenceNumberOfWords=33, sentenceSignAtEnd=true}
+83 end
+84 start
+# of konjunctives found: 0
+ZIP result: 0.28491622
+Text analyser's result: Key:StatParser{chars=29, words=4, allSentenceSeperators=-1, endSentenceSeperators=-1, innerSentenceSeperators=0, abbreviations=1, sentences=0, longestSentenceNumberOfWords=4, sentenceSignAtEnd=false} Value:StatParser{chars=179, words=31, allSentenceSeperators=2, endSentenceSeperators=1, innerSentenceSeperators=1, abbreviations=0, sentences=2, longestSentenceNumberOfWords=17, sentenceSignAtEnd=true}
+84 end
+85 start
+# of konjunctives found: 0
+ZIP result: 0.10588235
+Text analyser's result: Key:StatParser{chars=14, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=85, words=13, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=0, longestSentenceNumberOfWords=13, sentenceSignAtEnd=true}
+85 end
+86 start
+# of konjunctives found: 0
+ZIP result: 0.4191419
+Text analyser's result: Key:StatParser{chars=33, words=4, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=4, sentenceSignAtEnd=false} Value:StatParser{chars=303, words=46, allSentenceSeperators=2, endSentenceSeperators=1, innerSentenceSeperators=1, abbreviations=0, sentences=2, longestSentenceNumberOfWords=28, sentenceSignAtEnd=true}
+86 end
+87 start
+# of konjunctives found: 0
+ZIP result: 0.57407403
+Text analyser's result: Key:StatParser{chars=28, words=3, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=3, sentenceSignAtEnd=false} Value:StatParser{chars=648, words=98, allSentenceSeperators=10, endSentenceSeperators=5, innerSentenceSeperators=5, abbreviations=3, sentences=10, longestSentenceNumberOfWords=27, sentenceSignAtEnd=true}
+87 end
+88 start
+# of konjunctives found: 0
+ZIP result: 0.4904306
+Text analyser's result: Key:StatParser{chars=12, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=418, words=66, allSentenceSeperators=10, endSentenceSeperators=6, innerSentenceSeperators=4, abbreviations=0, sentences=10, longestSentenceNumberOfWords=27, sentenceSignAtEnd=true}
+88 end
+89 start
+# of konjunctives found: 0
+ZIP result: 0.45936984
+Text analyser's result: Key:StatParser{chars=12, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=603, words=103, allSentenceSeperators=11, endSentenceSeperators=8, innerSentenceSeperators=3, abbreviations=1, sentences=11, longestSentenceNumberOfWords=17, sentenceSignAtEnd=true}
+89 end
+90 start
+# of konjunctives found: 0
+ZIP result: 0.2916667
+Text analyser's result: Key:StatParser{chars=20, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=144, words=24, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=0, longestSentenceNumberOfWords=24, sentenceSignAtEnd=true}
+90 end
+91 start
+# of konjunctives found: 0
+ZIP result: 0.28921568
+Text analyser's result: Key:StatParser{chars=25, words=4, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=4, sentenceSignAtEnd=false} Value:StatParser{chars=204, words=33, allSentenceSeperators=3, endSentenceSeperators=3, innerSentenceSeperators=0, abbreviations=0, sentences=4, longestSentenceNumberOfWords=16, sentenceSignAtEnd=false}
+91 end
+92 start
+# of konjunctives found: 0
+ZIP result: 0.23188406
+Text analyser's result: Key:StatParser{chars=18, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=138, words=21, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=0, longestSentenceNumberOfWords=21, sentenceSignAtEnd=true}
+92 end
+93 start
+# of konjunctives found: 0
+ZIP result: 0.4237805
+Text analyser's result: Key:StatParser{chars=15, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=328, words=51, allSentenceSeperators=5, endSentenceSeperators=5, innerSentenceSeperators=0, abbreviations=0, sentences=5, longestSentenceNumberOfWords=17, sentenceSignAtEnd=true}
+93 end
+94 start
+# of konjunctives found: 0
+ZIP result: 0.30487806
+Text analyser's result: Key:StatParser{chars=13, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=164, words=30, allSentenceSeperators=1, endSentenceSeperators=1, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=18, sentenceSignAtEnd=true}
+94 end
+95 start
+# of konjunctives found: 0
+ZIP result: 0.33495146
+Text analyser's result: Key:StatParser{chars=13, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=206, words=36, allSentenceSeperators=1, endSentenceSeperators=1, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=24, sentenceSignAtEnd=true}
+95 end
+96 start
+# of konjunctives found: 0
+ZIP result: 0.561008
+Text analyser's result: Key:StatParser{chars=17, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=754, words=119, allSentenceSeperators=18, endSentenceSeperators=11, innerSentenceSeperators=7, abbreviations=1, sentences=18, longestSentenceNumberOfWords=23, sentenceSignAtEnd=true}
+96 end
+97 start
+# of konjunctives found: 0
+ZIP result: 0.5574113
+Text analyser's result: Key:StatParser{chars=14, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=479, words=77, allSentenceSeperators=5, endSentenceSeperators=5, innerSentenceSeperators=0, abbreviations=0, sentences=5, longestSentenceNumberOfWords=25, sentenceSignAtEnd=true}
+97 end
+98 start
+# of konjunctives found: 0
+ZIP result: 0.55302536
+Text analyser's result: Key:StatParser{chars=23, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=1537, words=328, allSentenceSeperators=28, endSentenceSeperators=3, innerSentenceSeperators=25, abbreviations=23, sentences=29, longestSentenceNumberOfWords=156, sentenceSignAtEnd=false}
+98 end
+99 start
+# of konjunctives found: 0
+ZIP result: 0.3127572
+Text analyser's result: Key:StatParser{chars=19, words=2, allSentenceSeperators=0, endSentenceSeperators=0, innerSentenceSeperators=0, abbreviations=0, sentences=1, longestSentenceNumberOfWords=2, sentenceSignAtEnd=false} Value:StatParser{chars=243, words=43, allSentenceSeperators=6, endSentenceSeperators=3, innerSentenceSeperators=3, abbreviations=0, sentences=7, longestSentenceNumberOfWords=29, sentenceSignAtEnd=false}
+99 end
+Tips start
+All in all 1 places have been found in headings, where a sentence ends or a subsentence starts/ends.
+All in all 160 abbreviations have been found. Make your language clearer and use full words only.
+All in all 30 sentence signs are missing at the end of texts.
+All in all 3 headings have maximum the same length compard to the corresponding text.
+All in all 93 entries have at least one too long sentence.
+Tips end
+Report end
