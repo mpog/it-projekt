@@ -17,9 +17,6 @@ public class Main {
         Tester de = getTesterForFile("de.txt", new String[]{"WG", "PKW", "LKW", "MB", "PIN", "AG"}, Language.De);
         de.start();
         String[] glosarEN = readAllLines("glossar.en.txt");
-      /*  System.out.println(glosarEN);
-        if (glosarEN != null)
-            System.out.println(glosarEN[0]);*/
         Tester en = getTesterForFile("en.txt", glosarEN, Language.En);
 
         try {

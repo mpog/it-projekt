@@ -1,8 +1,7 @@
 Report start
 Projekt start
-# of konjunctives found: 2
-ZIP result: 0.88839835
-Text analyser's result:StatParser{chars=129559, words=15011, allSentenceSeperators=1372, endSentenceSeperators=678, innerSentenceSeperators=694, abbreviations=26, sentences=1373, longestSentenceNumberOfWords=61, sentenceSignAtEnd=false}
+ZIP result: 0.88122
+Text analyser's result:StatParser{chars=155245, words=16421, allSentenceSeperators=1038, endSentenceSeperators=344, innerSentenceSeperators=694, abbreviations=362, sentences=1039, longestSentenceNumberOfWords=65, sentenceSignAtEnd=false}
 Projekt end
 2 start
 # of konjunctives found: 0
