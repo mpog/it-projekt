@@ -7,7 +7,9 @@
 *.jar
 *.war
 *.ear
-out/production/it-projekt/in.txt
+out/production/it-projekt/de.txt
+out/production/it-projekt/en.txt
+out/production/it-projekt/glossar.en.txt
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*

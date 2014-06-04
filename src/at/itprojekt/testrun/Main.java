@@ -5,15 +5,41 @@ import at.itprojekt.RegEx;
 import at.itprojekt.Tester;
 
 import java.io.*;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Main {
-   // Sample implementation of loading a file, parsing it, starting a tester and writing the result to a file.
+    // Sample implementation of loading a file, parsing it, starting a tester and writing the result to a file.
+    private static final String url = ClassLoader.getSystemClassLoader().getResource(".").getPath().substring(1);
+
     public static void main(String[] args) {
-        final String url = ClassLoader.getSystemClassLoader().getResource(".").getPath().substring(1);
-        final String filename = "in.txt";
-        File inF = new File(url, filename);
-        File outF = new File(url, "out.txt");
         System.out.println("In/Output @ " + url);
+        Tester de = getTesterForFile("de.txt", new String[]{"WG", "PKW", "LKW", "MB", "PIN", "AG"}, Language.De);
+        de.start();
+        String[] glosarEN = readAllLines("glossar.en.txt");
+      /*  System.out.println(glosarEN);
+        if (glosarEN != null)
+            System.out.println(glosarEN[0]);*/
+        Tester en = getTesterForFile("en.txt", glosarEN, Language.En);
+
+        try {
+            de.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            System.out.println("\n\nEN\n\n");
+            en.start();
+            try {
+                en.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    private static Tester getTesterForFile(String filename, String[] glossar, Language language) {
+        File inF = new File(url, filename);
+        File outF = new File(url, "out." + filename);
         PrintStream output = null;
         BufferedReader input = null;
         try {
@@ -37,16 +63,28 @@ public class Main {
                 String[] split = lines[i].split("\",\"");
                 tmpLevels[i - 1] = Integer.parseInt(split[0].substring(1));
                 tmpHadings[i - 1] = split[1];
-                tmpTexts[i - 1] = split[2].substring(0, split[2].length()-1); // Take the whole string, except of the last char
+                tmpTexts[i - 1] = split[2].substring(0, split[2].length() - 1); // Take the whole string, except of the last char
+                // System.out.println(lines[i]+"\tis ok");
             }
-            Tester tester = new Tester(output, tmpLevels, tmpHadings, tmpTexts, Language.De);
-            tester.start();
-            tester.join();
-        } catch (IOException | InterruptedException | NumberFormatException e) {
+            Tester tester = new Tester(output, tmpLevels, tmpHadings, tmpTexts, glossar, language);
+            return tester;
+        } catch (IOException | NumberFormatException | ArrayIndexOutOfBoundsException e) {
             e.printStackTrace();
-        } finally {
-            if (output != null)
-                output.close();
+            return null;
+        }
+    }
+
+    private static String[] readAllLines(String filename) {
+        try {
+            List<String> lines = new LinkedList<>();
+            File file = new File(url, filename);
+            BufferedReader reader = new BufferedReader(new FileReader(file));
+            String line = null;
+            while ((line = reader.readLine()) != null)
+                lines.add(line);
+            return lines.toArray(new String[lines.size()]);
+        } catch (IOException e) {
+            return null;
         }
     }
 }

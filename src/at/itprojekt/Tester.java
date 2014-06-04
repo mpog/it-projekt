@@ -1,5 +1,6 @@
 package at.itprojekt;
 //Kommentar
+
 import at.itprojekt.konjunktiv.KonjParser;
 import at.itprojekt.statbuddy.StatParser;
 import at.itprojekt.zip.Zipper;
@@ -12,6 +13,7 @@ public class Tester extends Thread {
     private final DataPair[] single;
     private final Language language;
     private final static DataPair[] kvpA = new DataPair[0];
+    private final String[] glossar;
 
     /**
      * @param out      Printstream used to print the results in
@@ -21,6 +23,18 @@ public class Tester extends Thread {
      * @param language Language of the project
      */
     public Tester(PrintStream out, int[] levels, String[] headings, String[] texts, Language language) {
+        this(out, levels, headings, texts, null, language);
+    }
+
+    /**
+     * @param out      Printstream used to print the results in
+     * @param levels   All levels of the project as an array
+     * @param headings All headings of the project as an array
+     * @param texts    All full-texts of the project as an array
+     * @param glossar  A list of words, which are ok
+     * @param language Language of the project
+     */
+    public Tester(PrintStream out, int[] levels, String[] headings, String[] texts, String[] glossar, Language language) {
         if (out == null || levels == null || headings == null || texts == null || language == null)
             throw new IllegalArgumentException(new NullPointerException("Parameter must not be null."));
         if (levels.length != headings.length || headings.length != texts.length)
@@ -35,6 +49,7 @@ public class Tester extends Thread {
         whole = new DataPair(0, "Whole project", stringBuilder.toString());
         this.out = out;
         this.language = language;
+        this.glossar = glossar;
     }
 
     /**
@@ -42,6 +57,8 @@ public class Tester extends Thread {
      */
     @Override
     public void run() {
+        int maxWords1SentenceText = 20, maxWords1SentenceHeadings = 8;
+        int tooLongSentences = 0;
         float zipped = 0;
         final String start = " start", end = " end", project = "Projekt", report = "Report", tips = "Tips", zipResult = "ZIP result: ", numberKonj = "# of konjunctives found: ", abbreviation = "abbreviation";
         //Analyse whole document
@@ -51,7 +68,7 @@ public class Tester extends Thread {
         zipped = new Zipper(whole.value).getSizeFactor();
         if (zipped > -1f)
             out.println(zipResult + zipped);
-        out.println("Text analyser's result:" + new StatParser(whole.value));
+        out.println("Text analyser's result:" + new StatParser(whole.value, glossar));
         out.println(project + end);
         //Preparations for analysing a single document
         int sentenceSignsInKeys = 0, abbreviationsUsed = 0, valueEndSignMissing = 0, headingLongerEqualThenText = 0;
@@ -63,11 +80,20 @@ public class Tester extends Thread {
             if (zipped > -1f) // If the ZIP-result is valid, print it
                 out.println(zipResult + zipped);
             // Make the statistics
-            StatParser statParserKey = new StatParser(single[lineNumber].key), statParserValue = new StatParser(single[lineNumber].value);
+            StatParser statParserKey = new StatParser(single[lineNumber].key, glossar), statParserValue = new StatParser(single[lineNumber].value, glossar);
             // If the key has a sentence separator, report it
             if (statParserKey.allSentenceSeperators > 0) {
                 sentenceSignsInKeys++;
                 System.out.println(single[lineNumber].key + " has a sentence sign in it");
+            }
+            //Log to long sentences
+            if (statParserKey.longestSentenceNumberOfWords >= maxWords1SentenceText) {
+                tooLongSentences++;
+                System.out.println(single[lineNumber].key + " is too long. # of words: " + statParserKey.longestSentenceNumberOfWords);
+            }
+            if (statParserValue.longestSentenceNumberOfWords >= maxWords1SentenceHeadings) {
+                tooLongSentences++;
+                System.out.println(single[lineNumber].value + " is too long. # of words: " + statParserValue.longestSentenceNumberOfWords);
             }
             // Log the # of abbreviations
             abbreviationsUsed += statParserValue.abbreviations;
@@ -102,6 +128,9 @@ public class Tester extends Thread {
         }
         if (headingLongerEqualThenText > 0) {
             out.println("All in all " + headingLongerEqualThenText + " headings have maximum the same length compard to the corresponding text.");
+        }
+        if (tooLongSentences > 0) {
+            out.println("All in all " + tooLongSentences + " entries have at least one too long sentence.");
         }
         out.println(tips + end);
         out.println(report + end);

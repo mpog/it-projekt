@@ -3,12 +3,9 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
-  <component name="IdProvider" IDEtalkID="56785E15D3C21EF8DB61655D50CB97E0" />
-  <component name="ProjectKey">
-    <option name="state" value="project://e2804f05-5315-4fc6-a121-c522a6c26470" />
-  </component>
+  <component name="IdProvider" IDEtalkID="4F2ED1185F4581A0FA5B5A4FC5A0D21F" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
+    <output url="file://$PROJECT_DIR$/classes" />
   </component>
 </project>
 
