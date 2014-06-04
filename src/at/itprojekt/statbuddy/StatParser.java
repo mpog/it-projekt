@@ -22,6 +22,9 @@ public class StatParser {
         if (toparse == null)
             throw new IllegalArgumentException(new NullPointerException("toparse"));
         //# of detected abbreviations
+<<<<<<< HEAD
+        abbreviations = Helper.countArray(toparse.split(RegEx.Abbreviations));
+=======
         String tmp = " " + toparse + " ";
         String nonWordChar = "\\W";
         if (glossar != null) {
@@ -32,15 +35,22 @@ public class StatParser {
         }
         String[] Sabbreviations1 = tmp.split(RegEx.Abbreviations), Sabbreviations2 = tmp.split(RegEx.Acronyms);
         abbreviations = Helper.countArray(Sabbreviations1) + Helper.countArray(Sabbreviations2);
+>>>>>>> online
         chars = toparse.length();
         if (chars > 0)
             words = Helper.countArray(Helper.splitWords(toparse)) + 1; // As a sentence has at least one word, if there is more than 0 chars
         else
             words = 0; // If there are no chars, tehre cannot be words
+<<<<<<< HEAD
+        // # of sentence seperators, which seperate full sentences from each other
+        endSentenceSeperators = Helper.countArray(toparse.split(RegEx.EndSentenceSeperators)) - abbreviations;
+        //# of sentence seperators, which seperate subsentences from the main sentence or from each other
+=======
         String[] sentenceArray = toparse.split(RegEx.EndSentenceSeperators);
         // # of sentence nonWordChar, which seperate full sentences from each other
         endSentenceSeperators = Helper.countArray(sentenceArray) - abbreviations;
         //# of sentence nonWordChar, which seperate subsentences from the main sentence or from each other
+>>>>>>> online
         innerSentenceSeperators = Helper.countArray(toparse.split(RegEx.InnerSentenceSeperators));
         //# combination of both
         allSentenceSeperators = Helper.countArray(toparse.split(RegEx.AllSententenceSeperators)) - abbreviations;
