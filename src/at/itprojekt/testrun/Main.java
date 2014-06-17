@@ -18,7 +18,6 @@ public class Main {
         de.start();
         String[] glosarEN = readAllLines("glossar.en.txt");
         Tester en = getTesterForFile("en.txt", glosarEN, Language.En);
-
         try {
             de.join();
         } catch (InterruptedException e) {

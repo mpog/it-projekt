@@ -1,10 +1,13 @@
 package at.itprojekt;
-//Kommentar
 
 import at.itprojekt.konjunktiv.KonjParser;
 import at.itprojekt.statbuddy.StatParser;
+import at.itprojekt.xml.generated.Report;
 import at.itprojekt.zip.Zipper;
 
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import java.io.File;
 import java.io.PrintStream;
 
 public class Tester extends Thread {
@@ -61,25 +64,31 @@ public class Tester extends Thread {
         int tooLongSentences = 0;
         float zipped = 0;
         final String start = " start", end = " end", project = "Projekt", report = "Report", tips = "Tips", zipResult = "ZIP result: ", numberKonj = "# of konjunctives found: ", abbreviation = "abbreviation";
+
         //Analyse whole document
-        out.println(report + start);
-        out.println(project + start);
-        zipped = new Zipper(whole.value).getSizeFactor();
+        Report rep = new Report();
+        Report.Project pro = new Report.Project();
+        Report.Project.Result res = new Report.Project.Result();
+
+        zipped = new Zipper(whole.value).getSizeFactor(); //TODO Isn't this in Statparser now?
         if (zipped > -1f)
-            out.println(zipResult + zipped);
-        out.println("Text analyser's result:" + new StatParser(whole.value, glossar));
-        out.println(project + end);
+            res.setZip(zipped);
+
+        pro.setResult(new StatParser(whole.value, language, whole, null).getResult());
+
         //Preparations for analysing a single document
         int sentenceSignsInKeys = 0, abbreviationsUsed = 0, valueEndSignMissing = 0, headingLongerEqualThenText = 0;
         for (int lineNumber = 0; lineNumber < single.length; lineNumber++) {
-            //System.out.println(single[lineNumber].toString());
-            out.println((lineNumber + 2) + start);
-            out.println(numberKonj + new KonjParser(single[lineNumber].value, language).toString());
+            Report.Line line = new Report.Line();
+            Report.Line.Result.Value val = new Report.Line.Result.Value();
+            Report.Line.Result.Key key = new Report.Line.Result.Key();
+            val.setSubjunctives(new KonjParser(single[lineNumber].value, language).getKonjunktive());
+            line.setNr(lineNumber);
             zipped = new Zipper(single[lineNumber].value).getSizeFactor();
-            if (zipped > -1f) // If the ZIP-result is valid, print it
-                out.println(zipResult + zipped);
             // Make the statistics
-            StatParser statParserKey = new StatParser(single[lineNumber].key, glossar), statParserValue = new StatParser(single[lineNumber].value, glossar);
+            StatParser statParserKey = new StatParser(single[lineNumber].key, language, glossar), statParserValue = new StatParser(single[lineNumber].value, language, glossar);
+            key = new StatParser(single[lineNumber].key, language, null).getKey();
+            val = new StatParser(single[lineNumber].value, language, null).getValue();
             // If the key has a sentence separator, report it
             if (statParserKey.allSentenceSeperators > 0) {
                 sentenceSignsInKeys++;
@@ -113,25 +122,51 @@ public class Tester extends Thread {
             }
             out.println("Text analyser's result: Key:" + statParserKey + " Value:" + statParserValue);
             out.println((lineNumber + 2) + end);
+
+            Report.Line.Result linRes = new Report.Line.Result();
+            linRes.setKey(key);
+            linRes.setValue(val);
+            line.setResult(linRes);
+            rep.getLine().add(line);
+
         }
         // Print the tips section
-        out.println(tips + start);
+        Report.Project.Tips tip = new Report.Project.Tips();
         if (sentenceSignsInKeys > 0) {
-            out.println("All in all " + sentenceSignsInKeys + " places have been found in headings, where a sentence ends or a subsentence starts/ends.");
+            tip.getTip().add("All in all " + sentenceSignsInKeys + " places have been found in headings, where a sentence ends or a subsentence starts/ends.");
         }
         if (abbreviationsUsed > 0) {
-            out.println("All in all " + abbreviationsUsed + " abbreviations have been found. Make your language clearer and use full words only.");
+            tip.getTip().add("All in all " + abbreviationsUsed + " abbreviations have been found. Make your language clearer and use full words only.");
         }
         if (valueEndSignMissing > 0) {
-            out.println("All in all " + valueEndSignMissing + " sentence signs are missing at the end of texts.");
+            tip.getTip().add("All in all " + valueEndSignMissing + " sentence signs are missing at the end of texts.");
         }
         if (headingLongerEqualThenText > 0) {
-            out.println("All in all " + headingLongerEqualThenText + " headings have maximum the same length compard to the corresponding text.");
+            tip.getTip().add("All in all " + headingLongerEqualThenText + " headings have maximum the same length compard to the corresponding text.");
         }
         if (tooLongSentences > 0) {
-            out.println("All in all " + tooLongSentences + " entries have at least one too long sentence.");
+            tip.getTip().add("All in all " + tooLongSentences + " entries have at least one too long sentence.");
         }
-        out.println(tips + end);
-        out.println(report + end);
+        pro.setTips(tip);
+        rep.setProject(pro);
+
+
+        try {
+            JAXBContext jaxbContext = JAXBContext.newInstance(Report.class);
+            javax.xml.bind.Marshaller jaxbMarshaller = jaxbContext
+                    .createMarshaller();
+
+            jaxbMarshaller.setProperty(
+                    javax.xml.bind.Marshaller.JAXB_FORMATTED_OUTPUT,
+                    Boolean.TRUE);
+
+            // specify the location and name of xml file to be created
+            String url = ClassLoader.getSystemClassLoader().getResource(".").getPath().substring(1);
+            File XMLfile = new File(url  + language + ".out.xml");
+
+            jaxbMarshaller.marshal(rep, XMLfile);
+        } catch (JAXBException ex) {
+            System.err.println("Could not create XML file. Reason: " + ex.getMessage());
+        }
     }
 }

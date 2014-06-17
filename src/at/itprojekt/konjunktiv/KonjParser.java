@@ -54,5 +54,9 @@ public class KonjParser {
     public String toString() {
         return Integer.toString(konjunktiveFound);
     }
-
+    
+    public Integer getKonjunktive() {
+    	return konjunktiveFound;
+    }
+    
 }
