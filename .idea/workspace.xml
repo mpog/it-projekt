@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15573e98-c7cd-483c-93a9-2ecff1174df2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/at/itprojekt/xml/generated/ObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/at/itprojekt/xml/generated/Report.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/version.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/at/itprojekt/konjunktiv/KonjParser.java" afterPath="$PROJECT_DIR$/src/at/itprojekt/konjunktiv/KonjParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/at/itprojekt/testrun/Main.java" afterPath="$PROJECT_DIR$/src/at/itprojekt/testrun/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/at/itprojekt/statbuddy/StatParser.java" afterPath="$PROJECT_DIR$/src/at/itprojekt/statbuddy/StatParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/at/itprojekt/Tester.java" afterPath="$PROJECT_DIR$/src/at/itprojekt/Tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="15573e98-c7cd-483c-93a9-2ecff1174df2" name="Default" comment="" />
     <ignored path="it-projekt.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -558,12 +529,12 @@
       <workItem from="1401459323356" duration="2930000" />
       <workItem from="1402983251253" duration="1043000" />
       <workItem from="1402984605017" duration="27000" />
-      <workItem from="1402984734736" duration="184000" />
+      <workItem from="1402984734736" duration="273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6172000" />
+    <option name="totallyTimeSpent" value="6261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
