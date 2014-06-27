@@ -1,4 +1,4 @@
-<rules>
+<rules red="4" yellow="2.5" green="1">
 	<rule>
 		<name>subjunctiv</name>
 		<yellow>0.9</yellow> 

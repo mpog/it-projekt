@@ -22,16 +22,17 @@ import javax.xml.bind.Unmarshaller;
 	   String url = ClassLoader.getSystemClassLoader().getResource(".").getPath().substring(1);
 	   File XMLfile = new File(url+"rules.xml");  
 	     
-	   // this will create Java object "rule" from the XML file  
-	   Rules rule = (Rules) jaxbUnmarshaller.unmarshal(XMLfile);  
+	   // this will create Java object "rules" from the XML file  
+	   Rules rules = (Rules) jaxbUnmarshaller.unmarshal(XMLfile);  
 	   
 	   // test output
-	   ArrayList<Rule> listOfRules=rule.getListOfRules();  	    
+	   System.out.println("red: "+rules.getRed()+" yellow: "+rules.getYellow()+" green: "+rules.getGreen());
+	   ArrayList<Rule> listOfRules=rules.getListOfRules();  	    
 	   int i=0;   
 	   for(Rule r:listOfRules)  
 	   {  
 	    i++;  
-	    System.out.println("Regel"+i+": "+r.getName()+" "+r.getRed()+" "+r.getYellow()+" "+r.getWeight());  
+	    System.out.println("Regel"+i+": "+r.getName()+" "+"red: "+r.getRed()+" yellow: "+r.getYellow()+" weight: "+r.getWeight());  
 	   } 
 	  
 	  } catch (JAXBException e) {  

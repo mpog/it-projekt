@@ -169,7 +169,7 @@ public class Tester extends Thread {
             File XMLfile = new File(url + language + ".out.xml");
 
             jaxbMarshaller.marshal(rep, XMLfile);
-            jaxbMarshaller.marshal(rep, out);
+            jaxbMarshaller.marshal(rep, out); //NEU: to printstream
 
         } catch (JAXBException ex) {
             System.err.println("Could not create XML file. Reason: " + ex.getMessage());
