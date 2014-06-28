@@ -23,7 +23,7 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
-            System.out.println("\n\nEN\n\n");
+            //   System.out.println("\n\nEN\n\n");
             en.start();
             try {
                 en.join();
@@ -31,11 +31,13 @@ public class Main {
                 e.printStackTrace();
             }
         }
+        System.out.println("\t\tDone!");
     }
 
     private static Tester getTesterForFile(String filename, String[] glossar, Language language) {
         File inF = new File(url, filename);
-        File outF = new File(url, "out." + filename);
+
+        File outF = new File(url, "out." + filename.substring(0, filename.indexOf('.')) + ".xml");
         PrintStream output = null;
         BufferedReader input = null;
         try {
@@ -47,8 +49,8 @@ public class Main {
                 stringBuilder.append('\n');
             }
             String whole = stringBuilder.toString();
-            System.out.println(whole);
-            if (!outF.exists())//TODO make output to a specific printstream possible (@see: Tester -> XML creation to this outputsream, or pls change constructor of tester, so that this will work
+            //  System.out.println(whole);
+            if (!outF.exists())
                 outF.createNewFile();
             output = new PrintStream(outF);
             // Do actual checking

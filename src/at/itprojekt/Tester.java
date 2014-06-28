@@ -3,15 +3,13 @@ package at.itprojekt;
 import at.itprojekt.konjunktiv.KonjParser;
 import at.itprojekt.statbuddy.StatParser;
 import at.itprojekt.xml.generated.Report;
-import at.itprojekt.zip.Zipper;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
-import java.io.File;
-import java.io.PrintStream;
+import java.io.OutputStream;
 
 public class Tester extends Thread {
-    private final PrintStream out;
+    private final OutputStream out;
     private final DataPair whole;
     private final DataPair[] single;
     private final Language language;
@@ -19,30 +17,28 @@ public class Tester extends Thread {
     private final String[] glossar;
 
     /**
-     * @param out      Printstream used to print the results in
+     * @param out      OutputStream used to print the results in
      * @param levels   All levels of the project as an array
      * @param headings All headings of the project as an array
      * @param texts    All full-texts of the project as an array
      * @param language Language of the project
      */
-    public Tester(PrintStream out, int[] levels, String[] headings, String[] texts, Language language) {
+    public Tester(OutputStream out, int[] levels, String[] headings, String[] texts, Language language) {
         this(out, levels, headings, texts, null, language);
     }
 
     /**
-     * @param out      Printstream used to print the results in
+     * @param out      OutputStream used to print the results in
      * @param levels   All levels of the project as an array
      * @param headings All headings of the project as an array
-     * @param texts    All full-texts of the project as an array 
+     * @param texts    All full-texts of the project as an array
      * @param glossar  A list of words, which are ok
      * @param language Language of the project
      */
-    public Tester(PrintStream out, int[] levels, String[] headings, String[] texts, String[] glossar, Language language) {
-        //region Check for valid input TODO assertions??
-        if (out == null || levels == null || headings == null || texts == null || language == null)
-            throw new IllegalArgumentException(new NullPointerException("Parameter must not be null."));
-        if (levels.length != headings.length || headings.length != texts.length)
-            throw new IllegalArgumentException("Length of all arrays has to be the same");
+    public Tester(OutputStream out, int[] levels, String[] headings, String[] texts, String[] glossar, Language language) {
+        //region Check for valid input
+        assert out != null && levels != null && headings != null && texts != null && language != null : "Parameter must not be null.";
+        assert levels.length == headings.length && headings.length == texts.length : "Length of all arrays has to be the same";
         //endregion
         single = new DataPair[levels.length];
         StringBuilder stringBuilder = new StringBuilder();
@@ -51,12 +47,12 @@ public class Tester extends Thread {
             stringBuilder.append(texts[i]);
             stringBuilder.append(headings[i]);
         }
-                
+
         whole = new DataPair(0, "Whole project", stringBuilder.toString());
         this.out = out;
         this.language = language;
         this.glossar = glossar;
-                
+
     }
 
     /**
@@ -76,10 +72,10 @@ public class Tester extends Thread {
 
         pro.setResult(new StatParser(whole.value, language, whole, null).getResult());
         //endregion
-        
+
         //Preparations for analysing a single document
         int sentenceSignsInKeys = 0, abbreviationsUsed = 0, valueEndSignMissing = 0, headingLongerEqualThenText = 0;
-        
+
         //region Add each line to the report
         for (int lineNumber = 0; lineNumber < single.length; lineNumber++) {
             Report.Line line = new Report.Line();
@@ -94,16 +90,16 @@ public class Tester extends Thread {
             // If the key has a sentence separator, report it
             if (statParserKey.allSentenceSeperators > 0) {
                 sentenceSignsInKeys++;
-              //  System.out.println(single[lineNumber].key + " has a sentence sign in it");
+                //  System.out.println(single[lineNumber].key + " has a sentence sign in it");
             }
             //Log to long sentences
             if (statParserKey.longestSentenceNumberOfWords >= maxWords1SentenceText) {
                 tooLongSentences++;
-              //  System.out.println(single[lineNumber].key + " is too long. # of words: " + statParserKey.longestSentenceNumberOfWords);
+                //  System.out.println(single[lineNumber].key + " is too long. # of words: " + statParserKey.longestSentenceNumberOfWords);
             }
             if (statParserValue.longestSentenceNumberOfWords >= maxWords1SentenceHeadings) {
                 tooLongSentences++;
-              //  System.out.println(single[lineNumber].value + " is too long. # of words: " + statParserValue.longestSentenceNumberOfWords);
+                //  System.out.println(single[lineNumber].value + " is too long. # of words: " + statParserValue.longestSentenceNumberOfWords);
             }
             // Log the # of abbreviations
             abbreviationsUsed += statParserValue.abbreviations;
@@ -115,12 +111,12 @@ public class Tester extends Thread {
             //Log the # of missing end sentence signs
             if (!statParserValue.sentenceSignAtEnd) {
                 valueEndSignMissing++;
-               // System.out.println(single[lineNumber].value + " lacks an end sentence sign");
+                // System.out.println(single[lineNumber].value + " lacks an end sentence sign");
             }
             // Check if the heading is shorter then the text
             if (single[lineNumber].key.length() >= single[lineNumber].value.length()) {
                 headingLongerEqualThenText++;
-              //  System.out.println("Line number " + (lineNumber + 2) + "(" + single[lineNumber].key + ") has a shorter heading then text");
+                //  System.out.println("Line number " + (lineNumber + 2) + "(" + single[lineNumber].key + ") has a shorter heading then text");
             }
             //out.println("Text analyser's result: Key:" + statParserKey + " Value:" + statParserValue);
             Report.Line.Result linRes = new Report.Line.Result();
@@ -154,23 +150,14 @@ public class Tester extends Thread {
         rep.setProject(pro);
 
 
-        //region Export XML TODO Write to out stream
+        //region Export XML
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(Report.class);
-            javax.xml.bind.Marshaller jaxbMarshaller = jaxbContext
-                    .createMarshaller();
-
+            javax.xml.bind.Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
             jaxbMarshaller.setProperty(
                     javax.xml.bind.Marshaller.JAXB_FORMATTED_OUTPUT,
                     Boolean.TRUE);
-
-            // specify the location and name of xml file to be created
-            String url = ClassLoader.getSystemClassLoader().getResource(".").getPath().substring(1);
-            File XMLfile = new File(url + language + ".out.xml");
-
-            jaxbMarshaller.marshal(rep, XMLfile);
-            jaxbMarshaller.marshal(rep, out); //NEU: to printstream
-
+            jaxbMarshaller.marshal(rep, out);
         } catch (JAXBException ex) {
             System.err.println("Could not create XML file. Reason: " + ex.getMessage());
         }
