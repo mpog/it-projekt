@@ -1,0 +1,14 @@
+<rules red="4" yellow="2.5" green="1">
+	<rule>
+		<name>subjunctiv</name>
+		<yellow>0.9</yellow> 
+		<red>1</red> 
+		<weight>1.2</weight>
+	</rule>
+	<rule>
+		<name>test</name>
+		<yellow>0.8</yellow> 
+		<red>1</red> 
+		<weight>2.2</weight>
+	</rule>
+</rules>

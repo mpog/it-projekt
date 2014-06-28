@@ -33,7 +33,7 @@ public class Tester extends Thread {
      * @param out      Printstream used to print the results in
      * @param levels   All levels of the project as an array
      * @param headings All headings of the project as an array
-     * @param texts    All full-texts of the project as an array
+     * @param texts    All full-texts of the project as an array 
      * @param glossar  A list of words, which are ok
      * @param language Language of the project
      */
@@ -51,10 +51,12 @@ public class Tester extends Thread {
             stringBuilder.append(texts[i]);
             stringBuilder.append(headings[i]);
         }
+                
         whole = new DataPair(0, "Whole project", stringBuilder.toString());
         this.out = out;
         this.language = language;
         this.glossar = glossar;
+                
     }
 
     /**
@@ -72,14 +74,12 @@ public class Tester extends Thread {
         Report.Project pro = new Report.Project();
         Report.Project.Result res = new Report.Project.Result();
 
-        zipped = new Zipper(whole.value).getSizeFactor(); //TODO Isn't this in Statparser now?
-        if (zipped > -1f)
-            res.setZip(zipped);
-
         pro.setResult(new StatParser(whole.value, language, whole, null).getResult());
-//endregion
+        //endregion
+        
         //Preparations for analysing a single document
         int sentenceSignsInKeys = 0, abbreviationsUsed = 0, valueEndSignMissing = 0, headingLongerEqualThenText = 0;
+        
         //region Add each line to the report
         for (int lineNumber = 0; lineNumber < single.length; lineNumber++) {
             Report.Line line = new Report.Line();
@@ -169,6 +169,8 @@ public class Tester extends Thread {
             File XMLfile = new File(url + language + ".out.xml");
 
             jaxbMarshaller.marshal(rep, XMLfile);
+            jaxbMarshaller.marshal(rep, out); //NEU: to printstream
+
         } catch (JAXBException ex) {
             System.err.println("Could not create XML file. Reason: " + ex.getMessage());
         }
