@@ -17,16 +17,27 @@
 										<xs:element type="xs:int" name="innerSentenceSeperators"/>
 										<xs:element type="xs:int" name="sentences"/>
 										<xs:element type="xs:int" name="abbreviations"/>
+
+										<xs:element name="rule_results">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="rule_result" maxOccurs="unbounded" minOccurs="0">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:double">
+																	<xs:attribute type="xs:int" name="id" use="required"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>				
+
 									</xs:sequence>				  
 								</xs:complexType>				
-							</xs:element>							
-							<xs:element name="tips">
-							  <xs:complexType>
-								<xs:sequence>
-								  <xs:element type="xs:string" name="tip" maxOccurs="unbounded" minOccurs="0"/>
-								</xs:sequence>
-							  </xs:complexType>
 							</xs:element>
+
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -46,6 +57,23 @@
 													<xs:element type="xs:int" name="innerSentenceSeperators"/>
 													<xs:element type="xs:int" name="sentences"/>
 													<xs:element type="xs:int" name="abbreviations"/>
+
+													<xs:element name="rule_results">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="rule_result" maxOccurs="unbounded" minOccurs="0">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:double">
+																				<xs:attribute type="xs:int" name="id" use="required"/>
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+
 												</xs:sequence>
 											</xs:complexType>
 										</xs:element>
@@ -59,6 +87,23 @@
 													<xs:element type="xs:int" name="innerSentenceSeperators"/>
 													<xs:element type="xs:int" name="sentences"/>
 													<xs:element type="xs:int" name="abbreviations"/>
+
+													<xs:element name="rule_results">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="rule_result" maxOccurs="unbounded" minOccurs="0">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:double">
+																				<xs:attribute type="xs:int" name="id" use="required"/>
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+
 												</xs:sequence>
 											</xs:complexType>
 										</xs:element>
@@ -70,20 +115,20 @@
 					</xs:complexType>
 				</xs:element>
 				<xs:element name="errors">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="error" maxOccurs="unbounded" minOccurs="0">
-                <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute type="xs:byte" name="lineNr" use="optional"/>
-                    </xs:extension>
-                  </xs:simpleContent>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="error" maxOccurs="unbounded" minOccurs="0">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute type="xs:byte" name="lineNr" use="optional"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>

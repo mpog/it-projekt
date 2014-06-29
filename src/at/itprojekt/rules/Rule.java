@@ -2,33 +2,37 @@ package at.itprojekt.rules;
 
 	import java.util.ArrayList;  
 	  
-	import javax.xml.bind.annotation.XmlElement;  
-	import javax.xml.bind.annotation.XmlElementWrapper;  
-	import javax.xml.bind.annotation.XmlRootElement;  
-	import javax.xml.bind.annotation.XmlType;  
-	  
+
+	
+
+	import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;  
+import javax.xml.bind.annotation.XmlElementWrapper;  
+import javax.xml.bind.annotation.XmlRootElement;  
+import javax.xml.bind.annotation.XmlType;  
+		  
 	public class Rule {  
 	  
-	 private String name;  
-	 private double yellow;
-	 private double red;
+	 private ArrayList<Test> listOfTests;
+	 private int id;
 	 private double weight;
+	 private String type;
 	        
 	 public Rule() {  
 	    
 	 }  
-	 public String getName() {  
-	  return name;  
+	 public int getId() {  
+	  return id;  
 	 }  
-	 @XmlElement  
-	 public void setName(String name) {  
-	  this.name = name;  
+	 @XmlAttribute
+	 public void setId(int id) {  
+	  this.id = id;  
 	 }
 	 
-	 public double getYellow() {  
+/*	 public double getYellow() {  
 	  return yellow;  
 	 }    
-	 @XmlElement  
+	 @XmlAttribute 
 	 public void setYellow(double yellow) {  
 	  this.yellow = yellow;  
 	 }  
@@ -36,17 +40,35 @@ package at.itprojekt.rules;
 	 public double getRed() {  
 		  return red;  
 		 }  	
-	 @XmlElement  
+	 @XmlAttribute
 	 public void setRed(double red) {  
 	  this.red = red;  
 	 }  
+	 */
+	 
+	 public String getType() {  
+		  return type;  
+		 }  	
+	 @XmlAttribute
+	 public void setType(String type) {  
+	  this.type = type;  
+	 } 
 	 
 	 public double getWeight() {  
 		  return weight;  
 	 }  			   
-	 @XmlElement  
+	 @XmlAttribute
 	 public void setWeight(double weight) {  
 	  this.weight = weight;  
 		 }  		 
 	   	
+	 public ArrayList<Test> getListOfTests() {  
+	  return listOfTests;  
+	 }  
+	    
+	 @XmlElement(name = "test")  
+	 public void setListOfTests(ArrayList<Test> listOfTests) {  
+	  this.listOfTests = listOfTests;  
+	 }
+	 
 	}

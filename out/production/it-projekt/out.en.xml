@@ -3,21 +3,17 @@
     <project>
         <result>
             <subjunctives>3</subjunctives>
-            <zip>0.70556456</zip>
-            <chars>38871</chars>
+            <zip>0.6877134</zip>
+            <chars>38961</chars>
             <words>5940</words>
             <allSentenceSeperators>333</allSentenceSeperators>
             <innerSentenceSeperators>198</innerSentenceSeperators>
             <sentences>334</sentences>
             <abbreviations>426</abbreviations>
+            <rule_results>
+                <rule_result id="1">1.23</rule_result>
+            </rule_results>
         </result>
-        <tips>
-            <tip>All in all 90 places have been found in headings, where a sentence ends or a subsentence starts/ends.</tip>
-            <tip>All in all 160 abbreviations have been found. Make your language clearer and use full words only.</tip>
-            <tip>All in all 30 sentence signs are missing at the end of texts.</tip>
-            <tip>All in all 3 headings have maximum the same length compard to the corresponding text.</tip>
-            <tip>All in all 93 entries have at least one too long sentence.</tip>
-        </tips>
     </project>
     <line nr="0">
         <result>
@@ -29,6 +25,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -38,6 +37,9 @@
                 <innerSentenceSeperators>2</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -51,6 +53,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -60,6 +65,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -73,6 +81,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -82,6 +93,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -95,15 +109,21 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>707</chars>
+                <chars>720</chars>
                 <words>99</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>5</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -117,15 +137,21 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>234</chars>
+                <chars>239</chars>
                 <words>36</words>
                 <allSentenceSeperators>-1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>-1</sentences>
                 <abbreviations>3</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -139,15 +165,21 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>902</chars>
+                <chars>909</chars>
                 <words>131</words>
                 <allSentenceSeperators>13</allSentenceSeperators>
                 <innerSentenceSeperators>6</innerSentenceSeperators>
                 <sentences>14</sentences>
                 <abbreviations>3</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -161,15 +193,21 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>1192</chars>
+                <chars>1196</chars>
                 <words>179</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>6</innerSentenceSeperators>
                 <sentences>7</sentences>
                 <abbreviations>27</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -183,6 +221,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -192,6 +233,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>2</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -205,6 +249,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>2</subjunctives>
@@ -214,6 +261,9 @@
                 <innerSentenceSeperators>19</innerSentenceSeperators>
                 <sentences>15</sentences>
                 <abbreviations>12</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -227,6 +277,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -236,6 +289,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -249,6 +305,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -258,6 +317,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -271,15 +333,21 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>451</chars>
+                <chars>460</chars>
                 <words>69</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>7</sentences>
                 <abbreviations>5</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -293,6 +361,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -302,6 +373,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -315,6 +389,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -324,6 +401,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>2</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -337,6 +417,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -346,6 +429,9 @@
                 <innerSentenceSeperators>4</innerSentenceSeperators>
                 <sentences>20</sentences>
                 <abbreviations>4</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -359,6 +445,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -368,6 +457,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>6</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -381,15 +473,21 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>539</chars>
+                <chars>540</chars>
                 <words>83</words>
                 <allSentenceSeperators>12</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>13</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -403,6 +501,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -412,6 +513,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -425,6 +529,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -434,6 +541,9 @@
                 <innerSentenceSeperators>3</innerSentenceSeperators>
                 <sentences>6</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -447,6 +557,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>1</subjunctives>
@@ -456,6 +569,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>3</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -469,6 +585,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -478,6 +597,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>3</sentences>
                 <abbreviations>2</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -491,6 +613,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -500,6 +625,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>0</sentences>
                 <abbreviations>5</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -513,6 +641,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -522,6 +653,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -535,6 +669,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -544,6 +681,9 @@
                 <innerSentenceSeperators>7</innerSentenceSeperators>
                 <sentences>9</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -557,6 +697,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -566,6 +709,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>13</sentences>
                 <abbreviations>2</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -579,15 +725,21 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>402</chars>
+                <chars>406</chars>
                 <words>67</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>7</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -601,6 +753,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -610,6 +765,9 @@
                 <innerSentenceSeperators>5</innerSentenceSeperators>
                 <sentences>36</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -623,6 +781,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -632,6 +793,9 @@
                 <innerSentenceSeperators>5</innerSentenceSeperators>
                 <sentences>7</sentences>
                 <abbreviations>8</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -645,15 +809,21 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>0</sentences>
                 <abbreviations>2</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>364</chars>
+                <chars>366</chars>
                 <words>62</words>
                 <allSentenceSeperators>6</allSentenceSeperators>
                 <innerSentenceSeperators>6</innerSentenceSeperators>
                 <sentences>7</sentences>
                 <abbreviations>2</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -667,6 +837,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -676,6 +849,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>10</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -689,6 +865,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -698,6 +877,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -711,6 +893,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -720,6 +905,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -733,6 +921,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -742,6 +933,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -755,6 +949,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -764,6 +961,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>3</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -777,6 +977,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -786,6 +989,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -799,15 +1005,21 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>684</chars>
+                <chars>686</chars>
                 <words>105</words>
                 <allSentenceSeperators>3</allSentenceSeperators>
                 <innerSentenceSeperators>24</innerSentenceSeperators>
                 <sentences>4</sentences>
                 <abbreviations>28</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -821,6 +1033,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -830,6 +1045,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>4</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -843,6 +1061,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -852,6 +1073,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -865,6 +1089,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -874,6 +1101,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -887,6 +1117,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -896,6 +1129,9 @@
                 <innerSentenceSeperators>2</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -909,6 +1145,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -918,6 +1157,9 @@
                 <innerSentenceSeperators>4</innerSentenceSeperators>
                 <sentences>6</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -931,6 +1173,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -940,6 +1185,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -953,6 +1201,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -962,6 +1213,9 @@
                 <innerSentenceSeperators>2</innerSentenceSeperators>
                 <sentences>6</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -975,6 +1229,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -984,6 +1241,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>22</sentences>
                 <abbreviations>2</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -997,6 +1257,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1006,6 +1269,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1019,6 +1285,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1028,6 +1297,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>9</sentences>
                 <abbreviations>13</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1041,6 +1313,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1050,6 +1325,9 @@
                 <innerSentenceSeperators>5</innerSentenceSeperators>
                 <sentences>8</sentences>
                 <abbreviations>13</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1063,6 +1341,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1072,6 +1353,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>12</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1085,15 +1369,21 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>276</chars>
+                <chars>280</chars>
                 <words>41</words>
                 <allSentenceSeperators>5</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>5</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1107,6 +1397,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1116,6 +1409,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1129,6 +1425,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1138,6 +1437,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>0</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1151,6 +1453,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1160,6 +1465,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>7</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1173,6 +1481,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1182,6 +1493,9 @@
                 <innerSentenceSeperators>5</innerSentenceSeperators>
                 <sentences>15</sentences>
                 <abbreviations>5</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1195,15 +1509,21 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>831</chars>
+                <chars>832</chars>
                 <words>133</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>4</innerSentenceSeperators>
                 <sentences>7</sentences>
                 <abbreviations>9</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1217,6 +1537,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1226,6 +1549,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>0</sentences>
                 <abbreviations>2</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1239,6 +1565,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1248,6 +1577,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>22</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1261,6 +1593,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1270,6 +1605,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>5</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1283,6 +1621,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1292,6 +1633,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>9</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1305,6 +1649,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1314,6 +1661,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1327,6 +1677,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1336,6 +1689,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>5</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1349,6 +1705,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1358,6 +1717,9 @@
                 <innerSentenceSeperators>6</innerSentenceSeperators>
                 <sentences>21</sentences>
                 <abbreviations>3</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1371,6 +1733,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1380,6 +1745,9 @@
                 <innerSentenceSeperators>3</innerSentenceSeperators>
                 <sentences>3</sentences>
                 <abbreviations>16</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1393,6 +1761,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>-1</sentences>
                 <abbreviations>4</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1402,6 +1773,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>-2</sentences>
                 <abbreviations>6</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1415,6 +1789,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>-1</sentences>
                 <abbreviations>4</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1424,6 +1801,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>0</sentences>
                 <abbreviations>4</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1437,6 +1817,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1446,6 +1829,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>5</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1459,6 +1845,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>-3</sentences>
                 <abbreviations>5</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1468,6 +1857,9 @@
                 <innerSentenceSeperators>3</innerSentenceSeperators>
                 <sentences>-4</sentences>
                 <abbreviations>11</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1481,6 +1873,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1490,6 +1885,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1503,6 +1901,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1512,6 +1913,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1525,6 +1929,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1534,6 +1941,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>5</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1547,6 +1957,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1556,6 +1969,9 @@
                 <innerSentenceSeperators>3</innerSentenceSeperators>
                 <sentences>8</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1569,15 +1985,21 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>505</chars>
+                <chars>507</chars>
                 <words>88</words>
                 <allSentenceSeperators>4</allSentenceSeperators>
                 <innerSentenceSeperators>3</innerSentenceSeperators>
                 <sentences>4</sentences>
                 <abbreviations>8</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1591,6 +2013,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1600,6 +2025,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>0</sentences>
                 <abbreviations>2</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1613,6 +2041,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1622,6 +2053,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>5</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1635,6 +2069,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1644,6 +2081,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>-2</sentences>
                 <abbreviations>3</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1657,6 +2097,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1666,6 +2109,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>-2</sentences>
                 <abbreviations>3</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1679,6 +2125,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1688,6 +2137,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>5</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1701,6 +2153,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1710,6 +2165,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>5</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1723,6 +2181,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1732,6 +2193,9 @@
                 <innerSentenceSeperators>2</innerSentenceSeperators>
                 <sentences>4</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1745,6 +2209,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1754,6 +2221,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1767,6 +2237,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1776,6 +2249,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1789,6 +2265,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1798,6 +2277,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>5</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1811,6 +2293,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1820,6 +2305,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>-1</sentences>
                 <abbreviations>8</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1833,6 +2321,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1842,6 +2333,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>2</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1855,6 +2349,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1864,6 +2361,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1877,6 +2377,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1886,6 +2389,9 @@
                 <innerSentenceSeperators>1</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1899,6 +2405,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1908,6 +2417,9 @@
                 <innerSentenceSeperators>5</innerSentenceSeperators>
                 <sentences>6</sentences>
                 <abbreviations>8</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1921,6 +2433,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1930,6 +2445,9 @@
                 <innerSentenceSeperators>4</innerSentenceSeperators>
                 <sentences>5</sentences>
                 <abbreviations>6</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1943,15 +2461,21 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>603</chars>
+                <chars>605</chars>
                 <words>103</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>3</innerSentenceSeperators>
                 <sentences>7</sentences>
                 <abbreviations>6</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1965,6 +2489,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1974,6 +2501,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -1987,6 +2517,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -1996,6 +2529,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>4</sentences>
                 <abbreviations>1</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -2009,6 +2545,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -2018,6 +2557,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>1</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -2031,6 +2573,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -2040,6 +2585,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>6</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -2053,6 +2601,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -2062,6 +2613,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>0</sentences>
                 <abbreviations>2</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -2075,6 +2629,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -2084,6 +2641,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>0</sentences>
                 <abbreviations>2</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -2097,6 +2657,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -2106,6 +2669,9 @@
                 <innerSentenceSeperators>7</innerSentenceSeperators>
                 <sentences>17</sentences>
                 <abbreviations>3</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -2119,6 +2685,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -2128,6 +2697,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>6</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -2141,15 +2713,21 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>1537</chars>
+                <chars>1571</chars>
                 <words>328</words>
                 <allSentenceSeperators>23</allSentenceSeperators>
                 <innerSentenceSeperators>25</innerSentenceSeperators>
                 <sentences>24</sentences>
                 <abbreviations>29</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>
@@ -2163,6 +2741,9 @@
                 <innerSentenceSeperators>0</innerSentenceSeperators>
                 <sentences>2</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="2">2.23</rule_result>
+                </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
@@ -2172,6 +2753,9 @@
                 <innerSentenceSeperators>3</innerSentenceSeperators>
                 <sentences>8</sentences>
                 <abbreviations>0</abbreviations>
+                <rule_results>
+                    <rule_result id="3">3.23</rule_result>
+                </rule_results>
             </value>
         </result>
     </line>

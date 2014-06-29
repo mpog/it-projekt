@@ -1,0 +1,43 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="rules">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="rule" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="test" maxOccurs="unbounded" minOccurs="0">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute type="xs:string" name="value" use="required"/>
+											<xs:attribute type="xs:double" name="yellow" use="required"/>
+											<xs:attribute type="xs:double" name="red" use="required"/>
+											<xs:attribute type="xs:double" name="weight" use="required"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute type="xs:double" name="id" use="required"/>
+						<xs:attribute type="xs:double" name="weight" use="required"/>
+						<xs:attribute type="type_enum" name="type" use="required"/>
+					</xs:complexType>
+					<xs:unique name="id">
+						<xs:selector xpath="rule" />
+						<xs:field    xpath="@id" />
+					</xs:unique>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute type="xs:double" name="red"/>
+			<xs:attribute type="xs:double" name="yellow"/>
+			<xs:attribute type="xs:double" name="green"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="type_enum">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="project" />
+			<xs:enumeration value="line_key" />
+			<xs:enumeration value="line_value" />
+		</xs:restriction>
+	</xs:simpleType>  
+</xs:schema>
