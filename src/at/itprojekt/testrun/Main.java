@@ -17,17 +17,13 @@ public class Main {
         Tester de = getTesterForFile("de.txt", new String[]{"WG", "PKW", "LKW", "MB", "PIN", "AG"}, Language.De);
         de.start();
         String[] glosarEN = readAllLines("glossar.en.txt");
-      /*  System.out.println(glosarEN);
-        if (glosarEN != null)
-            System.out.println(glosarEN[0]);*/
         Tester en = getTesterForFile("en.txt", glosarEN, Language.En);
-
         try {
             de.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
-            System.out.println("\n\nEN\n\n");
+            //   System.out.println("\n\nEN\n\n");
             en.start();
             try {
                 en.join();
@@ -35,11 +31,13 @@ public class Main {
                 e.printStackTrace();
             }
         }
+        System.out.println("\t\tDone!");
     }
 
     private static Tester getTesterForFile(String filename, String[] glossar, Language language) {
         File inF = new File(url, filename);
-        File outF = new File(url, "out." + filename);
+
+        File outF = new File(url, "out." + filename.substring(0, filename.indexOf('.')) + ".xml");
         PrintStream output = null;
         BufferedReader input = null;
         try {
@@ -51,7 +49,7 @@ public class Main {
                 stringBuilder.append('\n');
             }
             String whole = stringBuilder.toString();
-            //System.out.println(whole);
+            //  System.out.println(whole);
             if (!outF.exists())
                 outF.createNewFile();
             output = new PrintStream(outF);

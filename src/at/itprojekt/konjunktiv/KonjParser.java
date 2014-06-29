@@ -44,8 +44,8 @@ public class KonjParser {
                 }
                 break;
         }
-        if (isKonj)
-            System.out.println("\"" + word + "\" seems to be a konjunktiv");
+       /* if (isKonj) // Keep silent
+            System.out.println("\"" + word + "\" seems to be a konjunktiv");*/
         return isKonj;
     }
 
@@ -54,5 +54,9 @@ public class KonjParser {
     public String toString() {
         return Integer.toString(konjunktiveFound);
     }
-
+    
+    public Integer getKonjunktive() {
+    	return konjunktiveFound;
+    }
+    
 }
