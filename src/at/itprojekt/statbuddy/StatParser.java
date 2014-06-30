@@ -7,10 +7,8 @@ import at.itprojekt.Language;
 import at.itprojekt.RegEx;
 import at.itprojekt.konjunktiv.KonjParser;
 import at.itprojekt.xml.generated.Report;
-import at.itprojekt.xml.generated.Report.Line.Result.Key.RuleResults;
 import at.itprojekt.xml.generated.Report.Project;
 import at.itprojekt.xml.generated.Report.Project.Result;
-import at.itprojekt.xml.generated.Report.Project.Result.RuleResults.RuleResult;
 import at.itprojekt.zip.Zipper;
 
 public class StatParser {
@@ -146,18 +144,11 @@ public class StatParser {
         result.setRuleResults(this.getRuleResults());
         return result;
     }
-    
-    public Report.Project.Result.RuleResults getRuleResults() {
-    	Report.Project.Result.RuleResults result = new Report.Project.Result.RuleResults();
 
-        //test!
-        RuleResult test = new RuleResult();
-        test.setId(1);
-        test.setValue(1.23);
-        result.getRuleResult().add(test);
-        
+    public Report.Project.Result.RuleResults getRuleResults() {
+        Report.Project.Result.RuleResults result = new Report.Project.Result.RuleResults();
         return result;
-    }    
+    }
 
     public Report.Line.Result.Key getKey() {
         Report.Line.Result.Key key = new Report.Line.Result.Key();
@@ -168,25 +159,18 @@ public class StatParser {
         key.setInnerSentenceSeperators(innerSentenceSeperators);
         key.setSentences(sentences);
         key.setWords(words);
-        
         if (key.getRuleResults() == null)
-        	key.setRuleResults(new Report.Line.Result.Key.RuleResults());
-	    Report.Line.Result.Key.RuleResults res = key.getRuleResults();        
-	    res.getRuleResult().add(this.getKeyRuleResult());
-        
+            key.setRuleResults(new Report.Line.Result.Key.RuleResults());
+       /* Report.Line.Result.Key.RuleResults res = key.getRuleResults(); TODO can delete?
+        res.getRuleResult().add(this.getKeyRuleResult());*/
         return key;
     }
-  
+
     public Report.Line.Result.Key.RuleResults.RuleResult getKeyRuleResult() {
         Report.Line.Result.Key.RuleResults.RuleResult result = new Report.Line.Result.Key.RuleResults.RuleResult();
-        
-      //test!      
-        result.setId(2);
-        result.setValue(2.23);
-        
         return result;
     }
-    
+
     public Report.Line.Result.Value getValue() {
         Report.Line.Result.Value value = new Report.Line.Result.Value();
         value.setSubjunctives(subjunctives);
@@ -196,23 +180,18 @@ public class StatParser {
         value.setInnerSentenceSeperators(innerSentenceSeperators);
         value.setSentences(sentences);
         value.setWords(words);
-        
+
         if (value.getRuleResults() == null)
-        	value.setRuleResults(new Report.Line.Result.Value.RuleResults());
-	    Report.Line.Result.Value.RuleResults res = value.getRuleResults();        
-	    res.getRuleResult().add(this.getValRuleResults());
-	    
+            value.setRuleResults(new Report.Line.Result.Value.RuleResults());
+       /* Report.Line.Result.Value.RuleResults res = value.getRuleResults(); TODO can delete?
+        res.getRuleResult().add(this.getValRuleResults());*/
+
         return value;
     }
-    
+
     public Report.Line.Result.Value.RuleResults.RuleResult getValRuleResults() {
         Report.Line.Result.Value.RuleResults.RuleResult result = new Report.Line.Result.Value.RuleResults.RuleResult();
-
-        //test!    
-        result.setId(3);;
-        result.setValue(3.23);
-        
         return result;
-    }    
-    
+    }
+
 }
