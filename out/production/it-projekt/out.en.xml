@@ -3,8 +3,8 @@
     <project>
         <result>
             <subjunctives>3</subjunctives>
-            <zip>0.6877134</zip>
-            <chars>38961</chars>
+            <zip>0.70556456</zip>
+            <chars>38871</chars>
             <words>5940</words>
             <allSentenceSeperators>333</allSentenceSeperators>
             <innerSentenceSeperators>198</innerSentenceSeperators>
@@ -12,6 +12,10 @@
             <abbreviations>426</abbreviations>
             <rule_results>
                 <rule_result id="1">1.23</rule_result>
+                <rule_result id="0">1.5</rule_result>
+                <rule_result id="1">3.199999999999994</rule_result>
+                <rule_result id="2">2.2682215743440217</rule_result>
+                <rule_result id="-1">2.3227405247813384</rule_result>
             </rule_results>
         </result>
     </project>
@@ -27,6 +31,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -39,6 +44,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -55,6 +61,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -67,6 +74,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -83,6 +91,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -95,6 +104,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -111,11 +121,12 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>720</chars>
+                <chars>707</chars>
                 <words>99</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
@@ -123,6 +134,7 @@
                 <abbreviations>5</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -139,11 +151,12 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>239</chars>
+                <chars>234</chars>
                 <words>36</words>
                 <allSentenceSeperators>-1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
@@ -151,6 +164,7 @@
                 <abbreviations>3</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -167,11 +181,12 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>909</chars>
+                <chars>902</chars>
                 <words>131</words>
                 <allSentenceSeperators>13</allSentenceSeperators>
                 <innerSentenceSeperators>6</innerSentenceSeperators>
@@ -179,6 +194,7 @@
                 <abbreviations>3</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -195,11 +211,12 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>1196</chars>
+                <chars>1192</chars>
                 <words>179</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>6</innerSentenceSeperators>
@@ -207,6 +224,7 @@
                 <abbreviations>27</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -223,6 +241,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -235,6 +254,7 @@
                 <abbreviations>2</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -251,6 +271,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -263,6 +284,7 @@
                 <abbreviations>12</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">1.4285714285714286</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -279,6 +301,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -291,6 +314,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -307,6 +331,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -319,6 +344,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -335,11 +361,12 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>460</chars>
+                <chars>451</chars>
                 <words>69</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
@@ -347,6 +374,7 @@
                 <abbreviations>5</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -363,6 +391,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -375,6 +404,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -391,6 +421,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -403,6 +434,7 @@
                 <abbreviations>2</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -419,6 +451,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -431,6 +464,7 @@
                 <abbreviations>4</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -447,6 +481,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -459,6 +494,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -475,11 +511,12 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>540</chars>
+                <chars>539</chars>
                 <words>83</words>
                 <allSentenceSeperators>12</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
@@ -487,6 +524,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -503,6 +541,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -515,6 +554,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -531,6 +571,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -543,6 +584,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -559,6 +601,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -571,6 +614,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">1.4285714285714286</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -587,6 +631,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -599,6 +644,7 @@
                 <abbreviations>2</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -615,6 +661,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -627,6 +674,7 @@
                 <abbreviations>5</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -643,6 +691,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -655,6 +704,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -671,6 +721,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -683,6 +734,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -699,6 +751,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -711,6 +764,7 @@
                 <abbreviations>2</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -727,11 +781,12 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>406</chars>
+                <chars>402</chars>
                 <words>67</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
@@ -739,6 +794,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -755,6 +811,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -767,6 +824,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -783,6 +841,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -795,6 +854,7 @@
                 <abbreviations>8</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -811,11 +871,12 @@
                 <abbreviations>2</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>366</chars>
+                <chars>364</chars>
                 <words>62</words>
                 <allSentenceSeperators>6</allSentenceSeperators>
                 <innerSentenceSeperators>6</innerSentenceSeperators>
@@ -823,6 +884,7 @@
                 <abbreviations>2</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -839,6 +901,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -851,6 +914,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -867,6 +931,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -879,6 +944,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -895,6 +961,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -907,6 +974,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -923,6 +991,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -935,6 +1004,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -951,6 +1021,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -963,6 +1034,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -979,6 +1051,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -991,6 +1064,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1007,11 +1081,12 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>686</chars>
+                <chars>684</chars>
                 <words>105</words>
                 <allSentenceSeperators>3</allSentenceSeperators>
                 <innerSentenceSeperators>24</innerSentenceSeperators>
@@ -1019,6 +1094,7 @@
                 <abbreviations>28</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1035,6 +1111,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1047,6 +1124,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1063,6 +1141,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1075,6 +1154,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1091,6 +1171,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1103,6 +1184,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1119,6 +1201,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1131,6 +1214,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1147,6 +1231,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1159,6 +1244,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1175,6 +1261,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1187,6 +1274,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1203,6 +1291,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1215,6 +1304,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1231,6 +1321,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1243,6 +1334,7 @@
                 <abbreviations>2</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1259,6 +1351,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1271,6 +1364,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1287,6 +1381,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1299,6 +1394,7 @@
                 <abbreviations>13</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1315,6 +1411,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1327,6 +1424,7 @@
                 <abbreviations>13</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1343,6 +1441,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1355,6 +1454,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1371,11 +1471,12 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>280</chars>
+                <chars>276</chars>
                 <words>41</words>
                 <allSentenceSeperators>5</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
@@ -1383,6 +1484,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1399,6 +1501,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1411,6 +1514,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1427,6 +1531,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1439,6 +1544,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1455,6 +1561,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1467,6 +1574,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1483,6 +1591,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1495,6 +1604,7 @@
                 <abbreviations>5</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1511,11 +1621,12 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>832</chars>
+                <chars>831</chars>
                 <words>133</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>4</innerSentenceSeperators>
@@ -1523,6 +1634,7 @@
                 <abbreviations>9</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1539,6 +1651,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1551,6 +1664,7 @@
                 <abbreviations>2</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1567,6 +1681,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1579,6 +1694,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1595,6 +1711,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1607,6 +1724,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1623,6 +1741,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1635,6 +1754,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1651,6 +1771,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1663,6 +1784,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1679,6 +1801,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1691,6 +1814,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1707,6 +1831,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1719,6 +1844,7 @@
                 <abbreviations>3</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1735,6 +1861,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1747,6 +1874,7 @@
                 <abbreviations>16</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1763,6 +1891,7 @@
                 <abbreviations>4</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1775,6 +1904,7 @@
                 <abbreviations>6</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1791,6 +1921,7 @@
                 <abbreviations>4</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1803,6 +1934,7 @@
                 <abbreviations>4</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1819,6 +1951,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1831,6 +1964,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1847,6 +1981,7 @@
                 <abbreviations>5</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1859,6 +1994,7 @@
                 <abbreviations>11</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1875,6 +2011,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1887,6 +2024,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1903,6 +2041,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1915,6 +2054,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1931,6 +2071,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1943,6 +2084,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1959,6 +2101,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1971,6 +2114,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1987,11 +2131,12 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>507</chars>
+                <chars>505</chars>
                 <words>88</words>
                 <allSentenceSeperators>4</allSentenceSeperators>
                 <innerSentenceSeperators>3</innerSentenceSeperators>
@@ -1999,6 +2144,7 @@
                 <abbreviations>8</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2015,6 +2161,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2027,6 +2174,7 @@
                 <abbreviations>2</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2043,6 +2191,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2055,6 +2204,7 @@
                 <abbreviations>5</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2071,6 +2221,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2083,6 +2234,7 @@
                 <abbreviations>3</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2099,6 +2251,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2111,6 +2264,7 @@
                 <abbreviations>3</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2127,6 +2281,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2139,6 +2294,7 @@
                 <abbreviations>5</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2155,6 +2311,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2167,6 +2324,7 @@
                 <abbreviations>5</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2183,6 +2341,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2195,6 +2354,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2211,6 +2371,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2223,6 +2384,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2239,6 +2401,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2251,6 +2414,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2267,6 +2431,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2279,6 +2444,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2295,6 +2461,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2307,6 +2474,7 @@
                 <abbreviations>8</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2323,6 +2491,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2335,6 +2504,7 @@
                 <abbreviations>2</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2351,6 +2521,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2363,6 +2534,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2379,6 +2551,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2391,6 +2564,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2407,6 +2581,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2419,6 +2594,7 @@
                 <abbreviations>8</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2435,6 +2611,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2447,6 +2624,7 @@
                 <abbreviations>6</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2463,11 +2641,12 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>605</chars>
+                <chars>603</chars>
                 <words>103</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>3</innerSentenceSeperators>
@@ -2475,6 +2654,7 @@
                 <abbreviations>6</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2491,6 +2671,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2503,6 +2684,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2519,6 +2701,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2531,6 +2714,7 @@
                 <abbreviations>1</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2547,6 +2731,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2559,6 +2744,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2575,6 +2761,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2587,6 +2774,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2603,6 +2791,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2615,6 +2804,7 @@
                 <abbreviations>2</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2631,6 +2821,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2643,6 +2834,7 @@
                 <abbreviations>2</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2659,6 +2851,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2671,6 +2864,7 @@
                 <abbreviations>3</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2687,6 +2881,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2699,6 +2894,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2715,11 +2911,12 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>1571</chars>
+                <chars>1537</chars>
                 <words>328</words>
                 <allSentenceSeperators>23</allSentenceSeperators>
                 <innerSentenceSeperators>25</innerSentenceSeperators>
@@ -2727,6 +2924,7 @@
                 <abbreviations>29</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2743,6 +2941,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="2">2.23</rule_result>
+                    <rule_result id="1">3.2</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2755,6 +2954,7 @@
                 <abbreviations>0</abbreviations>
                 <rule_results>
                     <rule_result id="3">3.23</rule_result>
+                    <rule_result id="2">2.2857142857142856</rule_result>
                 </rule_results>
             </value>
         </result>

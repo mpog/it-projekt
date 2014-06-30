@@ -64,7 +64,7 @@ public class Main {
                 tmpTexts[i - 1] = split[2].substring(0, split[2].length() - 1); // Take the whole string, except of the last char
                 // System.out.println(lines[i]+"\tis ok");
             }
-            Tester tester = new Tester(output, tmpLevels, tmpHadings, tmpTexts, glossar, language);
+            Tester tester = new Tester(output, tmpLevels, tmpHadings, tmpTexts, glossar, language, url + "rules.xml", url + "rules.xsd");
             return tester;
         } catch (IOException | NumberFormatException | ArrayIndexOutOfBoundsException e) {
             e.printStackTrace();
