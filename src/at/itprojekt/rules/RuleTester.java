@@ -119,66 +119,66 @@ public class RuleTester {
     /**
      * Does the test and writes the changes to the Report
      */
+
     public void performTest() {
         double totalRuleWeight = 0, totalRuleValues = 0;
         for (Rule rule : rules.getListOfRules()) {
             assert rule_type.contains(rule.getType());
             totalRuleWeight += rule.getWeight();
             //region if rule type is project
-            assert rule_type.indexOf(rule.getType()) != -1;
-            if (rule.getType().equals(rule_type.get(0))) {
-                double totalTestWeight = 0, ruleValue = 0;
+            if (rule_type.indexOf(rule.getType()) == 0) { //Project
+                double totalTestWeight = 0, testTotalValue = 0;
                 for (Test test : rule.getListOfTests()) {
                     totalTestWeight += test.getWeight();
+                    testTotalValue += (test(test, report.getProject().getResult()) * test.getWeight());
                 }
-                for (Test test : rule.getListOfTests()) {
-                    ruleValue += (test(test, report.getProject().getResult()) * (test.getWeight() / totalTestWeight));
-                }
+                testTotalValue /= totalTestWeight;
                 //Add a result
                 Report.Project.Result.RuleResults.RuleResult result = new Report.Project.Result.RuleResults.RuleResult();
                 result.setId(rule.getId());
-                result.setValue(ruleValue);
-                totalRuleValues += (ruleValue * rule.getWeight());
+                result.setValue(testTotalValue);
+                totalRuleValues += (testTotalValue * rule.getWeight());
                 report.getProject().getResult().getRuleResults().getRuleResult().add(result);
             }
             //endregion
-            //region if rule type is line_*
+            //region else
             else {
                 boolean bKey = rule_type.indexOf(rule.getType()) == 1;
-                double ruleValueTotal = 0;
+                double ruleValueAllLines = 0, totalWeightOfTests = 0;
+                for (Test test : rule.getListOfTests())
+                    totalWeightOfTests += test.getWeight();
                 for (Report.Line line : report.getLine()) {
-                    double ruleValueLine = 0, ruleWeightLine = 0;
+                    double totalTestValue = 0;
                     for (Test test : rule.getListOfTests()) {
-                        ruleWeightLine += test.getWeight();
                         if (bKey) {
-                            ruleValueLine += test(test, line.getResult().getKey());
+                            totalTestValue += test(test, line.getResult().getKey()) * test.getWeight();
                         } else {
-                            ruleValueLine += test(test, line.getResult().getValue());
+                            totalTestValue += test(test, line.getResult().getValue()) * test.getWeight();
                         }
                     }//end for Test test
-                    double ruleValue4line = ruleValueLine / ruleWeightLine;
-                    ruleValueTotal += ruleValue4line;
+                    totalTestValue /= totalWeightOfTests;
                     if (bKey) {
                         Report.Line.Result.Key.RuleResults.RuleResult result = new Report.Line.Result.Key.RuleResults.RuleResult();
                         result.setId(rule.getId());
-                        result.setValue(ruleValue4line);
+                        result.setValue(totalTestValue);
                         line.getResult().getKey().getRuleResults().getRuleResult().add(result);
                     } else {
                         Report.Line.Result.Value.RuleResults.RuleResult result = new Report.Line.Result.Value.RuleResults.RuleResult();
                         result.setId(rule.getId());
-                        result.setValue(ruleValue4line);
+                        result.setValue(totalTestValue);
                         line.getResult().getValue().getRuleResults().getRuleResult().add(result);
                     }
+                    ruleValueAllLines += totalTestValue;
                 }
+                double ruleValue = ruleValueAllLines / report.getLine().size();
+                totalRuleValues += ruleValue;
                 //Add total result to XML
                 Report.Project.Result.RuleResults.RuleResult result = new Report.Project.Result.RuleResults.RuleResult();
                 result.setId(rule.getId());
-                result.setValue(ruleValueTotal / report.getLine().size());
+                result.setValue(ruleValue);
                 report.getProject().getResult().getRuleResults().getRuleResult().add(result);
-                totalRuleValues += (result.getValue() * rule.getWeight());
             }
             //endregion
-
         }//end Rule rule for
         Report.Project.Result.RuleResults.RuleResult result = new Report.Project.Result.RuleResults.RuleResult();
         result.setId(-1);//@MagicContant --> //TODO better solution

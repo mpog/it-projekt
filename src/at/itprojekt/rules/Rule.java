@@ -29,23 +29,6 @@ import javax.xml.bind.annotation.XmlType;
 	  this.id = id;  
 	 }
 	 
-/*	 public double getYellow() {  
-	  return yellow;  
-	 }    
-	 @XmlAttribute 
-	 public void setYellow(double yellow) {  
-	  this.yellow = yellow;  
-	 }  
-	 
-	 public double getRed() {  
-		  return red;  
-		 }  	
-	 @XmlAttribute
-	 public void setRed(double red) {  
-	  this.red = red;  
-	 }  
-	 */
-	 
 	 public String getType() {  
 		  return type;  
 		 }  	
