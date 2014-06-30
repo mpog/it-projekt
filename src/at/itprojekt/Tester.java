@@ -1,13 +1,12 @@
 package at.itprojekt;
 
 import at.itprojekt.konjunktiv.KonjParser;
+import at.itprojekt.rules.RuleTester;
 import at.itprojekt.statbuddy.StatParser;
-import at.itprojekt.xml.generated.*;
-import at.itprojekt.xml.generated.Report.Line.Result.Key.RuleResults;
+import at.itprojekt.xml.generated.Report;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
-
 import java.io.OutputStream;
 
 public class Tester extends Thread {
@@ -17,6 +16,7 @@ public class Tester extends Thread {
     private final Language language;
     private final static DataPair[] kvpA = new DataPair[0];
     private final String[] glossar;
+    private final String xmlUrl, xsdUrl;
 
     /**
      * @param out      OutputStream used to print the results in
@@ -24,9 +24,11 @@ public class Tester extends Thread {
      * @param headings All headings of the project as an array
      * @param texts    All full-texts of the project as an array
      * @param language Language of the project
+     * @param urlToXML A URL as string to the XML file containing the rules
+     * @param urlToXSD A URL as string to the XSD file to verify the xsd file against
      */
-    public Tester(OutputStream out, int[] levels, String[] headings, String[] texts, Language language) {
-        this(out, levels, headings, texts, null, language);
+    public Tester(OutputStream out, int[] levels, String[] headings, String[] texts, Language language, String urlToXML, String urlToXSD) {
+        this(out, levels, headings, texts, null, language, urlToXML, urlToXSD);
     }
 
     /**
@@ -36,11 +38,14 @@ public class Tester extends Thread {
      * @param texts    All full-texts of the project as an array
      * @param glossar  A list of words, which are ok
      * @param language Language of the project
+     * @param urlToXML A URL as string to the XML file containing the rules
+     * @param urlToXSD A URL as string to the XSD file to verify the xsd file against
      */
-    public Tester(OutputStream out, int[] levels, String[] headings, String[] texts, String[] glossar, Language language) {
+    public Tester(OutputStream out, int[] levels, String[] headings, String[] texts, String[] glossar, Language language, String urlToXML, String urlToXSD) {
         //region Check for valid input
-        assert out != null && levels != null && headings != null && texts != null && language != null : "Parameter must not be null.";
+        assert out != null && levels != null && headings != null && texts != null && language != null && urlToXML != null && urlToXSD != null : "Parameter must not be null.";
         assert levels.length == headings.length && headings.length == texts.length : "Length of all arrays has to be the same";
+        assert urlToXML.endsWith(".xml") && urlToXSD.endsWith(".xsd") : "Invalid URL to files";
         //endregion
         single = new DataPair[levels.length];
         StringBuilder stringBuilder = new StringBuilder();
@@ -54,6 +59,8 @@ public class Tester extends Thread {
         this.out = out;
         this.language = language;
         this.glossar = glossar;
+        xmlUrl = urlToXML;
+        xsdUrl = urlToXSD;
 
     }
 
@@ -81,11 +88,11 @@ public class Tester extends Thread {
         for (int lineNumber = 0; lineNumber < single.length; lineNumber++) {
             Report.Line line = new Report.Line();
             Report.Line.Result.Value val = new Report.Line.Result.Value();
-            Report.Line.Result.Key key = new Report.Line.Result.Key();
-            
+            Report.Line.Result.Key key = new Report.Line.Result.Key(); //TODO report unused
+
             val.setSubjunctives(new KonjParser(single[lineNumber].value, language).getKonjunktive());
             line.setNr(lineNumber);
-            
+
             // Make the statistics
             StatParser statParserKey = new StatParser(single[lineNumber].key, language, glossar), statParserValue = new StatParser(single[lineNumber].value, language, glossar);
             key = new StatParser(single[lineNumber].key, language, null).getKey();
@@ -93,12 +100,10 @@ public class Tester extends Thread {
             // If the key has a sentence separator, report it
             if (statParserKey.allSentenceSeperators > 0) {
                 sentenceSignsInKeys++;
-                //  System.out.println(single[lineNumber].key + " has a sentence sign in it");
             }
             //Log to long sentences
             if (statParserKey.longestSentenceNumberOfWords >= maxWords1SentenceText) {
                 tooLongSentences++;
-                //  System.out.println(single[lineNumber].key + " is too long. # of words: " + statParserKey.longestSentenceNumberOfWords);
             }
             if (statParserValue.longestSentenceNumberOfWords >= maxWords1SentenceHeadings) {
                 tooLongSentences++;
@@ -130,11 +135,10 @@ public class Tester extends Thread {
 
         }
         //endregion
-
-        
         rep.setProject(pro);
-
-
+        //Test against rules
+        RuleTester tester = new RuleTester(rep, xmlUrl, xsdUrl);
+        tester.performTest();
         //region Export XML
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(Report.class);
