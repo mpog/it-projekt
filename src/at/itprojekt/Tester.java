@@ -2,10 +2,12 @@ package at.itprojekt;
 
 import at.itprojekt.konjunktiv.KonjParser;
 import at.itprojekt.statbuddy.StatParser;
-import at.itprojekt.xml.generated.Report;
+import at.itprojekt.xml.generated.*;
+import at.itprojekt.xml.generated.Report.Line.Result.Key.RuleResults;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
+
 import java.io.OutputStream;
 
 public class Tester extends Thread {
@@ -68,7 +70,6 @@ public class Tester extends Thread {
         //region Analyse whole document
         Report rep = new Report();
         Report.Project pro = new Report.Project();
-        Report.Project.Result res = new Report.Project.Result();
 
         pro.setResult(new StatParser(whole.value, language, whole, null).getResult());
         //endregion
@@ -81,8 +82,10 @@ public class Tester extends Thread {
             Report.Line line = new Report.Line();
             Report.Line.Result.Value val = new Report.Line.Result.Value();
             Report.Line.Result.Key key = new Report.Line.Result.Key();
+            
             val.setSubjunctives(new KonjParser(single[lineNumber].value, language).getKonjunktive());
             line.setNr(lineNumber);
+            
             // Make the statistics
             StatParser statParserKey = new StatParser(single[lineNumber].key, language, glossar), statParserValue = new StatParser(single[lineNumber].value, language, glossar);
             key = new StatParser(single[lineNumber].key, language, null).getKey();
@@ -127,26 +130,8 @@ public class Tester extends Thread {
 
         }
         //endregion
-        // Print the tips section
-        //region Add tips TODO DEPRICATE
-        Report.Project.Tips tip = new Report.Project.Tips();
-        if (sentenceSignsInKeys > 0) {
-            tip.getTip().add("All in all " + sentenceSignsInKeys + " places have been found in headings, where a sentence ends or a subsentence starts/ends.");
-        }
-        if (abbreviationsUsed > 0) {
-            tip.getTip().add("All in all " + abbreviationsUsed + " abbreviations have been found. Make your language clearer and use full words only.");
-        }
-        if (valueEndSignMissing > 0) {
-            tip.getTip().add("All in all " + valueEndSignMissing + " sentence signs are missing at the end of texts.");
-        }
-        if (headingLongerEqualThenText > 0) {
-            tip.getTip().add("All in all " + headingLongerEqualThenText + " headings have maximum the same length compard to the corresponding text.");
-        }
-        if (tooLongSentences > 0) {
-            tip.getTip().add("All in all " + tooLongSentences + " entries have at least one too long sentence.");
-        }
-        //endregion
-        pro.setTips(tip);
+
+        
         rep.setProject(pro);
 
 

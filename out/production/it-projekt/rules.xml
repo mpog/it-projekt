@@ -1,14 +1,14 @@
 <rules red="4" yellow="2.5" green="1">
-	<rule>
-		<name>subjunctiv</name>
-		<yellow>0.9</yellow> 
-		<red>1</red> 
-		<weight>1.2</weight>
+	<rule id="0" weight="1" type="project">
+		<test value="zip"  yellow="0.7" red="0.8" weight="0.5"/>
+		<test value="subjunctives" yellow="0.9" red="0" weight="1" />
 	</rule>
-	<rule>
-		<name>test</name>
-		<yellow>0.8</yellow> 
-		<red>1</red> 
-		<weight>2.2</weight>
+	<rule id="1" weight="1" type="line_key">
+		<test value="zip"  yellow="0.7" red="0.8" weight="0.5"/>
+		<test value="subjunctives" yellow="0.9" red="0" weight="2" />
+	</rule>
+	<rule id="2" weight="1" type="line_value">
+		<test value="zip"  yellow="0.7" red="0.8" weight="0.5"/>
+		<test value="subjunctives" yellow="0.9" red="0" weight="3" />
 	</rule>
 </rules>
