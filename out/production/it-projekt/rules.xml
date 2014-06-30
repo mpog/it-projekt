@@ -1,14 +1,32 @@
-<rules red="4" yellow="2.5" green="1">
-	<rule id="0" weight="1" type="project">
-		<test value="zip"  yellow="0.7" red="0.8" weight="0.5"/>
-		<test value="subjunctives" yellow="0.9" red="0" weight="1" />
+<rules red="0.4" yellow="0.65" green="0.95">
+	<rule id="0" weight="1" type="line_key">
+		<test value="sentences"  yellow="0.9" red="1" weight="1"/>
 	</rule>
-	<rule id="1" weight="1" type="line_key">
-		<test value="zip"  yellow="0.7" red="0.8" weight="0.5"/>
-		<test value="subjunctives" yellow="0.9" red="0" weight="2" />
+	<rule id="1" weight="2" type="line_value">
+		<test value="abbreviations"  yellow="0.9" red="1" weight="1"/>
 	</rule>
-	<rule id="2" weight="1" type="line_value">
-		<test value="zip"  yellow="0.7" red="0.8" weight="0.5"/>
-		<test value="subjunctives" yellow="0.9" red="0" weight="3" />
+	<rule id="2" weight="2" type="line_key">
+		<test value="abbreviations"  yellow="0.9" red="1" weight="1"/>
+	</rule>
+	<rule id="3" weight="0.3" type="line_value">
+		<test value="sentenceSignAtEnd"  yellow="0.9" red="1" weight="1"/>
+	</rule>
+	<rule id="4" weight="0.3" type="line_key">
+		<test value="sentenceSignAtEnd"  yellow="0.9" red="1" weight="1"/>
+	</rule>
+	<rule id="5" weight="0.5" type="line_value">
+		<test value="sentenceMaxLengthWords"  yellow="20" red="40" weight="1"/>
+		<test value="sentenceMaxLengthWords"  yellow="25" red="50" weight="1.2"/>
+	</rule>
+	<rule id="6" weight="0.8" type="line_key">
+		<test value="sentenceMaxLengthWords"  yellow="10" red="20" weight="2"/>
+		<test value="sentenceMaxLengthWords"  yellow="20" red="30" weight="1"/>
+	</rule>
+	<rule id="7" weight="2" type="project">
+		<test value="zip"  yellow="0.8" red="0.7" weight="1"/>
+		<test value="subjunctives"  yellow="0" red="1" weight="4"/>
+	</rule>
+	<rule id="8" weight="2" type="line_value">
+		<test value="sentences"  yellow="5" red="10" weight="1"/>
 	</rule>
 </rules>

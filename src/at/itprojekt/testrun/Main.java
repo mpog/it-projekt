@@ -23,7 +23,6 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
-            //   System.out.println("\n\nEN\n\n");
             en.start();
             try {
                 en.join();
@@ -49,7 +48,6 @@ public class Main {
                 stringBuilder.append('\n');
             }
             String whole = stringBuilder.toString();
-            //  System.out.println(whole);
             if (!outF.exists())
                 outF.createNewFile();
             output = new PrintStream(outF);
@@ -62,7 +60,6 @@ public class Main {
                 tmpLevels[i - 1] = Integer.parseInt(split[0].substring(1));
                 tmpHadings[i - 1] = split[1];
                 tmpTexts[i - 1] = split[2].substring(0, split[2].length() - 1); // Take the whole string, except of the last char
-                // System.out.println(lines[i]+"\tis ok");
             }
             Tester tester = new Tester(output, tmpLevels, tmpHadings, tmpTexts, glossar, language, url + "rules.xml", url + "rules.xsd");
             return tester;

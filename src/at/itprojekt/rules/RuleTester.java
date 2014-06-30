@@ -17,7 +17,7 @@ public class RuleTester {
     private Report report;
     private Rules rules;
     private static final List<String> rule_type = new ArrayList<>(), rule_allowedValues = new ArrayList<>();
-    private static final String subjunctives = "subjunctives", zip = "zip", chars = "chars", words = "words", allSentenceSeperators = "allSentenceSeperators", innerSentenceSeperators = "innerSentenceSeperators", sentences = "sentences", abbreviations = "abbreviations";
+    private static final String subjunctives = "subjunctives", zip = "zip", chars = "chars", words = "words", allSentenceSeperators = "allSentenceSeperators", innerSentenceSeperators = "innerSentenceSeperators", sentences = "sentences", abbreviations = "abbreviations", sentenceMaxLengthWords="sentenceMaxLengthWords", sentenceSignAtEnd="sentenceSignAtEnd";
 
     //Static constructor
     {
@@ -32,6 +32,8 @@ public class RuleTester {
         rule_allowedValues.add(innerSentenceSeperators);
         rule_allowedValues.add(sentences);
         rule_allowedValues.add(abbreviations);
+        rule_allowedValues.add(sentenceMaxLengthWords);
+        rule_allowedValues.add(sentenceSignAtEnd);
     }
 
     // region getValue from Result
@@ -54,6 +56,10 @@ public class RuleTester {
                 return result.getSentences();
             case abbreviations:
                 return result.getAbbreviations();
+            case sentenceMaxLengthWords:
+            	return result.getSentenceMaxLengthWords();
+            case sentenceSignAtEnd:
+            	return result.getSentenceSignAtEnd(); //getSentenceSignAtEnd()?1:0;
             default:
                 return Double.POSITIVE_INFINITY;
         }
@@ -76,6 +82,10 @@ public class RuleTester {
                 return result.getSentences();
             case abbreviations:
                 return result.getAbbreviations();
+            case sentenceMaxLengthWords:
+            	return result.getSentenceMaxLengthWords();
+            case sentenceSignAtEnd:
+            	return result.getSentenceSignAtEnd();
             default:
                 return Double.POSITIVE_INFINITY;
         }
@@ -98,6 +108,10 @@ public class RuleTester {
                 return result.getSentences();
             case abbreviations:
                 return result.getAbbreviations();
+            case sentenceMaxLengthWords:
+            	return result.getSentenceMaxLengthWords();
+            case sentenceSignAtEnd:
+            	return result.getSentenceSignAtEnd();
             default:
                 return Double.POSITIVE_INFINITY;
         }
@@ -180,10 +194,10 @@ public class RuleTester {
             }
             //endregion
         }//end Rule rule for
-        Report.Project.Result.RuleResults.RuleResult result = new Report.Project.Result.RuleResults.RuleResult();
-        result.setId(-1);//@MagicContant --> //TODO better solution
-        result.setValue(totalRuleValues / totalRuleWeight);
-        report.getProject().getResult().getRuleResults().getRuleResult().add(result);
+                
+        //set total project-result
+        report.getProject().getResult().getRuleResults().setTotal(totalRuleValues / totalRuleWeight);
+        
     }
 
     //region Do actual testing
@@ -227,7 +241,6 @@ public class RuleTester {
             Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
 
             // specify the location and name of xml file to be read
-
             File XMLfile = new File(xmlFileURL);
             File XSDfile = new File(xsdFileUrl);
 
@@ -242,7 +255,6 @@ public class RuleTester {
 
 
         } catch (JAXBException e) {
-
             e.printStackTrace();
         } catch (SAXException e) {
             e.printStackTrace();
@@ -251,7 +263,7 @@ public class RuleTester {
     }
 
     private static class MyValidationEventHandler implements ValidationEventHandler {
-
+ 
         public boolean handleEvent(ValidationEvent arg0) {
             System.out.println(arg0.getSeverity());
             return true;
