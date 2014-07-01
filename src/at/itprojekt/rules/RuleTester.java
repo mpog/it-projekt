@@ -57,9 +57,7 @@ public class RuleTester {
             case abbreviations:
                 return result.getAbbreviations();
             case sentenceMaxLengthWords:
-            	return result.getSentenceMaxLengthWords();
-            case sentenceSignAtEnd:
-            	return result.getSentenceSignAtEnd(); //getSentenceSignAtEnd()?1:0;
+            	return result.getSentenceMaxLengthWords();            	
             default:
                 return Double.POSITIVE_INFINITY;
         }
@@ -85,7 +83,7 @@ public class RuleTester {
             case sentenceMaxLengthWords:
             	return result.getSentenceMaxLengthWords();
             case sentenceSignAtEnd:
-            	return result.getSentenceSignAtEnd();
+            	return result.isSentenceSignAtEnd()?1:0;
             default:
                 return Double.POSITIVE_INFINITY;
         }
@@ -111,7 +109,7 @@ public class RuleTester {
             case sentenceMaxLengthWords:
             	return result.getSentenceMaxLengthWords();
             case sentenceSignAtEnd:
-            	return result.getSentenceSignAtEnd();
+            	return result.isSentenceSignAtEnd()?1:0;
             default:
                 return Double.POSITIVE_INFINITY;
         }

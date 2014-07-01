@@ -139,7 +139,6 @@ public class StatParser {
         result.setAllSentenceSeperators(allSentenceSeperators);
         result.setChars(chars);
         result.setInnerSentenceSeperators(innerSentenceSeperators);
-        result.setSentenceSignAtEnd((sentenceSignAtEnd) ? 1 : 0);
         result.setSentences(sentences);
         result.setWords(words);
         result.setRuleResults(this.getRuleResults());
@@ -159,7 +158,7 @@ public class StatParser {
         key.setAllSentenceSeperators(allSentenceSeperators);
         key.setChars(chars);
         key.setInnerSentenceSeperators(innerSentenceSeperators);
-        key.setSentenceSignAtEnd((sentenceSignAtEnd) ? 1 : 0);
+        key.setSentenceSignAtEnd(sentenceSignAtEnd);
         key.setSentences(sentences);
         key.setWords(words);
         key.setSentenceMaxLengthWords(longestSentenceNumberOfWords);
@@ -180,7 +179,7 @@ public class StatParser {
         value.setAllSentenceSeperators(allSentenceSeperators);
         value.setChars(chars);
         value.setInnerSentenceSeperators(innerSentenceSeperators);
-        value.setSentenceSignAtEnd((sentenceSignAtEnd) ? 1 : 0);
+        value.setSentenceSignAtEnd(sentenceSignAtEnd);
         value.setSentences(sentences);
         value.setWords(words);
         value.setSentenceMaxLengthWords(longestSentenceNumberOfWords);

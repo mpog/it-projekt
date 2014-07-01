@@ -1,9 +1,9 @@
-<rules red="0.4" yellow="0.65" green="0.95">
+<rules red="0" yellow="0.5" green="1">
 	<rule id="0" weight="1" type="line_key">
-		<test value="sentences"  yellow="0.9" red="1" weight="1"/>
+		<test value="sentences"  yellow="1.1" red="2" weight="1"/>
 	</rule>
 	<rule id="1" weight="2" type="line_value">
-		<test value="abbreviations"  yellow="0.9" red="1" weight="1"/>
+		<test value="abbreviations"  yellow="1" red="2" weight="1"/>
 	</rule>
 	<rule id="2" weight="2" type="line_key">
 		<test value="abbreviations"  yellow="0.9" red="1" weight="1"/>

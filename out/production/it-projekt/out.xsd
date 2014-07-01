@@ -15,8 +15,6 @@
 										<xs:element type="xs:int" name="words"/>
 										<xs:element type="xs:int" name="allSentenceSeperators"/>
 										<xs:element type="xs:int" name="innerSentenceSeperators"/>
-										<xs:element type="xs:int" name="sentenceSeperators"/>
-										<xs:element type="xs:int" name="sentenceSignAtEnd"/>
 										<xs:element type="xs:int" name="sentences"/>
 										<xs:element type="xs:int" name="sentenceMaxLengthWords"/>
 										<xs:element type="xs:int" name="abbreviations"/>
@@ -56,7 +54,7 @@
 													<xs:element type="xs:int" name="words"/>
 													<xs:element type="xs:int" name="allSentenceSeperators"/>
 													<xs:element type="xs:int" name="innerSentenceSeperators"/>
-													<xs:element type="xs:int" name="sentenceSignAtEnd"/>
+													<xs:element type="xs:boolean" name="sentenceSignAtEnd"/>
 													<xs:element type="xs:int" name="sentences"/>
 													<xs:element type="xs:int" name="sentenceMaxLengthWords"/>
 													<xs:element type="xs:int" name="abbreviations"/>
@@ -86,7 +84,7 @@
 													<xs:element type="xs:int" name="words"/>
 													<xs:element type="xs:int" name="allSentenceSeperators"/>
 													<xs:element type="xs:int" name="innerSentenceSeperators"/>
-													<xs:element type="xs:int" name="sentenceSignAtEnd"/>
+													<xs:element type="xs:boolean" name="sentenceSignAtEnd"/>
 													<xs:element type="xs:int" name="sentences"/>
 													<xs:element type="xs:int" name="sentenceMaxLengthWords"/>
 													<xs:element type="xs:int" name="abbreviations"/>
