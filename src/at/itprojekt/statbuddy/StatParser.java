@@ -165,8 +165,6 @@ public class StatParser {
         key.setSentenceMaxLengthWords(longestSentenceNumberOfWords);
         if (key.getRuleResults() == null)
             key.setRuleResults(new Report.Line.Result.Key.RuleResults());
-       /* Report.Line.Result.Key.RuleResults res = key.getRuleResults(); TODO can delete?
-        res.getRuleResult().add(this.getKeyRuleResult());*/
         return key;
     }
 
@@ -189,9 +187,6 @@ public class StatParser {
         
         if (value.getRuleResults() == null)
             value.setRuleResults(new Report.Line.Result.Value.RuleResults());
-       /* Report.Line.Result.Value.RuleResults res = value.getRuleResults(); TODO can delete?
-        res.getRuleResult().add(this.getValRuleResults());*/
-
         return value;
     }
 
