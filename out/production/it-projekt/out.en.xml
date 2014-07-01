@@ -3,18 +3,26 @@
     <project>
         <result>
             <subjunctives>3</subjunctives>
-            <zip>0.70556456</zip>
-            <chars>38871</chars>
+            <zip>0.6877134</zip>
+            <chars>38961</chars>
             <words>5940</words>
             <allSentenceSeperators>333</allSentenceSeperators>
             <innerSentenceSeperators>198</innerSentenceSeperators>
+            <sentenceSeperators>0</sentenceSeperators>
+            <sentenceSignAtEnd>0</sentenceSignAtEnd>
             <sentences>334</sentences>
+            <sentenceMaxLengthWords>156</sentenceMaxLengthWords>
             <abbreviations>426</abbreviations>
-            <rule_results>
-                <rule_result id="0">1.5</rule_result>
-                <rule_result id="1">4.0</rule_result>
-                <rule_result id="2">3.9475218658892133</rule_result>
-                <rule_result id="-1">3.1491739552964044</rule_result>
+            <rule_results total="0.6156873925550208">
+                <rule_result id="0">0.42244897959183597</rule_result>
+                <rule_result id="1">0.6301020408163264</rule_result>
+                <rule_result id="2">0.8040816326530625</rule_result>
+                <rule_result id="3">0.5683673469387752</rule_result>
+                <rule_result id="4">0.9387755102040832</rule_result>
+                <rule_result id="5">0.811502782931355</rule_result>
+                <rule_result id="6">0.9500000000000017</rule_result>
+                <rule_result id="7">0.4</rule_result>
+                <rule_result id="8">0.7857142857142866</rule_result>
             </rule_results>
         </result>
     </project>
@@ -26,10 +34,15 @@
                 <words>1</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>1</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -38,10 +51,15 @@
                 <words>24</words>
                 <allSentenceSeperators>2</allSentenceSeperators>
                 <innerSentenceSeperators>2</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>24</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -54,10 +72,15 @@
                 <words>1</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>1</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -66,10 +89,15 @@
                 <words>21</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>21</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -82,10 +110,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -94,10 +127,15 @@
                 <words>0</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>1</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -110,22 +148,32 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>707</chars>
+                <chars>720</chars>
                 <words>99</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>38</sentenceMaxLengthWords>
                 <abbreviations>5</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -138,22 +186,32 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>234</chars>
+                <chars>239</chars>
                 <words>36</words>
                 <allSentenceSeperators>-1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>-1</sentences>
+                <sentenceMaxLengthWords>28</sentenceMaxLengthWords>
                 <abbreviations>3</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -166,22 +224,32 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>902</chars>
+                <chars>909</chars>
                 <words>131</words>
                 <allSentenceSeperators>13</allSentenceSeperators>
                 <innerSentenceSeperators>6</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>14</sentences>
+                <sentenceMaxLengthWords>22</sentenceMaxLengthWords>
                 <abbreviations>3</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.4</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -194,22 +262,32 @@
                 <words>4</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>1192</chars>
+                <chars>1196</chars>
                 <words>179</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>6</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>7</sentences>
+                <sentenceMaxLengthWords>23</sentenceMaxLengthWords>
                 <abbreviations>27</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -222,10 +300,15 @@
                 <words>3</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>3</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -234,10 +317,15 @@
                 <words>43</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>27</sentenceMaxLengthWords>
                 <abbreviations>2</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -250,10 +338,15 @@
                 <words>3</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>3</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -262,10 +355,15 @@
                 <words>243</words>
                 <allSentenceSeperators>15</allSentenceSeperators>
                 <innerSentenceSeperators>19</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>15</sentences>
+                <sentenceMaxLengthWords>53</sentenceMaxLengthWords>
                 <abbreviations>12</abbreviations>
                 <rule_results>
-                    <rule_result id="2">1.4285714285714286</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.39999999999999997</rule_result>
+                    <rule_result id="8">0.4</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -278,10 +376,15 @@
                 <words>5</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>5</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -290,10 +393,15 @@
                 <words>15</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>15</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -306,10 +414,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -318,10 +431,15 @@
                 <words>35</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>18</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -334,22 +452,32 @@
                 <words>5</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>5</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>451</chars>
+                <chars>460</chars>
                 <words>69</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>7</sentences>
+                <sentenceMaxLengthWords>24</sentenceMaxLengthWords>
                 <abbreviations>5</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -362,10 +490,15 @@
                 <words>4</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -374,10 +507,15 @@
                 <words>18</words>
                 <allSentenceSeperators>2</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>11</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -390,10 +528,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -402,10 +545,15 @@
                 <words>27</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>18</sentenceMaxLengthWords>
                 <abbreviations>2</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -418,10 +566,15 @@
                 <words>1</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>1</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -430,10 +583,15 @@
                 <words>126</words>
                 <allSentenceSeperators>19</allSentenceSeperators>
                 <innerSentenceSeperators>4</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>20</sentences>
+                <sentenceMaxLengthWords>14</sentenceMaxLengthWords>
                 <abbreviations>4</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.4</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -446,10 +604,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -458,10 +621,15 @@
                 <words>42</words>
                 <allSentenceSeperators>5</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>6</sentences>
+                <sentenceMaxLengthWords>16</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -474,22 +642,32 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>539</chars>
+                <chars>540</chars>
                 <words>83</words>
                 <allSentenceSeperators>12</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>13</sentences>
+                <sentenceMaxLengthWords>22</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.4</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -502,10 +680,15 @@
                 <words>1</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>1</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -514,10 +697,15 @@
                 <words>15</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>15</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -530,10 +718,15 @@
                 <words>1</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>1</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -542,10 +735,15 @@
                 <words>50</words>
                 <allSentenceSeperators>6</allSentenceSeperators>
                 <innerSentenceSeperators>3</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>6</sentences>
+                <sentenceMaxLengthWords>30</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -558,10 +756,15 @@
                 <words>1</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>1</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -570,10 +773,15 @@
                 <words>30</words>
                 <allSentenceSeperators>3</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>3</sentences>
+                <sentenceMaxLengthWords>20</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">1.4285714285714286</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -586,10 +794,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -598,10 +811,15 @@
                 <words>68</words>
                 <allSentenceSeperators>3</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>3</sentences>
+                <sentenceMaxLengthWords>25</sentenceMaxLengthWords>
                 <abbreviations>2</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -614,10 +832,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -626,10 +849,15 @@
                 <words>29</words>
                 <allSentenceSeperators>-1</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>0</sentences>
+                <sentenceMaxLengthWords>14</sentenceMaxLengthWords>
                 <abbreviations>5</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -642,10 +870,15 @@
                 <words>3</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>3</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -654,10 +887,15 @@
                 <words>0</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>1</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -670,10 +908,15 @@
                 <words>3</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>3</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -682,10 +925,15 @@
                 <words>17</words>
                 <allSentenceSeperators>9</allSentenceSeperators>
                 <innerSentenceSeperators>7</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>9</sentences>
+                <sentenceMaxLengthWords>9</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -698,10 +946,15 @@
                 <words>3</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>3</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -710,10 +963,15 @@
                 <words>134</words>
                 <allSentenceSeperators>13</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>13</sentences>
+                <sentenceMaxLengthWords>21</sentenceMaxLengthWords>
                 <abbreviations>2</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.4</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -726,22 +984,32 @@
                 <words>3</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>3</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>402</chars>
+                <chars>406</chars>
                 <words>67</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>7</sentences>
+                <sentenceMaxLengthWords>20</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -754,10 +1022,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -766,10 +1039,15 @@
                 <words>157</words>
                 <allSentenceSeperators>35</allSentenceSeperators>
                 <innerSentenceSeperators>5</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>36</sentences>
+                <sentenceMaxLengthWords>17</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.4</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -782,10 +1060,15 @@
                 <words>4</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -794,10 +1077,15 @@
                 <words>115</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>5</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>7</sentences>
+                <sentenceMaxLengthWords>30</sentenceMaxLengthWords>
                 <abbreviations>8</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -810,22 +1098,32 @@
                 <words>2</words>
                 <allSentenceSeperators>-1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>0</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>2</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.95</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>364</chars>
+                <chars>366</chars>
                 <words>62</words>
                 <allSentenceSeperators>6</allSentenceSeperators>
                 <innerSentenceSeperators>6</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>7</sentences>
+                <sentenceMaxLengthWords>58</sentenceMaxLengthWords>
                 <abbreviations>2</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.39999999999999997</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -838,10 +1136,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -850,10 +1153,15 @@
                 <words>71</words>
                 <allSentenceSeperators>10</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>10</sentences>
+                <sentenceMaxLengthWords>16</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.4</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -866,10 +1174,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -878,10 +1191,15 @@
                 <words>22</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>22</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -894,10 +1212,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -906,10 +1229,15 @@
                 <words>11</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>11</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -922,10 +1250,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -934,10 +1267,15 @@
                 <words>11</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>11</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -950,10 +1288,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -962,10 +1305,15 @@
                 <words>36</words>
                 <allSentenceSeperators>3</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>3</sentences>
+                <sentenceMaxLengthWords>17</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -978,10 +1326,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -990,10 +1343,15 @@
                 <words>25</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>25</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1006,22 +1364,32 @@
                 <words>3</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>3</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>684</chars>
+                <chars>686</chars>
                 <words>105</words>
                 <allSentenceSeperators>3</allSentenceSeperators>
                 <innerSentenceSeperators>24</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>4</sentences>
+                <sentenceMaxLengthWords>32</sentenceMaxLengthWords>
                 <abbreviations>28</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1034,10 +1402,15 @@
                 <words>5</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>5</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1046,10 +1419,15 @@
                 <words>17</words>
                 <allSentenceSeperators>3</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>4</sentences>
+                <sentenceMaxLengthWords>11</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1062,10 +1440,15 @@
                 <words>5</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>5</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1074,10 +1457,15 @@
                 <words>16</words>
                 <allSentenceSeperators>2</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>16</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1090,10 +1478,15 @@
                 <words>5</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>5</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1102,10 +1495,15 @@
                 <words>16</words>
                 <allSentenceSeperators>2</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>16</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1118,10 +1516,15 @@
                 <words>5</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>5</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1130,10 +1533,15 @@
                 <words>24</words>
                 <allSentenceSeperators>2</allSentenceSeperators>
                 <innerSentenceSeperators>2</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>24</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1146,10 +1554,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1158,10 +1571,15 @@
                 <words>21</words>
                 <allSentenceSeperators>6</allSentenceSeperators>
                 <innerSentenceSeperators>4</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>6</sentences>
+                <sentenceMaxLengthWords>8</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1174,10 +1592,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1186,10 +1609,15 @@
                 <words>26</words>
                 <allSentenceSeperators>2</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>13</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1202,10 +1630,15 @@
                 <words>3</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>3</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1214,10 +1647,15 @@
                 <words>73</words>
                 <allSentenceSeperators>6</allSentenceSeperators>
                 <innerSentenceSeperators>2</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>6</sentences>
+                <sentenceMaxLengthWords>20</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1230,10 +1668,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1242,10 +1685,15 @@
                 <words>148</words>
                 <allSentenceSeperators>22</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>22</sentences>
+                <sentenceMaxLengthWords>29</sentenceMaxLengthWords>
                 <abbreviations>2</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.4</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1258,10 +1706,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1270,10 +1723,15 @@
                 <words>9</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>9</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1286,10 +1744,15 @@
                 <words>4</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1298,10 +1761,15 @@
                 <words>152</words>
                 <allSentenceSeperators>9</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>9</sentences>
+                <sentenceMaxLengthWords>26</sentenceMaxLengthWords>
                 <abbreviations>13</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1314,10 +1782,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1326,10 +1799,15 @@
                 <words>173</words>
                 <allSentenceSeperators>8</allSentenceSeperators>
                 <innerSentenceSeperators>5</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>8</sentences>
+                <sentenceMaxLengthWords>31</sentenceMaxLengthWords>
                 <abbreviations>13</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1342,10 +1820,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1354,10 +1837,15 @@
                 <words>88</words>
                 <allSentenceSeperators>12</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>12</sentences>
+                <sentenceMaxLengthWords>17</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.4</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1370,22 +1858,32 @@
                 <words>1</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>1</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>276</chars>
+                <chars>280</chars>
                 <words>41</words>
                 <allSentenceSeperators>5</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>5</sentences>
+                <sentenceMaxLengthWords>10</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1398,10 +1896,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1410,10 +1913,15 @@
                 <words>8</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>8</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1426,10 +1934,15 @@
                 <words>5</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>5</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1438,10 +1951,15 @@
                 <words>12</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>0</sentences>
+                <sentenceMaxLengthWords>12</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1454,10 +1972,15 @@
                 <words>3</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>3</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1466,10 +1989,15 @@
                 <words>44</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>7</sentences>
+                <sentenceMaxLengthWords>14</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1482,10 +2010,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1494,10 +2027,15 @@
                 <words>107</words>
                 <allSentenceSeperators>14</allSentenceSeperators>
                 <innerSentenceSeperators>5</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>15</sentences>
+                <sentenceMaxLengthWords>26</sentenceMaxLengthWords>
                 <abbreviations>5</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.4</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1510,22 +2048,32 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>831</chars>
+                <chars>832</chars>
                 <words>133</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>4</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>7</sentences>
+                <sentenceMaxLengthWords>28</sentenceMaxLengthWords>
                 <abbreviations>9</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1538,10 +2086,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1550,10 +2103,15 @@
                 <words>16</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>0</sentences>
+                <sentenceMaxLengthWords>16</sentenceMaxLengthWords>
                 <abbreviations>2</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1566,10 +2124,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1578,10 +2141,15 @@
                 <words>210</words>
                 <allSentenceSeperators>21</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>22</sentences>
+                <sentenceMaxLengthWords>54</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.39999999999999997</rule_result>
+                    <rule_result id="8">0.4</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1594,10 +2162,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1606,10 +2179,15 @@
                 <words>29</words>
                 <allSentenceSeperators>4</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>5</sentences>
+                <sentenceMaxLengthWords>23</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1622,10 +2200,15 @@
                 <words>5</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>5</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1634,10 +2217,15 @@
                 <words>66</words>
                 <allSentenceSeperators>9</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>9</sentences>
+                <sentenceMaxLengthWords>16</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1650,10 +2238,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1662,10 +2255,15 @@
                 <words>21</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>21</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1678,10 +2276,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1690,10 +2293,15 @@
                 <words>40</words>
                 <allSentenceSeperators>5</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>5</sentences>
+                <sentenceMaxLengthWords>21</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1706,10 +2314,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1718,10 +2331,15 @@
                 <words>121</words>
                 <allSentenceSeperators>20</allSentenceSeperators>
                 <innerSentenceSeperators>6</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>21</sentences>
+                <sentenceMaxLengthWords>20</sentenceMaxLengthWords>
                 <abbreviations>3</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.4</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1734,10 +2352,15 @@
                 <words>5</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>5</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1746,10 +2369,15 @@
                 <words>147</words>
                 <allSentenceSeperators>2</allSentenceSeperators>
                 <innerSentenceSeperators>3</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>3</sentences>
+                <sentenceMaxLengthWords>29</sentenceMaxLengthWords>
                 <abbreviations>16</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1762,10 +2390,15 @@
                 <words>6</words>
                 <allSentenceSeperators>-2</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>-1</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>4</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.95</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1774,10 +2407,15 @@
                 <words>29</words>
                 <allSentenceSeperators>-3</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>-2</sentences>
+                <sentenceMaxLengthWords>20</sentenceMaxLengthWords>
                 <abbreviations>6</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1790,10 +2428,15 @@
                 <words>6</words>
                 <allSentenceSeperators>-2</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>-1</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>4</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.95</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1802,10 +2445,15 @@
                 <words>45</words>
                 <allSentenceSeperators>-1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>0</sentences>
+                <sentenceMaxLengthWords>33</sentenceMaxLengthWords>
                 <abbreviations>4</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1818,10 +2466,15 @@
                 <words>6</words>
                 <allSentenceSeperators>2</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.4</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1830,10 +2483,15 @@
                 <words>29</words>
                 <allSentenceSeperators>4</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>5</sentences>
+                <sentenceMaxLengthWords>11</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1846,10 +2504,15 @@
                 <words>6</words>
                 <allSentenceSeperators>-3</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>-3</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>5</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.95</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.4</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1858,10 +2521,15 @@
                 <words>48</words>
                 <allSentenceSeperators>-5</allSentenceSeperators>
                 <innerSentenceSeperators>3</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>-4</sentences>
+                <sentenceMaxLengthWords>26</sentenceMaxLengthWords>
                 <abbreviations>11</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1874,10 +2542,15 @@
                 <words>4</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1886,10 +2559,15 @@
                 <words>0</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>1</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1902,10 +2580,15 @@
                 <words>1</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>1</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1914,10 +2597,15 @@
                 <words>5</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>5</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1930,10 +2618,15 @@
                 <words>1</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>1</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1942,10 +2635,15 @@
                 <words>19</words>
                 <allSentenceSeperators>5</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>5</sentences>
+                <sentenceMaxLengthWords>7</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1958,10 +2656,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -1970,10 +2673,15 @@
                 <words>48</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>3</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>8</sentences>
+                <sentenceMaxLengthWords>27</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -1986,22 +2694,32 @@
                 <words>4</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>505</chars>
+                <chars>507</chars>
                 <words>88</words>
                 <allSentenceSeperators>4</allSentenceSeperators>
                 <innerSentenceSeperators>3</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>4</sentences>
+                <sentenceMaxLengthWords>26</sentenceMaxLengthWords>
                 <abbreviations>8</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2014,10 +2732,15 @@
                 <words>4</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2026,10 +2749,15 @@
                 <words>36</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>0</sentences>
+                <sentenceMaxLengthWords>20</sentenceMaxLengthWords>
                 <abbreviations>2</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2042,10 +2770,15 @@
                 <words>3</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>3</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2054,10 +2787,15 @@
                 <words>65</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>33</sentenceMaxLengthWords>
                 <abbreviations>5</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2070,10 +2808,15 @@
                 <words>3</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>3</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2082,10 +2825,15 @@
                 <words>17</words>
                 <allSentenceSeperators>-2</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>-2</sentences>
+                <sentenceMaxLengthWords>17</sentenceMaxLengthWords>
                 <abbreviations>3</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2098,10 +2846,15 @@
                 <words>3</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>3</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2110,10 +2863,15 @@
                 <words>17</words>
                 <allSentenceSeperators>-2</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>-2</sentences>
+                <sentenceMaxLengthWords>17</sentenceMaxLengthWords>
                 <abbreviations>3</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2126,10 +2884,15 @@
                 <words>3</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>3</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2138,10 +2901,15 @@
                 <words>62</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>22</sentenceMaxLengthWords>
                 <abbreviations>5</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2154,10 +2922,15 @@
                 <words>4</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2166,10 +2939,15 @@
                 <words>43</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>17</sentenceMaxLengthWords>
                 <abbreviations>5</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2182,10 +2960,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2194,10 +2977,15 @@
                 <words>33</words>
                 <allSentenceSeperators>4</allSentenceSeperators>
                 <innerSentenceSeperators>2</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>4</sentences>
+                <sentenceMaxLengthWords>17</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2210,10 +2998,15 @@
                 <words>4</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2222,10 +3015,15 @@
                 <words>25</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>25</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2238,10 +3036,15 @@
                 <words>4</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2250,10 +3053,15 @@
                 <words>31</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>31</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2266,10 +3074,15 @@
                 <words>6</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>6</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2278,10 +3091,15 @@
                 <words>50</words>
                 <allSentenceSeperators>5</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>5</sentences>
+                <sentenceMaxLengthWords>24</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2294,10 +3112,15 @@
                 <words>2</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2306,10 +3129,15 @@
                 <words>73</words>
                 <allSentenceSeperators>-1</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>-1</sentences>
+                <sentenceMaxLengthWords>33</sentenceMaxLengthWords>
                 <abbreviations>8</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2322,10 +3150,15 @@
                 <words>4</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2334,10 +3167,15 @@
                 <words>31</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>17</sentenceMaxLengthWords>
                 <abbreviations>2</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2350,10 +3188,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2362,10 +3205,15 @@
                 <words>13</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>13</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2378,10 +3226,15 @@
                 <words>4</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2390,10 +3243,15 @@
                 <words>46</words>
                 <allSentenceSeperators>2</allSentenceSeperators>
                 <innerSentenceSeperators>1</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>28</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2406,10 +3264,15 @@
                 <words>3</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>3</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2418,10 +3281,15 @@
                 <words>98</words>
                 <allSentenceSeperators>6</allSentenceSeperators>
                 <innerSentenceSeperators>5</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>6</sentences>
+                <sentenceMaxLengthWords>27</sentenceMaxLengthWords>
                 <abbreviations>8</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2434,10 +3302,15 @@
                 <words>2</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2446,10 +3319,15 @@
                 <words>66</words>
                 <allSentenceSeperators>5</allSentenceSeperators>
                 <innerSentenceSeperators>4</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>5</sentences>
+                <sentenceMaxLengthWords>27</sentenceMaxLengthWords>
                 <abbreviations>6</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2462,22 +3340,32 @@
                 <words>2</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>603</chars>
+                <chars>605</chars>
                 <words>103</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>3</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>7</sentences>
+                <sentenceMaxLengthWords>17</sentenceMaxLengthWords>
                 <abbreviations>6</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2490,10 +3378,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2502,10 +3395,15 @@
                 <words>24</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>24</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2518,10 +3416,15 @@
                 <words>4</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>4</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.4</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2530,10 +3433,15 @@
                 <words>33</words>
                 <allSentenceSeperators>3</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>4</sentences>
+                <sentenceMaxLengthWords>16</sentenceMaxLengthWords>
                 <abbreviations>1</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2546,10 +3454,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2558,10 +3471,15 @@
                 <words>21</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>1</sentences>
+                <sentenceMaxLengthWords>21</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2574,10 +3492,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2586,10 +3509,15 @@
                 <words>51</words>
                 <allSentenceSeperators>6</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>6</sentences>
+                <sentenceMaxLengthWords>17</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2602,10 +3530,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2614,10 +3547,15 @@
                 <words>30</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>0</sentences>
+                <sentenceMaxLengthWords>18</sentenceMaxLengthWords>
                 <abbreviations>2</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.9499999999999998</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2630,10 +3568,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2642,10 +3585,15 @@
                 <words>36</words>
                 <allSentenceSeperators>0</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>0</sentences>
+                <sentenceMaxLengthWords>24</sentenceMaxLengthWords>
                 <abbreviations>2</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.95</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2658,10 +3606,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2670,10 +3623,15 @@
                 <words>119</words>
                 <allSentenceSeperators>17</allSentenceSeperators>
                 <innerSentenceSeperators>7</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>17</sentences>
+                <sentenceMaxLengthWords>23</sentenceMaxLengthWords>
                 <abbreviations>3</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.8136363636363636</rule_result>
+                    <rule_result id="8">0.4</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2686,10 +3644,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2698,10 +3661,15 @@
                 <words>77</words>
                 <allSentenceSeperators>6</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>1</sentenceSignAtEnd>
                 <sentences>6</sentences>
+                <sentenceMaxLengthWords>25</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.4</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2714,22 +3682,32 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
                 <subjunctives>0</subjunctives>
-                <chars>1537</chars>
+                <chars>1571</chars>
                 <words>328</words>
                 <allSentenceSeperators>23</allSentenceSeperators>
                 <innerSentenceSeperators>25</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>24</sentences>
+                <sentenceMaxLengthWords>156</sentenceMaxLengthWords>
                 <abbreviations>29</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.4</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.39999999999999997</rule_result>
+                    <rule_result id="8">0.4</rule_result>
                 </rule_results>
             </value>
         </result>
@@ -2742,10 +3720,15 @@
                 <words>2</words>
                 <allSentenceSeperators>1</allSentenceSeperators>
                 <innerSentenceSeperators>0</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>2</sentences>
+                <sentenceMaxLengthWords>2</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="1">4.0</rule_result>
+                    <rule_result id="0">0.4</rule_result>
+                    <rule_result id="2">0.95</rule_result>
+                    <rule_result id="4">0.95</rule_result>
+                    <rule_result id="6">0.9499999999999998</rule_result>
                 </rule_results>
             </key>
             <value>
@@ -2754,10 +3737,15 @@
                 <words>43</words>
                 <allSentenceSeperators>7</allSentenceSeperators>
                 <innerSentenceSeperators>3</innerSentenceSeperators>
+                <sentenceSignAtEnd>0</sentenceSignAtEnd>
                 <sentences>8</sentences>
+                <sentenceMaxLengthWords>29</sentenceMaxLengthWords>
                 <abbreviations>0</abbreviations>
                 <rule_results>
-                    <rule_result id="2">4.0</rule_result>
+                    <rule_result id="1">0.95</rule_result>
+                    <rule_result id="3">0.95</rule_result>
+                    <rule_result id="5">0.65</rule_result>
+                    <rule_result id="8">0.65</rule_result>
                 </rule_results>
             </value>
         </result>

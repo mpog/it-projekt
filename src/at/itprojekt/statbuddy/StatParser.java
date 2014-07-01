@@ -139,9 +139,11 @@ public class StatParser {
         result.setAllSentenceSeperators(allSentenceSeperators);
         result.setChars(chars);
         result.setInnerSentenceSeperators(innerSentenceSeperators);
+        result.setSentenceSignAtEnd((sentenceSignAtEnd) ? 1 : 0);
         result.setSentences(sentences);
         result.setWords(words);
         result.setRuleResults(this.getRuleResults());
+        result.setSentenceMaxLengthWords(longestSentenceNumberOfWords);
         return result;
     }
 
@@ -157,8 +159,10 @@ public class StatParser {
         key.setAllSentenceSeperators(allSentenceSeperators);
         key.setChars(chars);
         key.setInnerSentenceSeperators(innerSentenceSeperators);
+        key.setSentenceSignAtEnd((sentenceSignAtEnd) ? 1 : 0);
         key.setSentences(sentences);
         key.setWords(words);
+        key.setSentenceMaxLengthWords(longestSentenceNumberOfWords);
         if (key.getRuleResults() == null)
             key.setRuleResults(new Report.Line.Result.Key.RuleResults());
        /* Report.Line.Result.Key.RuleResults res = key.getRuleResults(); TODO can delete?
@@ -178,9 +182,11 @@ public class StatParser {
         value.setAllSentenceSeperators(allSentenceSeperators);
         value.setChars(chars);
         value.setInnerSentenceSeperators(innerSentenceSeperators);
+        value.setSentenceSignAtEnd((sentenceSignAtEnd) ? 1 : 0);
         value.setSentences(sentences);
         value.setWords(words);
-
+        value.setSentenceMaxLengthWords(longestSentenceNumberOfWords);
+        
         if (value.getRuleResults() == null)
             value.setRuleResults(new Report.Line.Result.Value.RuleResults());
        /* Report.Line.Result.Value.RuleResults res = value.getRuleResults(); TODO can delete?
@@ -193,5 +199,5 @@ public class StatParser {
         Report.Line.Result.Value.RuleResults.RuleResult result = new Report.Line.Result.Value.RuleResults.RuleResult();
         return result;
     }
-
+    
 }

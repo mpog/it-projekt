@@ -69,10 +69,6 @@ public class Tester extends Thread {
      */
     @Override
     public void run() {
-        int maxWords1SentenceText = 20, maxWords1SentenceHeadings = 8;
-        int tooLongSentences = 0;
-        float zipped;
-        final String abbreviation = "abbreviation";
 
         //region Analyse whole document
         Report rep = new Report();
@@ -80,9 +76,6 @@ public class Tester extends Thread {
 
         pro.setResult(new StatParser(whole.value, language, whole, null).getResult());
         //endregion
-
-        //Preparations for analysing a single document
-        int sentenceSignsInKeys = 0, abbreviationsUsed = 0, valueEndSignMissing = 0, headingLongerEqualThenText = 0;
 
         //region Add each line to the report
         for (int lineNumber = 0; lineNumber < single.length; lineNumber++) {
@@ -97,36 +90,7 @@ public class Tester extends Thread {
             StatParser statParserKey = new StatParser(single[lineNumber].key, language, glossar), statParserValue = new StatParser(single[lineNumber].value, language, glossar);
             key = new StatParser(single[lineNumber].key, language, null).getKey();
             val = new StatParser(single[lineNumber].value, language, null).getValue();
-            // If the key has a sentence separator, report it
-            if (statParserKey.allSentenceSeperators > 0) {
-                sentenceSignsInKeys++;
-            }
-            //Log to long sentences
-            if (statParserKey.longestSentenceNumberOfWords >= maxWords1SentenceText) {
-                tooLongSentences++;
-            }
-            if (statParserValue.longestSentenceNumberOfWords >= maxWords1SentenceHeadings) {
-                tooLongSentences++;
-                //  System.out.println(single[lineNumber].value + " is too long. # of words: " + statParserValue.longestSentenceNumberOfWords);
-            }
-            // Log the # of abbreviations
-            abbreviationsUsed += statParserValue.abbreviations;
-            abbreviationsUsed += statParserKey.abbreviations;
-           /* if (statParserKey.abbreviations > 0)
-                System.out.println(single[lineNumber].key + " uses " + statParserKey.abbreviations + " " + abbreviation + "(s)");
-            if (statParserValue.abbreviations > 0)
-                System.out.println(single[lineNumber].value + " uses " + statParserValue.abbreviations + " " + abbreviation + "(s)");*/
-            //Log the # of missing end sentence signs
-            if (!statParserValue.sentenceSignAtEnd) {
-                valueEndSignMissing++;
-                // System.out.println(single[lineNumber].value + " lacks an end sentence sign");
-            }
-            // Check if the heading is shorter then the text
-            if (single[lineNumber].key.length() >= single[lineNumber].value.length()) {
-                headingLongerEqualThenText++;
-                //  System.out.println("Line number " + (lineNumber + 2) + "(" + single[lineNumber].key + ") has a shorter heading then text");
-            }
-            //out.println("Text analyser's result: Key:" + statParserKey + " Value:" + statParserValue);
+            
             Report.Line.Result linRes = new Report.Line.Result();
             linRes.setKey(key);
             linRes.setValue(val);
@@ -135,7 +99,9 @@ public class Tester extends Thread {
 
         }
         //endregion
+        
         rep.setProject(pro);
+        
         //Test against rules
         RuleTester tester = new RuleTester(rep, xmlUrl, xsdUrl);
         tester.performTest();
